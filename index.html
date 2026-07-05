@@ -5,24 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kortex Ecosystem | Premium Mobile Solutions</title>
     <meta name="description" content="Discover Kortex: Privacy-first contacts optimization and AI-powered smart social media captions for iOS and Android.">
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
         :root {
-            --bg-color: #080B11;
-            --card-bg: rgba(17, 24, 39, 0.7);
-            --border-color: rgba(255, 255, 255, 0.08);
+            --bg-color: #05070A;
+            --card-bg: rgba(13, 17, 28, 0.45);
+            --border-color: rgba(255, 255, 255, 0.05);
             --accent-blue: #3B82F6;
+            --accent-blue-glow: rgba(59, 130, 246, 0.15);
             --accent-purple: #8B5CF6;
+            --accent-purple-glow: rgba(139, 92, 246, 0.15);
             --text-primary: #FFFFFF;
-            --text-secondary: #9CA3AF;
+            --text-secondary: #8E9BAE;
+            --font-main: 'Plus Jakarta Sans', sans-serif;
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-family: var(--font-main);
         }
 
         body {
@@ -32,41 +37,75 @@
             display: flex;
             flex-direction: column;
             overflow-x: hidden;
-            background-image: 
-                radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 40%),
-                radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.08) 0%, transparent 40%);
+            position: relative;
+        }
+
+        /* Ambient Background Animations */
+        .ambient-glow {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            filter: blur(140px);
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.45;
+            animation: pulse 12s infinite alternate;
+        }
+
+        .glow-blue {
+            top: -10%;
+            left: -10%;
+            background: radial-gradient(circle, var(--accent-blue) 0%, transparent 70%);
+        }
+
+        .glow-purple {
+            bottom: -10%;
+            right: -10%;
+            background: radial-gradient(circle, var(--accent-purple) 0%, transparent 70%);
+            animation-delay: 4s;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+            50% { transform: scale(1.15) translate(3%, 5%); opacity: 0.5; }
+            100% { transform: scale(0.9) translate(-2%, -3%); opacity: 0.35; }
         }
 
         header {
             max-width: 1200px;
             width: 100%;
             margin: 0 auto;
-            padding: 2rem 1.5rem;
+            padding: 2.5rem 1.5rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: relative;
+            z-index: 10;
         }
 
         .logo {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             font-weight: 800;
-            letter-spacing: -0.05em;
-            background: linear-gradient(135deg, var(--text-primary) 30%, var(--accent-blue) 100%);
+            letter-spacing: -0.06em;
+            background: linear-gradient(135deg, #FFFFFF 30%, var(--accent-blue) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            text-decoration: none;
         }
 
         .nav-links {
             display: flex;
-            gap: 1.5rem;
+            gap: 2rem;
+            align-items: center;
         }
 
         .nav-link {
             color: var(--text-secondary);
             text-decoration: none;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             font-weight: 500;
-            transition: color 0.2s ease;
+            transition: color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         .nav-link:hover {
@@ -78,215 +117,506 @@
             max-width: 1200px;
             width: 100%;
             margin: 0 auto;
-            padding: 4rem 1.5rem;
+            padding: 4rem 1.5rem 6rem;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            text-align: center;
+            position: relative;
+            z-index: 10;
         }
 
         .hero {
-            margin-bottom: 4rem;
-            max-width: 800px;
+            margin-bottom: 5rem;
+            max-width: 850px;
+            text-align: center;
         }
 
         .badge {
-            display: inline-block;
-            padding: 0.5rem 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1.2rem;
             border-radius: 9999px;
-            background: rgba(59, 130, 246, 0.1);
-            border: 1px solid rgba(59, 130, 246, 0.2);
-            color: var(--accent-blue);
-            font-size: 0.85rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: var(--text-primary);
+            font-size: 0.8rem;
             font-weight: 600;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2rem;
             letter-spacing: 0.05em;
             text-transform: uppercase;
         }
 
+        .badge span {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: #10B981;
+            box-shadow: 0 0 10px #10B981;
+        }
+
         h1 {
-            font-size: 3rem;
+            font-size: 3.5rem;
             font-weight: 800;
-            line-height: 1.15;
-            letter-spacing: -0.03em;
-            margin-bottom: 1.5rem;
-            background: linear-gradient(to right, #FFFFFF, #9CA3AF);
+            line-height: 1.1;
+            letter-spacing: -0.04em;
+            margin-bottom: 1.8rem;
+            background: linear-gradient(to bottom right, #FFFFFF 40%, #8E9BAE 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        .tagline {
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            line-height: 1.6;
-            margin-bottom: 2rem;
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 4.8rem;
+            }
         }
 
+        .tagline {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        /* Showcasing Grid styling */
         .grid {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 2rem;
+            gap: 2.5rem;
             width: 100%;
-            max-width: 1000px;
+            max-width: 1100px;
         }
 
-        @media (min-width: 768px) {
+        @media (min-width: 900px) {
             .grid {
                 grid-template-columns: 1fr 1fr;
-            }
-            h1 {
-                font-size: 4rem;
             }
         }
 
         .app-card {
             background: var(--card-bg);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             border: 1px solid var(--border-color);
-            border-radius: 24px;
-            padding: 2.5rem;
-            text-align: left;
+            border-radius: 32px;
+            padding: 3rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .app-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+
+        .app-card:hover::before {
+            transform: translateX(100%);
         }
 
         .app-card:hover {
-            transform: translateY(-4px);
-            border-color: rgba(255, 255, 255, 0.15);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
-
-        .app-card.captions:hover {
-            box-shadow: 0 20px 40px rgba(139, 92, 246, 0.05);
+            transform: translateY(-6px);
+            border-color: rgba(255, 255, 255, 0.1);
         }
 
         .app-card.contacts:hover {
-            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.05);
+            box-shadow: 0 30px 60px -15px rgba(59, 130, 246, 0.15);
         }
 
-        .card-header {
-            margin-bottom: 1.5rem;
+        .app-card.captions:hover {
+            box-shadow: 0 30px 60px -15px rgba(139, 92, 246, 0.15);
         }
 
-        .card-icon {
-            width: 48px;
-            height: 48px;
+        /* Phone Frame Interactive Mockups */
+        .preview-wrapper {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            perspective: 1000px;
+        }
+
+        .phone-frame {
+            width: 250px;
+            height: 500px;
+            background: #0D111C;
+            border: 10px solid #272F3D;
+            border-radius: 36px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(0,0,0,0.8);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .phone-frame:hover {
+            transform: rotateY(5deg) rotateX(5deg);
+        }
+
+        .phone-notch {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 110px;
+            height: 20px;
+            background: #272F3D;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            z-index: 5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .phone-notch::before {
+            content: '';
+            width: 35px;
+            height: 4px;
+            background: #111827;
+            border-radius: 2px;
+        }
+
+        .phone-content {
+            padding: 2.5rem 1rem 1rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 0.85rem;
+            font-size: 0.8rem;
+        }
+
+        /* Mock App Contacts View */
+        .mock-contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 0.6rem;
             border-radius: 12px;
+            transition: background 0.3s ease;
+        }
+        
+        .mock-contact-item:hover {
+            background: rgba(59, 130, 246, 0.05);
+        }
+
+        .mock-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-blue) 0%, rgba(59,130,246,0.3) 100%);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
+            font-weight: 700;
+            font-size: 0.75rem;
+            color: #FFFFFF;
+        }
+
+        .mock-contact-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 0.15rem;
+        }
+
+        .mock-name {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .mock-phone {
+            color: var(--text-secondary);
+            font-size: 0.7rem;
+        }
+
+        .mock-action-btn {
+            background: var(--accent-blue-glow);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            color: var(--accent-blue);
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 0.3rem 0.5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .mock-action-btn:hover {
+            background: var(--accent-blue);
+            color: #FFFFFF;
+        }
+
+        /* Mock App Captions View */
+        .mock-caption-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+
+        .mock-image-container {
+            width: 100%;
+            height: 110px;
+            background: linear-gradient(45deg, rgba(139, 92, 246, 0.1), rgba(139, 92, 246, 0.2));
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mock-image-glow {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: var(--accent-purple);
+            filter: blur(25px);
+            opacity: 0.4;
+        }
+
+        .mock-caption-input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 0.5rem;
+            border-radius: 8px;
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            resize: none;
+            outline: none;
+        }
+
+        .mock-generate-btn {
+            background: var(--accent-purple);
+            color: #FFFFFF;
+            border: none;
+            padding: 0.5rem;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .mock-generate-btn:hover {
+            opacity: 0.9;
+        }
+
+        .card-header {
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .card-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            position: relative;
+            overflow: hidden;
+            box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
         }
 
         .contacts .card-icon {
-            background: rgba(59, 130, 246, 0.1);
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(59, 130, 246, 0.05) 100%);
             color: var(--accent-blue);
-            border: 1px solid rgba(59, 130, 246, 0.2);
+            border: 1px solid rgba(59, 130, 246, 0.25);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.1);
         }
 
         .captions .card-icon {
-            background: rgba(139, 92, 246, 0.1);
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(139, 92, 246, 0.05) 100%);
             color: var(--accent-purple);
-            border: 1px solid rgba(139, 92, 246, 0.2);
+            border: 1px solid rgba(139, 92, 246, 0.25);
+            box-shadow: 0 0 20px rgba(139, 92, 246, 0.1);
         }
 
         h2 {
-            font-size: 1.75rem;
+            font-size: 1.85rem;
             font-weight: 700;
-            letter-spacing: -0.02em;
-            margin-bottom: 0.5rem;
+            letter-spacing: -0.03em;
         }
 
         .app-description {
             color: var(--text-secondary);
-            font-size: 0.95rem;
+            font-size: 1rem;
             line-height: 1.6;
             margin-bottom: 2rem;
         }
 
         .feature-list {
             list-style: none;
-            margin-bottom: 2rem;
+            margin-bottom: 2.5rem;
             display: flex;
             flex-direction: column;
-            gap: 0.75rem;
+            gap: 1rem;
         }
 
         .feature-item {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
-            font-size: 0.9rem;
+            gap: 0.75rem;
+            font-size: 0.95rem;
             color: var(--text-primary);
         }
 
-        .feature-item::before {
-            content: "✓";
-            color: var(--accent-blue);
-            font-weight: bold;
+        .feature-item svg {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
         }
 
-        .captions .feature-item::before {
+        .contacts .feature-item svg {
+            color: var(--accent-blue);
+            fill: none;
+            stroke: var(--accent-blue);
+        }
+
+        .captions .feature-item svg {
             color: var(--accent-purple);
+            fill: none;
+            stroke: var(--accent-purple);
         }
 
         .btn-group {
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
             margin-top: auto;
+        }
+
+        @media (min-width: 480px) {
+            .btn-group {
+                grid-template-columns: 1fr 1fr;
+            }
         }
 
         .btn {
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 0.5rem;
-            padding: 0.85rem 1.5rem;
-            border-radius: 12px;
+            gap: 0.6rem;
+            padding: 1rem 1.5rem;
+            border-radius: 16px;
             font-weight: 600;
             text-decoration: none;
             font-size: 0.95rem;
-            transition: all 0.2s ease;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            cursor: pointer;
         }
 
-        .btn-primary {
-            background: var(--text-primary);
-            color: var(--bg-color);
+        .contacts .btn-primary {
+            background: #FFFFFF;
+            color: #05070A;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
         }
 
-        .btn-primary:hover {
+        .contacts .btn-primary:hover {
             background: #E5E7EB;
+            transform: translateY(-2px);
+        }
+
+        .captions .btn-primary {
+            background: var(--accent-purple);
+            color: #FFFFFF;
+            box-shadow: 0 4px 20px rgba(139, 92, 246, 0.25);
+        }
+
+        .captions .btn-primary:hover {
+            background: #9D76F8;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(139, 92, 246, 0.35);
         }
 
         .btn-secondary {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.03);
             color: var(--text-primary);
             border: 1px solid var(--border-color);
         }
 
         .btn-secondary:hover {
-            background: rgba(255, 255, 255, 0.08);
-            border-color: rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.12);
+            transform: translateY(-2px);
+        }
+
+        /* Toast notification styling */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: rgba(13, 17, 28, 0.9);
+            border: 1px solid var(--border-color);
+            padding: 1rem 1.5rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            z-index: 100;
+            transform: translateY(150%);
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .toast.show {
+            transform: translateY(0);
+        }
+
+        .toast-icon {
+            font-size: 1.2rem;
+        }
+
+        .toast-message {
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            font-weight: 500;
         }
 
         footer {
             max-width: 1200px;
             width: 100%;
             margin: 0 auto;
-            padding: 3rem 1.5rem;
+            padding: 4rem 1.5rem;
             border-top: 1px solid var(--border-color);
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 1rem;
+            gap: 1.5rem;
             color: var(--text-secondary);
-            font-size: 0.85rem;
+            font-size: 0.9rem;
+            position: relative;
+            z-index: 10;
         }
 
         @media (min-width: 768px) {
@@ -295,73 +625,212 @@
                 justify-content: space-between;
             }
         }
+
+        .footer-nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .footer-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .footer-link:hover {
+            color: var(--text-primary);
+        }
     </style>
 </head>
 <body>
+    <!-- Glow effects -->
+    <div class="ambient-glow glow-blue"></div>
+    <div class="ambient-glow glow-purple"></div>
+
     <header>
-        <div class="logo">Kortex</div>
+        <a href="/" class="logo">Kortex</a>
         <nav class="nav-links">
-            <a href="https://usekortex.com/contacts" class="nav-link">Contacts</a>
-            <a href="https://usekortex.com/captions" class="nav-link">Captions</a>
+            <a href="#contacts-anchor" class="nav-link">Contacts</a>
+            <a href="#captions-anchor" class="nav-link">Captions</a>
         </nav>
     </header>
 
     <main>
         <div class="hero">
-            <span class="badge">Kortex Mobile Suite</span>
-            <h1>Beautiful Utility Apps<br>Built for the Future</h1>
-            <p class="tagline">Experience intelligent, premium mobile productivity solutions designed natively for iOS and Android.</p>
+            <div class="badge">
+                <span></span> Kortex ecosystem
+            </div>
+            <h1>Premium Mobile Utility Apps</h1>
+            <p class="tagline">Intelligent, privacy-first mobile tools tailored natively for iOS and Android.</p>
         </div>
 
         <div class="grid">
             <!-- Kortex Contacts -->
-            <div class="app-card contacts">
+            <div class="app-card contacts" id="contacts-anchor">
                 <div>
                     <div class="card-header">
                         <div class="card-icon">📇</div>
-                        <h2>Kortex Contacts</h2>
+                        <div>
+                            <h2>Kortex Contacts</h2>
+                        </div>
                     </div>
                     <p class="app-description">A privacy-first address book optimizer that scans, merges, and standardizes your mobile contacts safely and 100% on-device.</p>
+                    
+                    <!-- Contacts Preview Mockup -->
+                    <div class="preview-wrapper">
+                        <div class="phone-frame">
+                            <div class="phone-notch"></div>
+                            <div class="phone-content">
+                                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem; font-weight:700;">
+                                    <span>Contacts</span>
+                                    <span style="color:var(--accent-blue);">Local Scan</span>
+                                </div>
+                                <div class="mock-contact-item">
+                                    <div class="mock-avatar">JD</div>
+                                    <div class="mock-contact-info">
+                                        <span class="mock-name">John Doe</span>
+                                        <span class="mock-phone">+1 (555) 019-2831</span>
+                                    </div>
+                                    <button class="mock-action-btn" onclick="showToast('Contact standardized successfully!')">Fix</button>
+                                </div>
+                                <div class="mock-contact-item">
+                                    <div class="mock-avatar" style="background: linear-gradient(135deg, var(--accent-purple) 0%, rgba(139,92,246,0.3) 100%);">AS</div>
+                                    <div class="mock-contact-info">
+                                        <span class="mock-name">Alice Smith</span>
+                                        <span class="mock-phone">555-0142 (Duplicate)</span>
+                                    </div>
+                                    <button class="mock-action-btn" onclick="showToast('Duplicate contacts merged!')" style="background:rgba(139,92,246,0.15); border-color:rgba(139,92,246,0.3); color:var(--accent-purple);">Merge</button>
+                                </div>
+                                <div class="mock-contact-item">
+                                    <div class="mock-avatar">BK</div>
+                                    <div class="mock-contact-info">
+                                        <span class="mock-name">Bob K. (iCloud)</span>
+                                        <span class="mock-phone">15550198822</span>
+                                    </div>
+                                    <button class="mock-action-btn" onclick="showToast('Contact formatted to E.164!')">Fix</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <ul class="feature-list">
-                        <li class="feature-item">Phonetic smart duplicate merge</li>
-                        <li class="feature-item">Automatic phone number standardizer</li>
-                        <li class="feature-item">CRM & Ecosystem sync dashboard</li>
+                        <li class="feature-item">
+                            <svg stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+                            Phonetic smart duplicate merge
+                        </li>
+                        <li class="feature-item">
+                            <svg stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+                            Automatic phone layout standardizer
+                        </li>
+                        <li class="feature-item">
+                            <svg stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+                            Instant VCF / Local backups
+                        </li>
                     </ul>
                 </div>
                 <div class="btn-group">
-                    <a href="#" class="btn btn-primary">Download on iOS</a>
-                    <a href="#" class="btn btn-secondary">Download on Android</a>
+                    <button class="btn btn-primary" onclick="showToast('TestFlight build is currently in review. Check back soon!')">Download on iOS</button>
+                    <button class="btn btn-secondary" onclick="showToast('Android build is currently in review. Check back soon!')">Download on Android</button>
                 </div>
             </div>
 
             <!-- Kortex Captions -->
-            <div class="app-card captions">
+            <div class="app-card captions" id="captions-anchor">
                 <div>
                     <div class="card-header">
                         <div class="card-icon">✨</div>
-                        <h2>Kortex Captions</h2>
+                        <div>
+                            <h2>Kortex Captions</h2>
+                        </div>
                     </div>
                     <p class="app-description">An AI-powered social media generator that analyzes photo details to produce tailored, human-like captions and hashtags matching your unique writing voice.</p>
+                    
+                    <!-- Captions Preview Mockup -->
+                    <div class="preview-wrapper">
+                        <div class="phone-frame">
+                            <div class="phone-notch"></div>
+                            <div class="phone-content">
+                                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem; font-weight:700;">
+                                    <span>AI Assistant</span>
+                                    <span style="color:var(--accent-purple);">Online</span>
+                                </div>
+                                <div class="mock-caption-card">
+                                    <div class="mock-image-container">
+                                        <div class="mock-image-glow"></div>
+                                        <span style="z-index: 2; font-weight: 600; font-size: 0.7rem; color: #E5E7EB;">[ Sunset Photo Loaded ]</span>
+                                    </div>
+                                    <textarea class="mock-caption-input" rows="2" readonly id="mock-caption-output-text">Chasing sunsets and new horizons... 🌅✨ #aesthetic #sunset #travel</textarea>
+                                    <button class="mock-generate-btn" onclick="triggerMockCaptionGeneration()">Regenerate Caption</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <ul class="feature-list">
-                        <li class="feature-item">Multimodal image analysis</li>
-                        <li class="feature-item">Writing style and tone imitation</li>
-                        <li class="feature-item">One-tap copy & share flows</li>
+                        <li class="feature-item">
+                            <svg stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+                            Multimodal image analysis
+                        </li>
+                        <li class="feature-item">
+                            <svg stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+                            Writing style & tone imitation
+                        </li>
+                        <li class="feature-item">
+                            <svg stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+                            One-tap copy & share sheet flows
+                        </li>
                     </ul>
                 </div>
                 <div class="btn-group">
-                    <a href="#" class="btn btn-primary">Download on iOS ($2.99)</a>
-                    <a href="#" class="btn btn-secondary">Download on Android ($2.99)</a>
+                    <button class="btn btn-primary" onclick="showToast('App is currently being packaged for App Store review ($2.99).')">Download on iOS</button>
+                    <button class="btn btn-secondary" onclick="showToast('App is currently being packaged for Play Store review ($2.99).')">Download on Android</button>
                 </div>
             </div>
         </div>
     </main>
 
+    <!-- Toast notification UI element -->
+    <div id="toast" class="toast">
+        <span class="toast-icon">🚀</span>
+        <span id="toast-message" class="toast-message">Notification message</span>
+    </div>
+
     <footer>
         <div>&copy; 2026 Kortex. All rights reserved.</div>
-        <div class="nav-links">
-            <a href="/contacts/privacy" class="nav-link">Privacy Policy</a>
-            <a href="mailto:support@usekortex.com" class="nav-link">Support</a>
+        <div class="footer-nav">
+            <a href="/contacts/privacy/" class="footer-link">Privacy Policy</a>
+            <a href="mailto:support@usekortex.com" class="footer-link">Support</a>
         </div>
     </footer>
+
+    <script>
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-message');
+            toastMsg.innerText = message;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3500);
+        }
+
+        const mockCaptions = [
+            "Golden hour hits different. 🌅✨ #sunset #chasinglight",
+            "Sunsets are proof that endings can be beautiful too. 🌇💛 #sunsetlovers #view",
+            "Keep your face always toward the sunshine. ☀️🌊 #nature #coast",
+            "Sky above, sand below, peace within. 🐚🌴 #travelgram #paradise"
+        ];
+        let captionIndex = 0;
+
+        function triggerMockCaptionGeneration() {
+            const output = document.getElementById('mock-caption-output-text');
+            captionIndex = (captionIndex + 1) % mockCaptions.length;
+            output.value = "Generating...";
+            setTimeout(() => {
+                output.value = mockCaptions[captionIndex];
+                showToast("New caption generated by AI!");
+            }, 800);
+        }
+    </script>
 </body>
 </html>
