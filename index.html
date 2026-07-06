@@ -30,13 +30,17 @@
             font-family: var(--font-main);
         }
 
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+
         body {
             background-color: var(--bg-color);
             color: var(--text-primary);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            overflow-x: hidden;
             position: relative;
         }
 
@@ -611,16 +615,15 @@
             .toast {
                 left: 1rem !important;
                 right: 1rem !important;
-                bottom: 2rem !important;
+                bottom: 6rem !important;
                 width: calc(100% - 2rem) !important;
                 max-width: none !important;
-                transform: translateY(200%);
                 justify-content: center;
                 text-align: center;
                 box-sizing: border-box;
             }
             .toast.show {
-                transform: translateY(-80px) !important;
+                transform: translateY(0) !important;
             }
             .toast-message {
                 white-space: normal;
