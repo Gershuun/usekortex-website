@@ -609,8 +609,14 @@
         }
 
         @media (max-width: 480px) {
+            .ambient-glow {
+                display: none !important;
+            }
             .app-card {
                 padding: 1.5rem !important;
+                backdrop-filter: none !important;
+                -webkit-backdrop-filter: none !important;
+                background: rgba(13, 17, 28, 0.95) !important;
             }
             .toast {
                 left: 1rem !important;
@@ -622,6 +628,9 @@
                 justify-content: center;
                 text-align: center;
                 box-sizing: border-box;
+                backdrop-filter: none !important;
+                -webkit-backdrop-filter: none !important;
+                background: rgba(13, 17, 28, 0.98) !important;
             }
             .toast.show {
                 transform: translateY(0) !important;
