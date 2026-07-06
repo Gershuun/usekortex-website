@@ -605,14 +605,22 @@
         }
 
         @media (max-width: 480px) {
+            .app-card {
+                padding: 1.5rem !important;
+            }
             .toast {
                 left: 1rem !important;
                 right: 1rem !important;
-                bottom: 4.5rem !important;
+                bottom: 2rem !important;
                 width: calc(100% - 2rem) !important;
                 max-width: none !important;
+                transform: translateY(200%);
                 justify-content: center;
                 text-align: center;
+                box-sizing: border-box;
+            }
+            .toast.show {
+                transform: translateY(-80px) !important;
             }
             .toast-message {
                 white-space: normal;
