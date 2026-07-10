@@ -78,6 +78,17 @@
         }
 
         /* Ambient Background Animations */
+        .ambient-glow-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            z-index: 0;
+            pointer-events: none;
+        }
+
         .ambient-glow {
             position: absolute;
             width: 600px;
@@ -715,8 +726,10 @@
 </head>
 <body>
     <!-- Glow effects -->
-    <div class="ambient-glow glow-blue"></div>
-    <div class="ambient-glow glow-purple"></div>
+    <div class="ambient-glow-wrapper">
+        <div class="ambient-glow glow-blue"></div>
+        <div class="ambient-glow glow-purple"></div>
+    </div>
 
     <header>
         <a href="/" class="logo">Kortex</a>
