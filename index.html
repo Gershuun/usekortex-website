@@ -760,9 +760,9 @@
                                     <div class="mock-avatar">JD</div>
                                     <div class="mock-contact-info">
                                         <span class="mock-name">John Doe</span>
-                                        <span class="mock-phone">+1 (555) 019-2831</span>
+                                        <span class="mock-phone">5550192831</span>
                                     </div>
-                                    <button class="mock-action-btn" onclick="showToast('Contact standardized successfully!')">Fix</button>
+                                    <button class="mock-action-btn" onclick="fixContact(this, '+1 (555) 019-2831', 'John Doe', 'Contact standardized successfully!')">Fix</button>
                                 </div>
                                 <div class="mock-contact-item">
                                     <div class="mock-avatar" style="background: linear-gradient(135deg, var(--accent-purple) 0%, rgba(139,92,246,0.3) 100%);">AS</div>
@@ -770,7 +770,7 @@
                                         <span class="mock-name">Alice Smith</span>
                                         <span class="mock-phone">555-0142 (Duplicate)</span>
                                     </div>
-                                    <button class="mock-action-btn" onclick="showToast('Duplicate contacts merged!')" style="background:rgba(139,92,246,0.15); border-color:rgba(139,92,246,0.3); color:var(--accent-purple);">Merge</button>
+                                    <button class="mock-action-btn" onclick="fixContact(this, '555-0142', 'Alice Smith', 'Duplicate contacts merged!')" style="background:rgba(139,92,246,0.15); border-color:rgba(139,92,246,0.3); color:var(--accent-purple);">Merge</button>
                                 </div>
                                 <div class="mock-contact-item">
                                     <div class="mock-avatar">BK</div>
@@ -778,7 +778,7 @@
                                         <span class="mock-name">Bob K. (iCloud)</span>
                                         <span class="mock-phone">15550198822</span>
                                     </div>
-                                    <button class="mock-action-btn" onclick="showToast('Contact formatted to E.164!')">Fix</button>
+                                    <button class="mock-action-btn" onclick="fixContact(this, '+1 (555) 019-8822', 'Bob K.', 'Contact formatted to E.164!')">Fix</button>
                                 </div>
                             </div>
                         </div>
@@ -826,9 +826,8 @@
                                     <span style="color:var(--accent-purple);">Online</span>
                                 </div>
                                 <div class="mock-caption-card">
-                                    <div class="mock-image-container">
-                                        <div class="mock-image-glow"></div>
-                                        <span style="z-index: 2; font-weight: 600; font-size: 0.7rem; color: #E5E7EB;">[ Sunset Photo Loaded ]</span>
+                                    <div class="mock-image-container" style="padding:0; overflow:hidden;">
+                                        <img id="mock-caption-image" src="https://images.unsplash.com/photo-1614531341624-9b2ee03e4d94?w=400&q=80" alt="Generated preview image" style="width: 100%; height: 100%; object-fit: cover; z-index: 2; position: relative; opacity: 0.9;" />
                                     </div>
                                     <textarea class="mock-caption-input" rows="2" readonly id="mock-caption-output-text">Chasing sunsets and new horizons... 🌅✨ #aesthetic #sunset #travel</textarea>
                                     <button class="mock-generate-btn" onclick="triggerMockCaptionGeneration()">Regenerate Caption</button>
@@ -885,20 +884,38 @@
             }, 3500);
         }
 
+        function fixContact(btn, newPhone, newName, msg) {
+            const item = btn.closest('.mock-contact-item');
+            if(item) {
+                const nameEl = item.querySelector('.mock-name');
+                const phoneEl = item.querySelector('.mock-phone');
+                if(nameEl) nameEl.innerText = newName;
+                if(phoneEl) phoneEl.innerText = newPhone;
+                btn.style.display = 'none';
+            }
+            showToast(msg);
+        }
+
         const mockCaptions = [
-            "Golden hour hits different. 🌅✨ #sunset #chasinglight",
-            "Sunsets are proof that endings can be beautiful too. 🌇💛 #sunsetlovers #view",
-            "Keep your face always toward the sunshine. ☀️🌊 #nature #coast",
-            "Sky above, sand below, peace within. 🐚🌴 #travelgram #paradise"
+            { text: "Golden hour hits different. 🌅✨ #sunset #chasinglight", img: "https://images.unsplash.com/photo-1614531341624-9b2ee03e4d94?w=400&q=80" },
+            { text: "Sunsets are proof that endings can be beautiful too. 🌇💛 #sunsetlovers #view", img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&q=80" },
+            { text: "Keep your face always toward the sunshine. ☀️🌊 #nature #coast", img: "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?w=400&q=80" },
+            { text: "Sky above, sand below, peace within. 🐚🌴 #travelgram #paradise", img: "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?w=400&q=80" }
         ];
         let captionIndex = 0;
 
         function triggerMockCaptionGeneration() {
             const output = document.getElementById('mock-caption-output-text');
+            const img = document.getElementById('mock-caption-image');
             captionIndex = (captionIndex + 1) % mockCaptions.length;
             output.value = "Generating...";
+            if (img) img.style.opacity = '0.5';
             setTimeout(() => {
-                output.value = mockCaptions[captionIndex];
+                output.value = mockCaptions[captionIndex].text;
+                if (img) {
+                    img.src = mockCaptions[captionIndex].img;
+                    img.style.opacity = '0.9';
+                }
                 showToast("New caption generated by AI!");
             }, 800);
         }
