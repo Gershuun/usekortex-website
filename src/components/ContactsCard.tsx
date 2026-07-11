@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useToast } from './ToastProvider';
+import { useToast } from './useToast';
 import styles from './AppCard.module.css';
 import phoneStyles from './PhoneMockup.module.css';
 
@@ -60,13 +60,15 @@ export function ContactsCard() {
     const [contacts, setContacts] = useState(initialContacts);
 
     const handleFix = (id: number) => {
-        setContacts(prev => prev.map(c => {
-            if (c.id === id) {
-                showToast(c.successMessage);
-                return { ...c, isFixed: true, name: c.fixedName, phone: c.fixedPhone };
-            }
-            return c;
-        }));
+        const contact = contacts.find((candidate) => candidate.id === id);
+        if (!contact || contact.isFixed) return;
+
+        showToast(contact.successMessage);
+        setContacts((prev) => prev.map((candidate) => (
+            candidate.id === id
+                ? { ...candidate, isFixed: true, name: candidate.fixedName, phone: candidate.fixedPhone }
+                : candidate
+        )));
     };
 
     return (

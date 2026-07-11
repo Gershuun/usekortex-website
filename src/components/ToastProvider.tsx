@@ -1,36 +1,37 @@
-import { createContext, useContext, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import styles from './Toast.module.css';
-
-interface ToastContextType {
-    showToast: (message: string) => void;
-}
-
-const ToastContext = createContext<ToastContextType | undefined>(undefined);
-
-export function useToast() {
-    const context = useContext(ToastContext);
-    if (!context) {
-        throw new Error('useToast must be used within a ToastProvider');
-    }
-    return context;
-}
+import { ToastContext } from './ToastContext';
 
 export function ToastProvider({ children }: { children: ReactNode }) {
+    const hideTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
     const [toast, setToast] = useState<{ message: string; isVisible: boolean }>({
         message: '',
         isVisible: false,
     });
 
-    const showToast = (message: string) => {
+    const showToast = useCallback((message: string) => {
+        if (hideTimeoutRef.current) {
+            clearTimeout(hideTimeoutRef.current);
+        }
+
         setToast({ message, isVisible: true });
-        setTimeout(() => {
+        hideTimeoutRef.current = setTimeout(() => {
             setToast((prev) => ({ ...prev, isVisible: false }));
+            hideTimeoutRef.current = null;
         }, 3500);
-    };
+    }, []);
+
+    useEffect(() => () => {
+        if (hideTimeoutRef.current) {
+            clearTimeout(hideTimeoutRef.current);
+        }
+    }, []);
+
+    const contextValue = useMemo(() => ({ showToast }), [showToast]);
 
     return (
-        <ToastContext.Provider value={{ showToast }}>
+        <ToastContext.Provider value={contextValue}>
             {children}
             <div className={`${styles.toast} ${toast.isVisible ? styles.show : ''}`}>
                 <span className={styles.toastIcon}>🚀</span>
