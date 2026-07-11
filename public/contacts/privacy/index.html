@@ -189,16 +189,17 @@
 
             <section>
                 <h2>2. 100% On-Device Processing</h2>
-                <p>All operations performed by the App—including scanning your contacts list, detecting duplicate entries, matching phonetic names, and correcting formatting layouts—are executed entirely on your physical device. No contact names, numbers, emails, addresses, or profile pictures are ever transmitted to external servers or accessed by third parties.</p>
+                <p>Core operations performed by the App—including scanning your contacts list, detecting duplicate entries, matching phonetic names, and correcting formatting layouts—are executed entirely on your physical device. If you explicitly enable an online CRM sync, selected records are transmitted through the configured CRM gateway only to perform that requested sync.</p>
             </section>
 
             <section>
                 <h2>3. Permissions We Request</h2>
                 <p>To deliver local features, the App requests access to the following device components:</p>
                 <ul>
-                    <li><strong>Contacts Access:</strong> Necessary to scan, format, and merge duplicates directly within your device's address book.</li>
+                    <li><strong>Contacts Access:</strong> Necessary to read, organize, format, and merge contacts within your device's address book. If you explicitly enable HubSpot sync, selected records may be sent through the CRM gateway.</li>
                     <li><strong>Camera Access:</strong> Optional, used exclusively if you scan paper business cards to extract text details locally onto a contact card.</li>
-                    <li><strong>Photo Library:</strong> Optional, used strictly to let you pick and apply custom contact avatar photos.</li>
+                    <li><strong>Photo Library:</strong> Optional, used strictly to let you pick and apply custom contact avatar photos where the platform requests photo access.</li>
+                    <li><strong>File/Document Import:</strong> Optional, used only when you choose a CSV or TXT file through the system document picker. Kortex does not request broad storage access for this feature.</li>
                 </ul>
             </section>
 
