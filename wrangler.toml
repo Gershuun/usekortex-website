@@ -1,5 +1,5 @@
 # wrangler.toml - Cloudflare Pages Configuration for usekortex.com
 name = "usekortex-website"
 compatibility_date = "2026-07-04"
-pages_build_output_dir = "."
+pages_build_output_dir = "dist"
 
