@@ -23,6 +23,7 @@ export function LanguageSelector() {
   }, []);
 
   const selectLanguage = async (code: string) => {
+    setSelectedLanguage(code);
     setOpen(false);
     try {
       await i18n.changeLanguage(code);
@@ -43,9 +44,9 @@ export function LanguageSelector() {
       {open && (
         <div className={styles.menu} role="listbox" aria-label={t('site.language')} onPointerDown={(event) => event.stopPropagation()}>
           {languages.map(([code, label]) => (
-            <button key={code} className={`${styles.option} ${i18n.language === code ? styles.active : ''}`} type="button" role="option" aria-selected={i18n.language === code} onPointerDown={(event) => { event.preventDefault(); event.stopPropagation(); void selectLanguage(code); }}>
+            <button key={code} className={`${styles.option} ${selectedLanguage === code ? styles.active : ''}`} type="button" role="option" aria-selected={selectedLanguage === code} onPointerDown={(event) => { event.preventDefault(); event.stopPropagation(); void selectLanguage(code); }}>
               <span>{label}</span>
-              {i18n.language === code && <span className={styles.check} aria-hidden="true">{'\u2713'}</span>}
+              {selectedLanguage === code && <span className={styles.check} aria-hidden="true">{'\u2713'}</span>}
             </button>
           ))}
         </div>
