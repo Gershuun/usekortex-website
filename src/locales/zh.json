@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "跨设备统一您的联系人",
+    "subtitle": "Kortex Contacts 将您的设备、云端和 CRM 联系人合并为一个干净的列表。"
+  },
+  "pricing": {
+    "title": "简单定价",
+    "proTitle": "专业版权限",
+    "proDesc": "解锁 Web 门户以清理 CSV 电子表格并同步您的 CRM。"
+  },
+  "footer": {
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "site": {
+    "contacts": "联系人",
+    "captions": "字幕",
+    "badge": "Kortex 生态",
+    "heroTitle": "高级移动工具应用",
+    "heroTagline": "专为 iOS 和 Android 原生打造的智能隐私优先移动工具。",
+    "contactsDescription": "以隐私为先的通讯录优化工具，可在设备本地安全扫描、合并和标准化你的移动联系人。",
+    "captionsDescription": "AI 社交媒体生成器会分析照片，按照你的写作风格生成自然的字幕和标签。",
+    "language": "语言",
+    "privacy": "隐私政策",
+    "support": "支持"
+  }
+}

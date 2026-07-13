@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useToast } from './useToast';
 import styles from './AppCard.module.css';
 import phoneStyles from './PhoneMockup.module.css';
+import { useTranslation } from 'react-i18next';
 
 interface Contact {
     id: number;
@@ -56,6 +57,7 @@ const initialContacts: Contact[] = [
 ];
 
 export function ContactsCard() {
+    const { t } = useTranslation();
     const { showToast } = useToast();
     const [contacts, setContacts] = useState(initialContacts);
 
@@ -81,7 +83,7 @@ export function ContactsCard() {
                     </div>
                 </div>
                 <p className={styles.appDescription}>
-                    A privacy-first address book optimizer that scans, merges, and standardizes your mobile contacts safely and 100% on-device.
+                    {t('site.contactsDescription')}
                 </p>
                 
                 <div className={phoneStyles.previewWrapper}>

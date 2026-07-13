@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Unify your contacts across devices",
+    "subtitle": "Kortex Contacts merges your device, cloud, and CRM contacts into one clean list."
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "proTitle": "Pro Access",
+    "proDesc": "Unlock the web portal to clean CSV spreadsheets and sync your CRM."
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "site": {
+    "contacts": "Contacts",
+    "captions": "Captions",
+    "badge": "Kortex ecosystem",
+    "heroTitle": "Premium Mobile Utility Apps",
+    "heroTagline": "Intelligent, privacy-first mobile tools tailored natively for iOS and Android.",
+    "contactsDescription": "A privacy-first address book optimizer that scans, merges, and standardizes your mobile contacts safely and 100% on-device.",
+    "captionsDescription": "An AI-powered social media generator that analyzes photo details to produce tailored, human-like captions and hashtags matching your unique writing voice.",
+    "language": "Language",
+    "privacy": "Privacy Policy",
+    "support": "Support"
+  }
+}

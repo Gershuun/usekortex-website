@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Vereinheitlichen Sie Ihre Kontakte über alle Geräte hinweg",
+    "subtitle": "Kortex Contacts führt Ihre Geräte-, Cloud- und CRM-Kontakte in einer übersichtlichen Liste zusammen."
+  },
+  "pricing": {
+    "title": "Einfache Preisgestaltung",
+    "proTitle": "Pro-Zugang",
+    "proDesc": "Schalten Sie das Webportal frei, um CSV-Tabellen zu bereinigen und Ihr CRM zu synchronisieren."
+  },
+  "footer": {
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen"
+  },
+  "site": {
+    "contacts": "Kontakte",
+    "captions": "Untertitel",
+    "badge": "Kortex-Ökosystem",
+    "heroTitle": "Premium-Apps für Mobilgeräte",
+    "heroTagline": "Intelligente, datenschutzfreundliche mobile Tools, nativ für iOS und Android entwickelt.",
+    "contactsDescription": "Ein datenschutzorientierter Adressbuch-Optimierer, der deine mobilen Kontakte sicher direkt auf dem Gerät analysiert, zusammenführt und standardisiert.",
+    "captionsDescription": "Ein KI-Generator für soziale Medien, der Fotos analysiert und natürliche Untertitel und Hashtags passend zu deinem Schreibstil erstellt.",
+    "language": "Sprache",
+    "privacy": "Datenschutzerklärung",
+    "support": "Support"
+  }
+}

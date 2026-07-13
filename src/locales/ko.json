@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "여러 기기의 연락처를 하나로 통합하세요",
+    "subtitle": "Kortex Contacts는 기기, 클라우드, CRM 연락처를 하나의 깔끔한 목록으로 병합합니다."
+  },
+  "pricing": {
+    "title": "심플한 요금제",
+    "proTitle": "프로 액세스",
+    "proDesc": "웹 포털을 잠금 해제하여 CSV 스프레드시트를 정리하고 CRM을 동기화하세요."
+  },
+  "footer": {
+    "privacy": "개인정보 처리방침",
+    "terms": "서비스 약관"
+  },
+  "site": {
+    "contacts": "연락처",
+    "captions": "캡션",
+    "badge": "Kortex 생태계",
+    "heroTitle": "프리미엄 모바일 유틸리티 앱",
+    "heroTagline": "iOS와 Android에 맞게 네이티브로 설계된 지능적인 개인정보 보호 중심 모바일 도구입니다.",
+    "contactsDescription": "기기에서 연락처를 안전하게 검색, 병합, 표준화하는 개인정보 보호 중심 주소록 최적화 도구입니다.",
+    "captionsDescription": "사진을 분석해 고유한 글쓰기 스타일에 맞는 자연스러운 캡션과 해시태그를 만드는 AI 소셜 미디어 생성기입니다.",
+    "language": "언어",
+    "privacy": "개인정보 처리방침",
+    "support": "지원"
+  }
+}

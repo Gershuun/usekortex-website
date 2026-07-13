@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "デバイス間で連絡先を統合",
+    "subtitle": "Kortex Contactsは、デバイス、クラウド、CRMの連絡先を1つのクリーンなリストに統合します。"
+  },
+  "pricing": {
+    "title": "シンプルな料金プラン",
+    "proTitle": "プロアクセス",
+    "proDesc": "ウェブポータルにアクセスして、CSVスプレッドシートを整理し、CRMを同期します。"
+  },
+  "footer": {
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "site": {
+    "contacts": "連絡先",
+    "captions": "キャプション",
+    "badge": "Kortex エコシステム",
+    "heroTitle": "プレミアムモバイルユーティリティアプリ",
+    "heroTagline": "iOSとAndroid向けにネイティブ設計された、インテリジェントでプライバシー重視のモバイルツール。",
+    "contactsDescription": "端末上で安全に連絡先をスキャン、統合、標準化するプライバシー重視のアドレス帳最適化ツールです。",
+    "captionsDescription": "写真を分析し、あなたの文体に合った自然なキャプションとハッシュタグを作るAIソーシャルメディア生成ツールです。",
+    "language": "言語",
+    "privacy": "プライバシーポリシー",
+    "support": "サポート"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Unifique seus contatos em todos os dispositivos",
+    "subtitle": "O Kortex Contacts mescla os contatos do seu dispositivo, nuvem e CRM em uma única lista limpa."
+  },
+  "pricing": {
+    "title": "Preço Simples",
+    "proTitle": "Acesso Pro",
+    "proDesc": "Desbloqueie o portal web para limpar planilhas CSV e sincronizar seu CRM."
+  },
+  "footer": {
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço"
+  },
+  "site": {
+    "contacts": "Contatos",
+    "captions": "Legendas",
+    "badge": "ecossistema Kortex",
+    "heroTitle": "Aplicativos móveis premium",
+    "heroTagline": "Ferramentas móveis inteligentes e focadas em privacidade, desenvolvidas nativamente para iOS e Android.",
+    "contactsDescription": "Um otimizador de agenda focado em privacidade que analisa, mescla e padroniza seus contatos com segurança no próprio dispositivo.",
+    "captionsDescription": "Um gerador de conteúdo social com IA que analisa fotos para criar legendas e hashtags naturais de acordo com seu estilo.",
+    "language": "Idioma",
+    "privacy": "Política de privacidade",
+    "support": "Suporte"
+  }
+}

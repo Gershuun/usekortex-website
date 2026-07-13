@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Pag-isahin ang iyong mga contact sa iba't ibang device",
+    "subtitle": "Pinagsasama ng Kortex Contacts ang iyong mga contact sa device, cloud, at CRM sa isang malinis na listahan."
+  },
+  "pricing": {
+    "title": "Simpleng Pagpepresyo",
+    "proTitle": "Akses sa Pro",
+    "proDesc": "I-unlock ang web portal upang maglinis ng mga CSV spreadsheet at i-sync ang iyong CRM."
+  },
+  "footer": {
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin ng Serbisyo"
+  },
+  "site": {
+    "contacts": "Mga Contact",
+    "captions": "Mga Caption",
+    "badge": "Kortex ecosystem",
+    "heroTitle": "Mga premium na mobile utility app",
+    "heroTagline": "Matalino at privacy-first na mobile tools na likas na ginawa para sa iOS at Android.",
+    "contactsDescription": "Privacy-first na optimizer ng address book na ligtas na nag-scan, nagme-merge, at nagse-standardize ng iyong contacts sa device.",
+    "captionsDescription": "AI social media generator na nagsusuri ng mga larawan para gumawa ng natural na captions at hashtags ayon sa iyong estilo.",
+    "language": "Wika",
+    "privacy": "Patakaran sa privacy",
+    "support": "Suporta"
+  }
+}

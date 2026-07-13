@@ -1,13 +1,15 @@
 import styles from './Hero.module.css';
+import { useTranslation } from 'react-i18next';
 
 export function Hero() {
+    const { t } = useTranslation();
     return (
         <div className={styles.hero}>
             <div className={styles.badge}>
-                <span></span> Kortex ecosystem
+                <span></span> {t('site.badge')}
             </div>
-            <h1 className={styles.title}>Premium Mobile Utility Apps</h1>
-            <p className={styles.tagline}>Intelligent, privacy-first mobile tools tailored natively for iOS and Android.</p>
+            <h1 className={styles.title}>{t('site.heroTitle')}</h1>
+            <p className={styles.tagline}>{t('site.heroTagline')}</p>
         </div>
     );
 }

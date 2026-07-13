@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useToast } from './useToast';
 import styles from './AppCard.module.css';
 import phoneStyles from './PhoneMockup.module.css';
+import { useTranslation } from 'react-i18next';
 
 const mockCaptions = [
     { text: "Golden hour hits different. 🌅✨ #sunset #chasinglight", img: "https://images.unsplash.com/photo-1614531341624-9b2ee03e4d94?w=400&q=80" },
@@ -11,6 +12,7 @@ const mockCaptions = [
 ];
 
 export function CaptionsCard() {
+    const { t } = useTranslation();
     const { showToast } = useToast();
     const [captionIndex, setCaptionIndex] = useState(0);
     const [isGenerating, setIsGenerating] = useState(false);
@@ -44,7 +46,7 @@ export function CaptionsCard() {
                     </div>
                 </div>
                 <p className={styles.appDescription}>
-                    An AI-powered social media generator that analyzes photo details to produce tailored, human-like captions and hashtags matching your unique writing voice.
+                    {t('site.captionsDescription')}
                 </p>
                 
                 <div className={phoneStyles.previewWrapper}>
