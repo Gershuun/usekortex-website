@@ -22,6 +22,33 @@
     "captionsDescription": "AI सोशल मीडिया जनरेटर जो फोटो का विश्लेषण करके आपकी लेखन शैली के अनुसार प्राकृतिक कैप्शन और हैशटैग बनाता है।",
     "language": "भाषा",
     "privacy": "गोपनीयता नीति",
-    "support": "सहायता"
+    "support": "सहायता",
+    "demo": {
+      "assistant": "AI सहायक",
+      "online": "ऑनलाइन",
+      "generatedPreview": "जनरेट किया गया प्रीव्यू",
+      "generating": "बनाया जा रहा है...",
+      "regenerateCaption": "कैप्शन फिर बनाएं",
+      "contactsTitle": "कॉन्टैक्ट्स",
+      "localScan": "लोकल स्कैन",
+      "fix": "ठीक करें",
+      "merge": "मर्ज करें",
+      "captionsFeatureAnalysis": "मल्टीमॉडल इमेज विश्लेषण",
+      "captionsFeatureStyle": "लेखन शैली और टोन की नकल",
+      "captionsFeatureShare": "एक टैप में कॉपी और शेयर",
+      "contactsFeatureMerge": "फोनेटिक डुप्लिकेट का स्मार्ट मर्ज",
+      "contactsFeatureFormat": "स्वचालित फोन लेआउट मानकीकरण",
+      "contactsFeatureBackup": "तुरंत VCF/लोकल बैकअप",
+      "downloadIos": "iOS पर डाउनलोड करें",
+      "downloadAndroid": "Android पर डाउनलोड करें",
+      "captionsGenerated": "AI ने नया कैप्शन बनाया!",
+      "captionsIosToast": "ऐप को App Store समीक्षा के लिए तैयार किया जा रहा है ($2.99)।",
+      "captionsAndroidToast": "ऐप को Play Store समीक्षा के लिए तैयार किया जा रहा है ($2.99)।",
+      "contactsIosToast": "TestFlight बिल्ड समीक्षा में है। जल्द वापस आएं!",
+      "contactsAndroidToast": "Android बिल्ड समीक्षा में है। जल्द वापस आएं!",
+      "contactStandardized": "कॉन्टैक्ट सफलतापूर्वक मानकीकृत हुआ!",
+      "contactMerged": "डुप्लिकेट कॉन्टैक्ट मर्ज किए गए!",
+      "contactFormatted": "कॉन्टैक्ट को E.164 में फॉर्मैट किया गया!"
+    }
   }
 }

@@ -22,6 +22,33 @@
     "captionsDescription": "사진을 분석해 고유한 글쓰기 스타일에 맞는 자연스러운 캡션과 해시태그를 만드는 AI 소셜 미디어 생성기입니다.",
     "language": "언어",
     "privacy": "개인정보 처리방침",
-    "support": "지원"
+    "support": "지원",
+    "demo": {
+      "assistant": "AI 어시스턴트",
+      "online": "온라인",
+      "generatedPreview": "생성된 미리보기",
+      "generating": "생성 중...",
+      "regenerateCaption": "캡션 다시 생성",
+      "contactsTitle": "연락처",
+      "localScan": "로컬 스캔",
+      "fix": "수정",
+      "merge": "병합",
+      "captionsFeatureAnalysis": "멀티모달 이미지 분석",
+      "captionsFeatureStyle": "글쓰기 스타일과 어조 모방",
+      "captionsFeatureShare": "한 번 탭하여 복사 및 공유",
+      "contactsFeatureMerge": "발음이 비슷한 중복 연락처 스마트 병합",
+      "contactsFeatureFormat": "자동 전화번호 표준화",
+      "contactsFeatureBackup": "즉시 VCF/로컬 백업",
+      "downloadIos": "iOS에서 다운로드",
+      "downloadAndroid": "Android에서 다운로드",
+      "captionsGenerated": "AI가 새 캡션을 생성했습니다!",
+      "captionsIosToast": "App Store 심사를 위해 앱을 준비 중입니다($2.99).",
+      "captionsAndroidToast": "Play Store 심사를 위해 앱을 준비 중입니다($2.99).",
+      "contactsIosToast": "TestFlight 빌드를 심사 중입니다. 곧 다시 확인해 주세요!",
+      "contactsAndroidToast": "Android 빌드를 심사 중입니다. 곧 다시 확인해 주세요!",
+      "contactStandardized": "연락처가 성공적으로 표준화되었습니다!",
+      "contactMerged": "중복 연락처가 병합되었습니다!",
+      "contactFormatted": "연락처가 E.164 형식으로 지정되었습니다!"
+    }
   }
 }

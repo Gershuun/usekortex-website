@@ -27,7 +27,7 @@ const initialContacts: Contact[] = [
         isDuplicate: false,
         fixedName: 'John Doe',
         fixedPhone: '+1 (555) 019-2831',
-        successMessage: 'Contact standardized successfully!',
+        successMessage: 'site.demo.contactStandardized',
         isFixed: false
     },
     {
@@ -39,7 +39,7 @@ const initialContacts: Contact[] = [
         isDuplicate: true,
         fixedName: 'Alice Smith',
         fixedPhone: '555-0142',
-        successMessage: 'Duplicate contacts merged!',
+        successMessage: 'site.demo.contactMerged',
         isFixed: false
     },
     {
@@ -51,7 +51,7 @@ const initialContacts: Contact[] = [
         isDuplicate: false,
         fixedName: 'Bob K.',
         fixedPhone: '+1 (555) 019-8822',
-        successMessage: 'Contact formatted to E.164!',
+        successMessage: 'site.demo.contactFormatted',
         isFixed: false
     }
 ];
@@ -65,7 +65,7 @@ export function ContactsCard() {
         const contact = contacts.find((candidate) => candidate.id === id);
         if (!contact || contact.isFixed) return;
 
-        showToast(contact.successMessage);
+        showToast(t(contact.successMessage));
         setContacts((prev) => prev.map((candidate) => (
             candidate.id === id
                 ? { ...candidate, isFixed: true, name: candidate.fixedName, phone: candidate.fixedPhone }
@@ -77,7 +77,7 @@ export function ContactsCard() {
         <div className={`${styles.appCard} ${styles.contacts}`} id="contacts-anchor">
             <div>
                 <div className={styles.cardHeader}>
-                    <div className={styles.cardIcon}>📇</div>
+                    <div className={styles.cardIcon}>Ã°Å¸â€œâ€¡</div>
                     <div>
                         <h2 className={styles.title}>Kortex Contacts</h2>
                     </div>
@@ -91,8 +91,8 @@ export function ContactsCard() {
                         <div className={phoneStyles.phoneNotch}></div>
                         <div className={phoneStyles.phoneContent}>
                             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem', fontWeight: 700 }}>
-                                <span>Contacts</span>
-                                <span style={{ color: 'var(--accent-blue)' }}>Local Scan</span>
+                                <span>{t('site.demo.contactsTitle')}</span>
+                                <span style={{ color: 'var(--accent-blue)' }}>{t('site.demo.localScan')}</span>
                             </div>
                             
                             {contacts.map(c => (
@@ -109,7 +109,7 @@ export function ContactsCard() {
                                             className={`${phoneStyles.mockActionBtn} ${c.isDuplicate ? phoneStyles.mockActionBtnPurple : ''}`}
                                             onClick={() => handleFix(c.id)}
                                         >
-                                            {c.isDuplicate ? 'Merge' : 'Fix'}
+                                            {c.isDuplicate ? t('site.demo.merge') : t('site.demo.fix')}
                                         </button>
                                     )}
                                 </div>
@@ -121,24 +121,24 @@ export function ContactsCard() {
                 <ul className={styles.featureList}>
                     <li className={styles.featureItem}>
                         <svg strokeWidth="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                        Phonetic smart duplicate merge
+                        {t('site.demo.contactsFeatureMerge')}
                     </li>
                     <li className={styles.featureItem}>
                         <svg strokeWidth="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                        Automatic phone layout standardizer
+                        {t('site.demo.contactsFeatureFormat')}
                     </li>
                     <li className={styles.featureItem}>
                         <svg strokeWidth="2" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
-                        Instant VCF / Local backups
+                        {t('site.demo.contactsFeatureBackup')}
                     </li>
                 </ul>
             </div>
             <div className={styles.btnGroup}>
-                <button className={`${styles.btn} ${styles.btnPrimary}`} onClick={() => showToast('TestFlight build is currently in review. Check back soon!')}>
-                    Download on iOS
+                <button className={`${styles.btn} ${styles.btnPrimary}`} onClick={() => showToast(t('site.demo.contactsIosToast'))}>
+                    {t('site.demo.downloadIos')}
                 </button>
-                <button className={`${styles.btn} ${styles.btnSecondary}`} onClick={() => showToast('Android build is currently in review. Check back soon!')}>
-                    Download on Android
+                <button className={`${styles.btn} ${styles.btnSecondary}`} onClick={() => showToast(t('site.demo.contactsAndroidToast'))}>
+                    {t('site.demo.downloadAndroid')}
                 </button>
             </div>
         </div>

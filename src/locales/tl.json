@@ -22,6 +22,33 @@
     "captionsDescription": "AI social media generator na nagsusuri ng mga larawan para gumawa ng natural na captions at hashtags ayon sa iyong estilo.",
     "language": "Wika",
     "privacy": "Patakaran sa privacy",
-    "support": "Suporta"
+    "support": "Suporta",
+    "demo": {
+      "assistant": "AI Assistant",
+      "online": "Online",
+      "generatedPreview": "Nabuong preview",
+      "generating": "Ginagawa...",
+      "regenerateCaption": "Gumawa ulit ng caption",
+      "contactsTitle": "Mga Contact",
+      "localScan": "Lokal na scan",
+      "fix": "Ayusin",
+      "merge": "Pagsamahin",
+      "captionsFeatureAnalysis": "Multimodal na pagsusuri ng larawan",
+      "captionsFeatureStyle": "Paggaya sa estilo at tono ng pagsulat",
+      "captionsFeatureShare": "Isang tap para kopyahin at ibahagi",
+      "contactsFeatureMerge": "Matalinong pagsasama ng dobleng contact",
+      "contactsFeatureFormat": "Awtomatikong tagapag-standardize ng telepono",
+      "contactsFeatureBackup": "Agarang VCF/lokal na backup",
+      "downloadIos": "I-download sa iOS",
+      "downloadAndroid": "I-download sa Android",
+      "captionsGenerated": "Bagong caption na ginawa ng AI!",
+      "captionsIosToast": "Inihahanda ang app para sa pagsusuri ng App Store ($2.99).",
+      "captionsAndroidToast": "Inihahanda ang app para sa pagsusuri ng Play Store ($2.99).",
+      "contactsIosToast": "Sinusuri ang TestFlight build. Bumalik muli!",
+      "contactsAndroidToast": "Sinusuri ang Android build. Bumalik muli!",
+      "contactStandardized": "Matagumpay na na-standardize ang contact!",
+      "contactMerged": "Pinagsama ang dobleng contact!",
+      "contactFormatted": "Na-format ang contact sa E.164!"
+    }
   }
 }

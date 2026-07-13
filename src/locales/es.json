@@ -22,6 +22,33 @@
     "captionsDescription": "Un generador de redes sociales con IA que analiza tus fotos para crear subtítulos y hashtags naturales adaptados a tu estilo.",
     "language": "Idioma",
     "privacy": "Política de privacidad",
-    "support": "Soporte"
+    "support": "Soporte",
+    "demo": {
+      "assistant": "Asistente de IA",
+      "online": "En línea",
+      "generatedPreview": "Vista previa generada",
+      "generating": "Generando...",
+      "regenerateCaption": "Regenerar subtítulo",
+      "contactsTitle": "Contactos",
+      "localScan": "Análisis local",
+      "fix": "Corregir",
+      "merge": "Combinar",
+      "captionsFeatureAnalysis": "Análisis multimodal de imágenes",
+      "captionsFeatureStyle": "Imitación del estilo y tono de escritura",
+      "captionsFeatureShare": "Copiar y compartir con un toque",
+      "contactsFeatureMerge": "Fusión inteligente de duplicados fonéticos",
+      "contactsFeatureFormat": "Estandarizador automático de teléfonos",
+      "contactsFeatureBackup": "Copias VCF/locales instantáneas",
+      "downloadIos": "Descargar en iOS",
+      "downloadAndroid": "Descargar en Android",
+      "captionsGenerated": "¡Nueva descripción generada por IA!",
+      "captionsIosToast": "La app se está preparando para revisión en App Store ($2.99).",
+      "captionsAndroidToast": "La app se está preparando para revisión en Play Store ($2.99).",
+      "contactsIosToast": "La versión de TestFlight está en revisión. ¡Vuelve pronto!",
+      "contactsAndroidToast": "La versión de Android está en revisión. ¡Vuelve pronto!",
+      "contactStandardized": "¡Contacto estandarizado correctamente!",
+      "contactMerged": "¡Contactos duplicados combinados!",
+      "contactFormatted": "¡Contacto convertido al formato E.164!"
+    }
   }
 }

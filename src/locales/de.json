@@ -22,6 +22,33 @@
     "captionsDescription": "Ein KI-Generator für soziale Medien, der Fotos analysiert und natürliche Untertitel und Hashtags passend zu deinem Schreibstil erstellt.",
     "language": "Sprache",
     "privacy": "Datenschutzerklärung",
-    "support": "Support"
+    "support": "Support",
+    "demo": {
+      "assistant": "KI-Assistent",
+      "online": "Online",
+      "generatedPreview": "Generierte Vorschau",
+      "generating": "Wird erstellt...",
+      "regenerateCaption": "Untertitel neu erstellen",
+      "contactsTitle": "Kontakte",
+      "localScan": "Lokale Analyse",
+      "fix": "Beheben",
+      "merge": "Zusammenführen",
+      "captionsFeatureAnalysis": "Multimodale Bildanalyse",
+      "captionsFeatureStyle": "Imitation von Schreibstil und Ton",
+      "captionsFeatureShare": "Mit einem Tippen kopieren und teilen",
+      "contactsFeatureMerge": "Intelligentes Zusammenführen phonetischer Duplikate",
+      "contactsFeatureFormat": "Automatische Telefonnummern-Normalisierung",
+      "contactsFeatureBackup": "Sofortige VCF-/lokale Backups",
+      "downloadIos": "Auf iOS laden",
+      "downloadAndroid": "Auf Android laden",
+      "captionsGenerated": "Neue Bildunterschrift durch KI erstellt!",
+      "captionsIosToast": "Die App wird für die App-Store-Prüfung vorbereitet (2,99 $).",
+      "captionsAndroidToast": "Die App wird für die Play-Store-Prüfung vorbereitet (2,99 $).",
+      "contactsIosToast": "Der TestFlight-Build wird geprüft. Bitte bald wiederkommen!",
+      "contactsAndroidToast": "Der Android-Build wird geprüft. Bitte bald wiederkommen!",
+      "contactStandardized": "Kontakt erfolgreich standardisiert!",
+      "contactMerged": "Doppelte Kontakte zusammengeführt!",
+      "contactFormatted": "Kontakt in E.164 formatiert!"
+    }
   }
 }

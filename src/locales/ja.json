@@ -22,6 +22,33 @@
     "captionsDescription": "写真を分析し、あなたの文体に合った自然なキャプションとハッシュタグを作るAIソーシャルメディア生成ツールです。",
     "language": "言語",
     "privacy": "プライバシーポリシー",
-    "support": "サポート"
+    "support": "サポート",
+    "demo": {
+      "assistant": "AIアシスタント",
+      "online": "オンライン",
+      "generatedPreview": "生成プレビュー",
+      "generating": "生成中...",
+      "regenerateCaption": "キャプションを再生成",
+      "contactsTitle": "連絡先",
+      "localScan": "ローカルスキャン",
+      "fix": "修正",
+      "merge": "統合",
+      "captionsFeatureAnalysis": "マルチモーダル画像分析",
+      "captionsFeatureStyle": "文体とトーンの再現",
+      "captionsFeatureShare": "ワンタップでコピーと共有",
+      "contactsFeatureMerge": "音声類似の重複連絡先をスマートに統合",
+      "contactsFeatureFormat": "電話番号の自動標準化",
+      "contactsFeatureBackup": "即時 VCF/ローカルバックアップ",
+      "downloadIos": "iOSでダウンロード",
+      "downloadAndroid": "Androidでダウンロード",
+      "captionsGenerated": "AIが新しいキャプションを生成しました！",
+      "captionsIosToast": "App Store審査用にアプリを準備中です（$2.99）。",
+      "captionsAndroidToast": "Play Store審査用にアプリを準備中です（$2.99）。",
+      "contactsIosToast": "TestFlightビルドを審査中です。しばらくお待ちください！",
+      "contactsAndroidToast": "Androidビルドを審査中です。しばらくお待ちください！",
+      "contactStandardized": "連絡先を標準化しました！",
+      "contactMerged": "重複した連絡先を統合しました！",
+      "contactFormatted": "連絡先をE.164形式にしました！"
+    }
   }
 }

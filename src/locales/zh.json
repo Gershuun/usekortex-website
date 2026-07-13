@@ -22,6 +22,33 @@
     "captionsDescription": "AI 社交媒体生成器会分析照片，按照你的写作风格生成自然的字幕和标签。",
     "language": "语言",
     "privacy": "隐私政策",
-    "support": "支持"
+    "support": "支持",
+    "demo": {
+      "assistant": "AI 助手",
+      "online": "在线",
+      "generatedPreview": "生成的预览",
+      "generating": "生成中...",
+      "regenerateCaption": "重新生成字幕",
+      "contactsTitle": "联系人",
+      "localScan": "本地扫描",
+      "fix": "修复",
+      "merge": "合并",
+      "captionsFeatureAnalysis": "多模态图像分析",
+      "captionsFeatureStyle": "模仿写作风格和语气",
+      "captionsFeatureShare": "一键复制和分享",
+      "contactsFeatureMerge": "智能合并发音相似的重复联系人",
+      "contactsFeatureFormat": "自动标准化电话号码",
+      "contactsFeatureBackup": "即时 VCF/本地备份",
+      "downloadIos": "在 iOS 下载",
+      "downloadAndroid": "在 Android 下载",
+      "captionsGenerated": "AI 已生成新字幕！",
+      "captionsIosToast": "应用正在准备 App Store 审核（$2.99）。",
+      "captionsAndroidToast": "应用正在准备 Play Store 审核（$2.99）。",
+      "contactsIosToast": "TestFlight 版本正在审核中。请稍后再来！",
+      "contactsAndroidToast": "Android 版本正在审核中。请稍后再来！",
+      "contactStandardized": "联系人已成功标准化！",
+      "contactMerged": "重复联系人已合并！",
+      "contactFormatted": "联系人已格式化为 E.164！"
+    }
   }
 }

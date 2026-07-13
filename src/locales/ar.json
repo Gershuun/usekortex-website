@@ -22,6 +22,33 @@
     "captionsDescription": "مولد محتوى اجتماعي بالذكاء الاصطناعي يحلل الصور وينشئ تعليقات ووسومًا طبيعية تناسب أسلوبك.",
     "language": "اللغة",
     "privacy": "سياسة الخصوصية",
-    "support": "الدعم"
+    "support": "الدعم",
+    "demo": {
+      "assistant": "مساعد الذكاء الاصطناعي",
+      "online": "متصل",
+      "generatedPreview": "معاينة مُنشأة",
+      "generating": "جارٍ الإنشاء...",
+      "regenerateCaption": "إعادة إنشاء التعليق",
+      "contactsTitle": "جهات الاتصال",
+      "localScan": "فحص محلي",
+      "fix": "إصلاح",
+      "merge": "دمج",
+      "captionsFeatureAnalysis": "تحليل الصور متعدد الوسائط",
+      "captionsFeatureStyle": "محاكاة أسلوب الكتابة ونبرتها",
+      "captionsFeatureShare": "نسخ ومشاركة بلمسة واحدة",
+      "contactsFeatureMerge": "دمج ذكي للتكرارات الصوتية",
+      "contactsFeatureFormat": "تنسيق تلقائي لأرقام الهاتف",
+      "contactsFeatureBackup": "نسخ VCF ومحلية فورية",
+      "downloadIos": "التنزيل على iOS",
+      "downloadAndroid": "التنزيل على Android",
+      "captionsGenerated": "تم إنشاء تعليق جديد بالذكاء الاصطناعي!",
+      "captionsIosToast": "يتم تجهيز التطبيق لمراجعة App Store (2.99$).",
+      "captionsAndroidToast": "يتم تجهيز التطبيق لمراجعة Play Store (2.99$).",
+      "contactsIosToast": "إصدار TestFlight قيد المراجعة. تحقق لاحقًا!",
+      "contactsAndroidToast": "إصدار Android قيد المراجعة. تحقق لاحقًا!",
+      "contactStandardized": "تم توحيد جهة الاتصال بنجاح!",
+      "contactMerged": "تم دمج جهات الاتصال المكررة!",
+      "contactFormatted": "تم تنسيق جهة الاتصال إلى E.164!"
+    }
   }
 }

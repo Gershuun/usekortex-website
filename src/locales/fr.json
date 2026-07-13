@@ -22,6 +22,33 @@
     "captionsDescription": "Un générateur de contenu social par IA qui analyse vos photos pour créer des légendes et hashtags naturels adaptés à votre style.",
     "language": "Langue",
     "privacy": "Politique de confidentialité",
-    "support": "Assistance"
+    "support": "Assistance",
+    "demo": {
+      "assistant": "Assistant IA",
+      "online": "En ligne",
+      "generatedPreview": "Aperçu généré",
+      "generating": "Génération...",
+      "regenerateCaption": "Régénérer la légende",
+      "contactsTitle": "Contacts",
+      "localScan": "Analyse locale",
+      "fix": "Corriger",
+      "merge": "Fusionner",
+      "captionsFeatureAnalysis": "Analyse multimodale des images",
+      "captionsFeatureStyle": "Imitation du style et du ton d’écriture",
+      "captionsFeatureShare": "Copier et partager en un geste",
+      "contactsFeatureMerge": "Fusion intelligente des doublons phonétiques",
+      "contactsFeatureFormat": "Standardiseur automatique des numéros",
+      "contactsFeatureBackup": "Sauvegardes VCF/locales instantanées",
+      "downloadIos": "Télécharger sur iOS",
+      "downloadAndroid": "Télécharger sur Android",
+      "captionsGenerated": "Nouvelle légende générée par IA !",
+      "captionsIosToast": "L’application est en préparation pour la revue App Store (2,99 $).",
+      "captionsAndroidToast": "L’application est en préparation pour la revue Play Store (2,99 $).",
+      "contactsIosToast": "La version TestFlight est en cours d’examen. Revenez bientôt !",
+      "contactsAndroidToast": "La version Android est en cours d’examen. Revenez bientôt !",
+      "contactStandardized": "Contact standardisé avec succès !",
+      "contactMerged": "Contacts en double fusionnés !",
+      "contactFormatted": "Contact formaté en E.164 !"
+    }
   }
 }
