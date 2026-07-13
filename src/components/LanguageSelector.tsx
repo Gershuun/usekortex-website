@@ -10,8 +10,9 @@ const languages = [
 export function LanguageSelector() {
   const { i18n, t } = useTranslation();
   const [open, setOpen] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
   const wrapperRef = useRef<HTMLDivElement>(null);
-  const active = languages.find(([code]) => code === i18n.language) ?? languages[0];
+  const active = languages.find(([code]) => code === selectedLanguage) ?? languages[0];
 
   useEffect(() => {
     const closeOnOutsideClick = (event: PointerEvent) => {
@@ -42,7 +43,7 @@ export function LanguageSelector() {
       {open && (
         <div className={styles.menu} role="listbox" aria-label={t('site.language')} onPointerDown={(event) => event.stopPropagation()}>
           {languages.map(([code, label]) => (
-            <button key={code} className={`${styles.option} ${i18n.language === code ? styles.active : ''}`} type="button" role="option" aria-selected={i18n.language === code} onClick={() => void selectLanguage(code)}>
+            <button key={code} className={`${styles.option} ${i18n.language === code ? styles.active : ''}`} type="button" role="option" aria-selected={i18n.language === code} onPointerDown={(event) => { event.preventDefault(); event.stopPropagation(); void selectLanguage(code); }}>
               <span>{label}</span>
               {i18n.language === code && <span className={styles.check} aria-hidden="true">{'\u2713'}</span>}
             </button>
