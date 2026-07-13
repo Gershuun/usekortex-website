@@ -77,7 +77,7 @@ export function ContactsCard() {
         <div className={`${styles.appCard} ${styles.contacts}`} id="contacts-anchor">
             <div>
                 <div className={styles.cardHeader}>
-                    <div className={styles.cardIcon}>Ã°Å¸â€œâ€¡</div>
+                    <div className={styles.cardIcon}>📇</div>
                     <div>
                         <h2 className={styles.title}>Kortex Contacts</h2>
                     </div>

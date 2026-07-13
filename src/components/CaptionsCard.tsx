@@ -5,10 +5,10 @@ import phoneStyles from './PhoneMockup.module.css';
 import { useTranslation } from 'react-i18next';
 
 const mockCaptions = [
-    { text: "Golden hour hits different. Ã°Å¸Å’â€¦Ã¢Å“Â¨ #sunset #chasinglight", img: "https://images.unsplash.com/photo-1614531341624-9b2ee03e4d94?w=400&q=80" },
-    { text: "Sunsets are proof that endings can be beautiful too. Ã°Å¸Å’â€¡Ã°Å¸â€™â€º #sunsetlovers #view", img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&q=80" },
-    { text: "Keep your face always toward the sunshine. Ã¢Ëœâ‚¬Ã¯Â¸ÂÃ°Å¸Å’Å  #nature #coast", img: "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?w=400&q=80" },
-    { text: "Sky above, sand below, peace within. Ã°Å¸ÂÅ¡Ã°Å¸Å’Â´ #travelgram #paradise", img: "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?w=400&q=80" }
+    { text: "Golden hour hits different. 🌅✨ #sunset #chasinglight", img: "https://images.unsplash.com/photo-1614531341624-9b2ee03e4d94?w=400&q=80" },
+    { text: "Sunsets are proof that endings can be beautiful too. 🌇💛 #sunsetlovers #view", img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&q=80" },
+    { text: "Keep your face always toward the sunshine. ☀️🌊 #nature #coast", img: "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?w=400&q=80" },
+    { text: "Sky above, sand below, peace within. 🐚🌴 #travelgram #paradise", img: "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?w=400&q=80" }
 ];
 
 export function CaptionsCard() {
@@ -40,7 +40,7 @@ export function CaptionsCard() {
         <div className={`${styles.appCard} ${styles.captions}`} id="captions-anchor">
             <div>
                 <div className={styles.cardHeader}>
-                    <div className={styles.cardIcon}>Ã¢Å“Â¨</div>
+                    <div className={styles.cardIcon}>✨</div>
                     <div>
                         <h2 className={styles.title}>Kortex Captions</h2>
                     </div>
