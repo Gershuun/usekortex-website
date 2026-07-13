@@ -8,10 +8,13 @@ const languages = [
 
 export function LanguageSelector() {
   const { i18n, t } = useTranslation();
+  const active = languages.find(([code]) => code === i18n.language) ?? languages[0];
 
   return (
     <div className={styles.wrapper}>
       <span className={styles.icon} aria-hidden="true">🌐</span>
+      <span className={styles.label}>{active[1]}</span>
+      <span className={styles.chevron} aria-hidden="true" />
       <select
         className={styles.select}
         value={i18n.language}

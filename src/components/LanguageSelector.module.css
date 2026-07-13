@@ -1,6 +1,9 @@
-.wrapper { position: relative; z-index: 100; display: inline-flex; align-items: center; gap: .42rem; border: 1px solid rgba(255,255,255,.16); border-radius: 999px; background: rgba(20,24,32,.72); padding: .38rem .62rem .38rem .55rem; box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 8px 24px rgba(0,0,0,.12); backdrop-filter: blur(14px); transition: border-color .2s ease, background .2s ease, transform .2s ease; }
-.wrapper:hover { border-color: rgba(255,255,255,.3); background: rgba(30,35,46,.88); transform: translateY(-1px); }
-.wrapper::after { content: ''; width: .38rem; height: .38rem; margin-left: .1rem; border-right: 1.5px solid rgba(255,255,255,.62); border-bottom: 1.5px solid rgba(255,255,255,.62); transform: rotate(45deg) translateY(-2px); pointer-events: none; }
-.icon { font-size: .9rem; line-height: 1; filter: saturate(.8); }
-.select { min-width: 4.9rem; appearance: none; border: 0; outline: 0; background: transparent; color: #e9edf5; font: inherit; font-size: .78rem; font-weight: 600; cursor: pointer; }
+.wrapper { position: relative; z-index: 100; display: inline-flex; align-items: center; gap: .45rem; min-height: 2.2rem; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; background: linear-gradient(135deg, rgba(30,38,56,.88), rgba(16,21,32,.78)); padding: .38rem .72rem .38rem .58rem; box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 10px 28px rgba(0,0,0,.18); backdrop-filter: blur(18px); overflow: hidden; transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease; }
+.wrapper::before { content: ''; position: absolute; inset: 0; background: linear-gradient(120deg, rgba(96,165,250,.13), transparent 48%, rgba(167,139,250,.11)); opacity: .75; pointer-events: none; }
+.wrapper:hover { border-color: rgba(147,197,253,.42); box-shadow: inset 0 1px 0 rgba(255,255,255,.12), 0 12px 32px rgba(59,130,246,.16); transform: translateY(-1px); }
+.icon, .label, .chevron { position: relative; z-index: 1; }
+.icon { display: grid; width: 1.25rem; height: 1.25rem; place-items: center; border-radius: 50%; background: rgba(96,165,250,.13); font-size: .78rem; line-height: 1; }
+.label { color: #eef3fb; font-size: .78rem; font-weight: 650; letter-spacing: .01em; white-space: nowrap; }
+.chevron { width: .4rem; height: .4rem; margin: -.16rem 0 0 .18rem; border-right: 1.5px solid rgba(226,232,240,.68); border-bottom: 1.5px solid rgba(226,232,240,.68); transform: rotate(45deg); }
+.select { position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%; appearance: none; border: 0; opacity: 0; cursor: pointer; }
 .select option { background: #121722; color: #fff; }
