@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 import styles from './LanguageSelector.module.css';
 
 const languages = [
-  ['en', 'English'], ['es', 'Español'], ['fr', 'Français'], ['pt', 'Português'], ['de', 'Deutsch'],
-  ['tl', 'Tagalog'], ['ar', 'العربية'], ['hi', 'हिन्दी'], ['zh', '中文'], ['ja', '日本語'], ['ko', '한국어'],
+  ['en', 'English'], ['es', 'Espa\u00f1ol'], ['fr', 'Fran\u00e7ais'], ['pt', 'Portugu\u00eas'], ['de', 'Deutsch'],
+  ['tl', 'Tagalog'], ['ar', '\u0627\u0644\u0639\u0631\u0628\u064a\u0629'], ['hi', '\u0939\u093f\u0928\u094d\u0926\u0940'], ['zh', '\u4e2d\u6587'], ['ja', '\u65e5\u672c\u8a9e'], ['ko', '\ud55c\uad6d\uc5b4'],
 ] as const;
 
 export function LanguageSelector() {
@@ -22,11 +22,11 @@ export function LanguageSelector() {
   }, []);
 
   const selectLanguage = async (code: string) => {
+    setOpen(false);
     try {
       await i18n.changeLanguage(code);
       localStorage.setItem('kortex-language', code);
       document.documentElement.lang = code;
-      setOpen(false);
     } catch (error) {
       console.error(`Unable to switch Kortex language to ${code}`, error);
     }
@@ -35,16 +35,16 @@ export function LanguageSelector() {
   return (
     <div ref={wrapperRef} className={styles.wrapper}>
       <button className={styles.trigger} type="button" aria-haspopup="listbox" aria-expanded={open} aria-label={t('site.language')} onClick={() => setOpen((value) => !value)}>
-        <span className={styles.icon} aria-hidden="true">🌐</span>
+        <span className={styles.icon} aria-hidden="true">{'\u{1F310}'}</span>
         <span className={styles.label}>{active[1]}</span>
         <span className={`${styles.chevron} ${open ? styles.chevronOpen : ''}`} aria-hidden="true" />
       </button>
       {open && (
-        <div className={styles.menu} role="listbox" aria-label={t('site.language')}>
+        <div className={styles.menu} role="listbox" aria-label={t('site.language')} onPointerDown={(event) => event.stopPropagation()}>
           {languages.map(([code, label]) => (
             <button key={code} className={`${styles.option} ${i18n.language === code ? styles.active : ''}`} type="button" role="option" aria-selected={i18n.language === code} onClick={() => void selectLanguage(code)}>
               <span>{label}</span>
-              {i18n.language === code && <span className={styles.check} aria-hidden="true">✓</span>}
+              {i18n.language === code && <span className={styles.check} aria-hidden="true">{'\u2713'}</span>}
             </button>
           ))}
         </div>
