@@ -22,7 +22,9 @@ export function LanguageSelector() {
           <button className={styles.backdrop} type="button" aria-label="Close language menu" onClick={() => setOpen(false)} />
           <div className={styles.menu} role="menu">
             {languages.map(([code, label]) => (
-              <button key={code} className={`${styles.option} ${i18n.language === code ? styles.active : ''}`} type="button" role="menuitem" onClick={() => {
+              <button key={code} className={`${styles.option} ${i18n.language === code ? styles.active : ''}`} type="button" role="menuitem" onClick={(event) => {
+                event.preventDefault();
+                event.stopPropagation();
                 void i18n.changeLanguage(code);
                 localStorage.setItem('kortex-language', code);
                 setOpen(false);
