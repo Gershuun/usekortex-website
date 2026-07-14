@@ -5,8 +5,8 @@
 .label { white-space: nowrap; }
 .chevron { width: .36rem; height: .36rem; margin: -.15rem 0 0 .12rem; border-right: 1.5px solid rgba(226,232,240,.58); border-bottom: 1.5px solid rgba(226,232,240,.58); transform: rotate(45deg); transition: transform .2s ease; }
 .chevronOpen { margin-top: .18rem; transform: rotate(225deg); }
-.menu { position: absolute; top: calc(100% + .5rem); right: 0; width: 11.5rem; padding: .3rem; border: 1px solid rgba(255,255,255,.13); border-radius: .85rem; background: rgba(18,23,34,.96); box-shadow: 0 18px 42px rgba(0,0,0,.35); backdrop-filter: blur(18px); }
-.option { display: flex; align-items: center; justify-content: space-between; width: 100%; border: 0; border-radius: .55rem; background: transparent; color: #bfc9d8; padding: .52rem .58rem; text-align: left; font: inherit; font-size: .76rem; cursor: pointer; transition: background .15s ease, color .15s ease; }
+.menu { position: absolute; z-index: 1000; pointer-events: auto; top: calc(100% + .5rem); right: 0; width: 11.5rem; padding: .3rem; border: 1px solid rgba(255,255,255,.13); border-radius: .85rem; background: rgba(18,23,34,.96); box-shadow: 0 18px 42px rgba(0,0,0,.35); backdrop-filter: blur(18px); }
+.option { position: relative; z-index: 1; display: flex; pointer-events: auto; align-items: center; justify-content: space-between; width: 100%; border: 0; border-radius: .55rem; background: transparent; color: #bfc9d8; padding: .52rem .58rem; text-align: left; font: inherit; font-size: .76rem; cursor: pointer; transition: background .15s ease, color .15s ease; }
 .option:hover, .option:focus-visible, .active { background: rgba(96,165,250,.13); color: #f4f7fb; outline: none; }
 .check { color: #7dd3fc; font-size: .9rem; }
 @media (max-width: 640px) { .trigger { min-height: 2.35rem; padding: .45rem .62rem; } .menu { position: fixed; top: 4.5rem; right: 1rem; width: min(13rem, calc(100vw - 2rem)); } }
