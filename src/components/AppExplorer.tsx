@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { kortexApps, type AppCategory, type KortexApp } from '../data/apps';
-import { useToast } from './useToast';
 import styles from './AppExplorer.module.css';
+import { FollowAppModal } from './FollowAppModal';
 
 type CategoryFilter = 'all' | AppCategory;
 
@@ -67,8 +67,8 @@ interface AppExplorerProps {
 
 export function AppExplorer({ activeId, onSelectApp }: AppExplorerProps) {
   const { t } = useTranslation();
-  const { showToast } = useToast();
   const [category, setCategory] = useState<CategoryFilter>('all');
+  const [followApp, setFollowApp] = useState<KortexApp | null>(null);
   const activeApp = kortexApps.find((app) => app.id === activeId) ?? kortexApps[0];
   const visibleApps = useMemo(
     () => category === 'all' ? kortexApps : kortexApps.filter((app) => app.category === category),
@@ -153,11 +153,13 @@ export function AppExplorer({ activeId, onSelectApp }: AppExplorerProps) {
             </div>
           </div>
           <div className={styles.spotlightActions}>
-            <button type="button" onClick={() => showToast(t('site.toastFollow', { app: activeApp.name }))}>{t('site.followApp')}</button>
+            <button type="button" onClick={() => setFollowApp(activeApp)}>{t('site.followApp')}</button>
             <a href="#future">{t('site.discoverMore')}<span>{'\u2192'}</span></a>
           </div>
         </article>
       </div>
+
+      {followApp && <FollowAppModal app={followApp} onClose={() => setFollowApp(null)} />}
 
       <div className={styles.future} id="future">
         <div className={styles.futureCopy}>
