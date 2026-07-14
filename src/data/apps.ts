@@ -17,7 +17,7 @@ export const kortexApps: readonly KortexApp[] = [
   {
     id: 'contacts',
     name: 'Kortex Contacts',
-    icon: '/apps/contacts.png',
+    icon: '/apps/contacts.png?v=20260714',
     category: 'organize',
     accent: '#5ea1ff',
     accentRgb: '94, 161, 255',
@@ -29,7 +29,7 @@ export const kortexApps: readonly KortexApp[] = [
   {
     id: 'captions',
     name: 'Kortex Captions',
-    icon: '/apps/captions.png',
+    icon: '/apps/captions.png?v=20260714',
     category: 'create',
     accent: '#9b78ff',
     accentRgb: '155, 120, 255',
@@ -41,7 +41,7 @@ export const kortexApps: readonly KortexApp[] = [
   {
     id: 'filters',
     name: 'Kortex Filters',
-    icon: '/apps/filters.png',
+    icon: '/apps/filters.png?v=20260714',
     category: 'create',
     accent: '#d6ff63',
     accentRgb: '214, 255, 99',
@@ -53,7 +53,7 @@ export const kortexApps: readonly KortexApp[] = [
   {
     id: 'trails',
     name: 'Kortex Trails',
-    icon: '/apps/trails.jpg',
+    icon: '/apps/trails.png?v=20260714',
     category: 'explore',
     accent: '#63e6b1',
     accentRgb: '99, 230, 177',
