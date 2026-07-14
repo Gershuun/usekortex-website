@@ -30,11 +30,11 @@
 .orbitApp { --accent: #fff; --accent-rgb: 255,255,255; position: absolute; z-index: 4; display: flex; align-items: center; gap: .55rem; border: 1px solid rgba(var(--accent-rgb),.25); border-radius: 1rem; background: rgba(10,14,22,.82); color: #e7ecf3; padding: .48rem .62rem .48rem .48rem; font-size: .65rem; font-weight: 800; text-decoration: none; box-shadow: 0 14px 38px rgba(0,0,0,.34), 0 0 26px rgba(var(--accent-rgb),.08); backdrop-filter: blur(14px); transition: transform .25s ease, border-color .25s ease; }
 .orbitApp:hover, .orbitApp:focus-visible { border-color: rgba(var(--accent-rgb),.6); outline: none; transform: translateY(-4px) scale(1.03); }
 .orbitApp img { width: 36px; height: 36px; border-radius: .72rem; object-fit: cover; }
-.orbitApp:nth-of-type(3) { left: 0; top: 21%; transform: rotate(-3deg); }
-.orbitApp:nth-of-type(4) { right: 0; top: 13%; transform: rotate(3deg); }
-.orbitApp:nth-of-type(5) { left: 3%; bottom: 18%; transform: rotate(2deg); }
-.orbitApp:nth-of-type(6) { right: -2%; bottom: 21%; transform: rotate(-4deg); }
-.orbitApp:nth-of-type(3):hover, .orbitApp:nth-of-type(3):focus-visible, .orbitApp:nth-of-type(4):hover, .orbitApp:nth-of-type(4):focus-visible, .orbitApp:nth-of-type(5):hover, .orbitApp:nth-of-type(5):focus-visible, .orbitApp:nth-of-type(6):hover, .orbitApp:nth-of-type(6):focus-visible { transform: translateY(-4px) scale(1.03); }
+.orbitApp:nth-of-type(1) { left: 0; top: 21%; transform: rotate(-3deg); }
+.orbitApp:nth-of-type(2) { right: 0; top: 13%; transform: rotate(3deg); }
+.orbitApp:nth-of-type(3) { left: 3%; bottom: 18%; transform: rotate(2deg); }
+.orbitApp:nth-of-type(4) { right: -2%; bottom: 21%; transform: rotate(-4deg); }
+.orbitApp:nth-of-type(1):hover, .orbitApp:nth-of-type(1):focus-visible, .orbitApp:nth-of-type(2):hover, .orbitApp:nth-of-type(2):focus-visible, .orbitApp:nth-of-type(3):hover, .orbitApp:nth-of-type(3):focus-visible, .orbitApp:nth-of-type(4):hover, .orbitApp:nth-of-type(4):focus-visible { transform: translateY(-4px) scale(1.03); }
 .spark { position: absolute; color: rgba(255,255,255,.35); animation: twinkle 2.8s ease-in-out infinite alternate; }
 .sparkOne { left: 25%; top: 6%; color: #d6ff63; }
 .sparkTwo { right: 25%; bottom: 5%; font-size: 2rem; }
