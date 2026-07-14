@@ -16,7 +16,7 @@
     "contacts": "Contatos",
     "captions": "Legendas",
     "badge": "ecossistema Kortex",
-    "heroTitle": "Aplicativos móveis premium",
+    "heroTitle": "Apps úteis. Um pequeno universo curioso.",
     "heroTagline": "Ferramentas móveis inteligentes e focadas em privacidade, desenvolvidas nativamente para iOS e Android.",
     "contactsDescription": "Um otimizador de agenda focado em privacidade que analisa, mescla e padroniza seus contatos com segurança no próprio dispositivo.",
     "captionsDescription": "Um gerador de conteúdo social com IA que analisa fotos para criar legendas e hashtags naturais de acordo com seu estilo.",
@@ -49,6 +49,71 @@
       "contactStandardized": "Contato padronizado com sucesso!",
       "contactMerged": "Contatos duplicados mesclados!",
       "contactFormatted": "Contato formatado para E.164!"
-    }
+    },
+    "navExplore": "Explorar",
+    "navApps": "Todos os apps",
+    "navFuture": "O que vem aí",
+    "heroEyebrow": "4 apps. Um universo em crescimento.",
+    "exploreCta": "Começar a explorar",
+    "futureCta": "Ver para onde vamos",
+    "heroPromise": "Feitos para resolver problemas reais sem perder a diversão.",
+    "appUniverse": "Universo de apps Kortex",
+    "appsCount": "{{count}} apps ativos",
+    "play": "Brincar",
+    "explorerEyebrow": "Escolha sua próxima faísca",
+    "explorerTitle": "Escolha um app. Siga sua curiosidade.",
+    "explorerSubtitle": "Cada app Kortex tem sua própria personalidade, mas todos compartilham um objetivo: tornar as partes úteis do seu dia surpreendentemente agradáveis.",
+    "filterApps": "Filtrar apps",
+    "categories": {
+      "all": "Todos os apps",
+      "organize": "Organizar",
+      "create": "Criar",
+      "explore": "Explorar"
+    },
+    "selected": "Você está aqui",
+    "peekInside": "Dar uma olhada",
+    "followApp": "Seguir este app",
+    "discoverMore": "Explorar a família",
+    "toastFollow": "Vamos manter você por dentro de {{app}}.",
+    "futureEyebrow": "Feito para continuar crescendo",
+    "futureTitle": "Quatro hoje. Cinquenta amanhã.",
+    "futureBody": "A plataforma Kortex foi criada como uma coleção viva. Novos apps entram no mesmo sistema divertido de descoberta sem transformar a experiência em um diretório lotado.",
+    "futureBadge": "Espaço para a próxima grande ideia Kortex",
+    "status": {
+      "testing": "Em testes",
+      "closedTest": "Teste fechado",
+      "inDevelopment": "Em desenvolvimento"
+    },
+    "apps": {
+      "contacts": {
+        "tagline": "Uma agenda mais tranquila",
+        "description": "Encontre duplicados, corrija números bagunçados e organize seus contatos sem enviar sua agenda para fora do aparelho.",
+        "feature1": "Limpeza privada no aparelho",
+        "feature2": "Mesclagem inteligente de duplicados",
+        "feature3": "Backups locais instantâneos"
+      },
+      "captions": {
+        "tagline": "Sua foto encontrou uma voz",
+        "description": "Transforme o clima, os detalhes e a história de uma foto em legendas naturais, pessoais e prontas para compartilhar.",
+        "feature1": "Escrita orientada pela foto",
+        "feature2": "Adaptação de estilo e tom",
+        "feature3": "Compartilhamento com um toque"
+      },
+      "filters": {
+        "tagline": "Escolha sua magia",
+        "description": "Escolha uma foto e transforme-a com edições de IA, de correções sutis e restauração a novos pontos de vista.",
+        "feature1": "Edições de foto com IA",
+        "feature2": "Predefinições criativas selecionadas",
+        "feature3": "Uma edição grátis por sessão"
+      },
+      "trails": {
+        "tagline": "Encontre sua próxima trilha",
+        "description": "Explore redes de trilhas próximas ao vivo, filtre rotas por inclinação e acesso de bicicleta e guarde seus passeios favoritos.",
+        "feature1": "Trilhas próximas ao vivo",
+        "feature2": "Filtros de inclinação e acesso",
+        "feature3": "Rotas e passeios salvos"
+      }
+    },
+    "rights": "Todos os direitos reservados."
   }
 }

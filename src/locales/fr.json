@@ -16,7 +16,7 @@
     "contacts": "Contacts",
     "captions": "Légendes",
     "badge": "écosystème Kortex",
-    "heroTitle": "Applications mobiles premium",
+    "heroTitle": "Des apps utiles. Un petit univers curieux.",
     "heroTagline": "Des outils mobiles intelligents et respectueux de la vie privée, conçus nativement pour iOS et Android.",
     "contactsDescription": "Un optimiseur de carnet d’adresses axé sur la confidentialité qui analyse, fusionne et standardise vos contacts directement sur votre appareil.",
     "captionsDescription": "Un générateur de contenu social par IA qui analyse vos photos pour créer des légendes et hashtags naturels adaptés à votre style.",
@@ -49,6 +49,71 @@
       "contactStandardized": "Contact standardisé avec succès !",
       "contactMerged": "Contacts en double fusionnés !",
       "contactFormatted": "Contact formaté en E.164 !"
-    }
+    },
+    "navExplore": "Explorer",
+    "navApps": "Toutes les apps",
+    "navFuture": "La suite",
+    "heroEyebrow": "4 apps. Un univers qui grandit.",
+    "exploreCta": "Commencer à explorer",
+    "futureCta": "Voir où nous allons",
+    "heroPromise": "Conçues pour résoudre de vrais problèmes sans perdre le plaisir.",
+    "appUniverse": "Univers des apps Kortex",
+    "appsCount": "{{count}} apps actives",
+    "play": "Jouer",
+    "explorerEyebrow": "Choisissez votre prochaine étincelle",
+    "explorerTitle": "Choisissez une app. Suivez votre curiosité.",
+    "explorerSubtitle": "Chaque app Kortex a sa personnalité, mais toutes partagent un objectif : rendre les moments utiles de votre journée étonnamment agréables.",
+    "filterApps": "Filtrer les apps",
+    "categories": {
+      "all": "Toutes les apps",
+      "organize": "Organiser",
+      "create": "Créer",
+      "explore": "Explorer"
+    },
+    "selected": "Vous êtes ici",
+    "peekInside": "Jeter un œil",
+    "followApp": "Suivre cette app",
+    "discoverMore": "Explorer la famille",
+    "toastFollow": "Nous vous tiendrons au courant de {{app}}.",
+    "futureEyebrow": "Pensé pour grandir",
+    "futureTitle": "Quatre aujourd’hui. Cinquante demain.",
+    "futureBody": "La plateforme Kortex est une collection vivante. De nouvelles apps peuvent rejoindre le même système de découverte ludique sans transformer l’expérience en annuaire surchargé.",
+    "futureBadge": "De la place pour la prochaine grande idée Kortex",
+    "status": {
+      "testing": "En test",
+      "closedTest": "Test fermé",
+      "inDevelopment": "En développement"
+    },
+    "apps": {
+      "contacts": {
+        "tagline": "Un carnet d’adresses apaisé",
+        "description": "Trouvez les doublons, réparez les numéros désordonnés et remettez de l’ordre dans vos contacts sans envoyer votre carnet ailleurs.",
+        "feature1": "Nettoyage privé sur l’appareil",
+        "feature2": "Fusion intelligente des doublons",
+        "feature3": "Sauvegardes locales instantanées"
+      },
+      "captions": {
+        "tagline": "Votre photo a trouvé sa voix",
+        "description": "Transformez l’ambiance, les détails et l’histoire d’une photo en légendes naturelles, personnelles et prêtes à partager.",
+        "feature1": "Écriture guidée par la photo",
+        "feature2": "Adaptation du style et du ton",
+        "feature3": "Partage en un geste"
+      },
+      "filters": {
+        "tagline": "Choisissez votre magie",
+        "description": "Choisissez une photo et transformez-la avec des retouches IA, des corrections subtiles aux restaurations et nouveaux points de vue.",
+        "feature1": "Retouches photo par IA",
+        "feature2": "Préréglages créatifs sélectionnés",
+        "feature3": "Une retouche gratuite par session"
+      },
+      "trails": {
+        "tagline": "Trouvez votre prochaine trace",
+        "description": "Explorez les réseaux de sentiers proches en direct, filtrez par pente et accès vélo, puis gardez vos parcours favoris.",
+        "feature1": "Sentiers proches en direct",
+        "feature2": "Filtres de pente et d’accès",
+        "feature3": "Parcours et sorties enregistrés"
+      }
+    },
+    "rights": "Tous droits réservés."
   }
 }

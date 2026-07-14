@@ -16,7 +16,7 @@
     "contacts": "联系人",
     "captions": "字幕",
     "badge": "Kortex 生态",
-    "heroTitle": "高级移动工具应用",
+    "heroTitle": "实用应用，一个充满好奇的小宇宙。",
     "heroTagline": "专为 iOS 和 Android 原生打造的智能隐私优先移动工具。",
     "contactsDescription": "以隐私为先的通讯录优化工具，可在设备本地安全扫描、合并和标准化你的移动联系人。",
     "captionsDescription": "AI 社交媒体生成器会分析照片，按照你的写作风格生成自然的字幕和标签。",
@@ -49,6 +49,71 @@
       "contactStandardized": "联系人已成功标准化！",
       "contactMerged": "重复联系人已合并！",
       "contactFormatted": "联系人已格式化为 E.164！"
-    }
+    },
+    "navExplore": "探索",
+    "navApps": "全部应用",
+    "navFuture": "下一步",
+    "heroEyebrow": "4 款应用，一个不断成长的宇宙。",
+    "exploreCta": "开始探索",
+    "futureCta": "看看我们要去哪里",
+    "heroPromise": "解决真实问题，也不丢掉乐趣。",
+    "appUniverse": "Kortex 应用宇宙",
+    "appsCount": "{{count}} 款应用已上线",
+    "play": "玩一玩",
+    "explorerEyebrow": "选择下一束灵感",
+    "explorerTitle": "选择一款应用，跟随你的好奇心。",
+    "explorerSubtitle": "每款 Kortex 应用都有自己的个性，但目标相同：让日常实用的小事也变得令人愉悦。",
+    "filterApps": "筛选应用",
+    "categories": {
+      "all": "全部应用",
+      "organize": "整理",
+      "create": "创作",
+      "explore": "探索"
+    },
+    "selected": "你在这里",
+    "peekInside": "进去看看",
+    "followApp": "关注这款应用",
+    "discoverMore": "探索应用家族",
+    "toastFollow": "我们会向你更新 {{app}} 的消息。",
+    "futureEyebrow": "为持续成长而设计",
+    "futureTitle": "今天四款，明天五十款。",
+    "futureBody": "Kortex 平台是一套不断成长的应用集合。新应用可以加入同一个有趣的探索系统，而不会让体验变成拥挤的应用目录。",
+    "futureBadge": "为下一个精彩的 Kortex 创意留出空间",
+    "status": {
+      "testing": "测试中",
+      "closedTest": "封闭测试",
+      "inDevelopment": "开发中"
+    },
+    "apps": {
+      "contacts": {
+        "tagline": "更清爽的通讯录",
+        "description": "查找重复联系人、修复混乱号码，并在不上传通讯录的情况下恢复整洁。",
+        "feature1": "设备端隐私清理",
+        "feature2": "智能合并重复项",
+        "feature3": "即时本地备份"
+      },
+      "captions": {
+        "tagline": "让照片找到自己的声音",
+        "description": "把照片的氛围、细节和故事变成自然、个性化且随时可分享的文案。",
+        "feature1": "理解照片的写作",
+        "feature2": "匹配风格与语气",
+        "feature3": "一键分享"
+      },
+      "filters": {
+        "tagline": "选择你的魔法",
+        "description": "选择照片，用 AI 进行创意变换，从细微修复和还原到大胆的新视角。",
+        "feature1": "AI 照片编辑",
+        "feature2": "精选创意预设",
+        "feature3": "每次会话一次免费编辑"
+      },
+      "trails": {
+        "tagline": "找到下一条路线",
+        "description": "探索附近的实时步道网络，按坡度和骑行权限筛选路线，并保存喜爱的骑行。",
+        "feature1": "附近实时步道",
+        "feature2": "坡度与权限筛选",
+        "feature3": "保存路线与骑行"
+      }
+    },
+    "rights": "保留所有权利。"
   }
 }

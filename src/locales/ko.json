@@ -16,7 +16,7 @@
     "contacts": "연락처",
     "captions": "캡션",
     "badge": "Kortex 생태계",
-    "heroTitle": "프리미엄 모바일 유틸리티 앱",
+    "heroTitle": "쓸모 있는 앱. 호기심 가득한 작은 우주.",
     "heroTagline": "iOS와 Android에 맞게 네이티브로 설계된 지능적인 개인정보 보호 중심 모바일 도구입니다.",
     "contactsDescription": "기기에서 연락처를 안전하게 검색, 병합, 표준화하는 개인정보 보호 중심 주소록 최적화 도구입니다.",
     "captionsDescription": "사진을 분석해 고유한 글쓰기 스타일에 맞는 자연스러운 캡션과 해시태그를 만드는 AI 소셜 미디어 생성기입니다.",
@@ -49,6 +49,71 @@
       "contactStandardized": "연락처가 성공적으로 표준화되었습니다!",
       "contactMerged": "중복 연락처가 병합되었습니다!",
       "contactFormatted": "연락처가 E.164 형식으로 지정되었습니다!"
-    }
+    },
+    "navExplore": "둘러보기",
+    "navApps": "모든 앱",
+    "navFuture": "다음 이야기",
+    "heroEyebrow": "4개의 앱. 계속 커지는 하나의 세계.",
+    "exploreCta": "탐험 시작하기",
+    "futureCta": "앞으로의 여정 보기",
+    "heroPromise": "재미를 잃지 않고 진짜 문제를 해결합니다.",
+    "appUniverse": "Kortex 앱 우주",
+    "appsCount": "{{count}}개 앱 공개 중",
+    "play": "즐기기",
+    "explorerEyebrow": "다음 영감을 골라보세요",
+    "explorerTitle": "앱을 고르고, 호기심을 따라가세요.",
+    "explorerSubtitle": "Kortex 앱마다 고유한 개성이 있지만 목표는 같습니다. 일상의 유용한 순간을 놀랍도록 즐겁게 만드는 것입니다.",
+    "filterApps": "앱 필터",
+    "categories": {
+      "all": "모든 앱",
+      "organize": "정리",
+      "create": "만들기",
+      "explore": "탐험"
+    },
+    "selected": "현재 선택",
+    "peekInside": "들여다보기",
+    "followApp": "이 앱 팔로우",
+    "discoverMore": "앱 가족 둘러보기",
+    "toastFollow": "{{app}} 소식을 알려드릴게요.",
+    "futureEyebrow": "계속 성장하도록 설계",
+    "futureTitle": "오늘은 네 개. 내일은 쉰 개.",
+    "futureBody": "Kortex 플랫폼은 살아 있는 컬렉션입니다. 새 앱도 복잡한 목록이 되지 않으면서 같은 재미있는 발견 경험에 자연스럽게 합류합니다.",
+    "futureBadge": "다음 멋진 Kortex 아이디어를 위한 자리",
+    "status": {
+      "testing": "테스트 중",
+      "closedTest": "비공개 테스트",
+      "inDevelopment": "개발 중"
+    },
+    "apps": {
+      "contacts": {
+        "tagline": "더 차분한 주소록",
+        "description": "중복 연락처를 찾고 엉킨 번호를 고치며 주소록을 외부로 보내지 않고 깔끔하게 정리합니다.",
+        "feature1": "기기 내 개인정보 보호 정리",
+        "feature2": "스마트 중복 병합",
+        "feature3": "즉시 로컬 백업"
+      },
+      "captions": {
+        "tagline": "사진이 목소리를 찾았어요",
+        "description": "사진의 분위기, 디테일과 이야기를 자연스럽고 개성 있으며 바로 공유할 수 있는 캡션으로 바꿉니다.",
+        "feature1": "사진을 이해하는 글쓰기",
+        "feature2": "스타일과 톤 맞춤",
+        "feature3": "원탭 공유"
+      },
+      "filters": {
+        "tagline": "나만의 마법을 고르세요",
+        "description": "사진을 선택하고 AI로 변신시키세요. 섬세한 보정과 복원부터 과감한 새로운 시선까지 가능합니다.",
+        "feature1": "AI 사진 편집",
+        "feature2": "엄선된 크리에이티브 프리셋",
+        "feature3": "세션마다 무료 편집 1회"
+      },
+      "trails": {
+        "tagline": "다음 라인을 찾아보세요",
+        "description": "근처의 실시간 트레일 네트워크를 탐색하고 경사와 자전거 접근으로 필터링하며 좋아하는 라이드를 저장합니다.",
+        "feature1": "근처 실시간 트레일",
+        "feature2": "경사 및 접근 필터",
+        "feature3": "저장한 경로와 라이드"
+      }
+    },
+    "rights": "모든 권리 보유."
   }
 }

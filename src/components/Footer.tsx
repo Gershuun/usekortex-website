@@ -5,7 +5,7 @@ export function Footer() {
     const { t } = useTranslation();
     return (
         <footer className={styles.footer}>
-            <div>&copy; 2026 Kortex. All rights reserved.</div>
+            <div>&copy; 2026 Kortex. {t('site.rights')}</div>
             <div className={styles.footerNav}>
                 <a href="/contacts/privacy/" className={styles.footerLink}>{t('site.privacy')}</a>
                 <a href="mailto:support@usekortex.com" className={styles.footerLink}>{t('site.support')}</a>

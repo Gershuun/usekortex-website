@@ -16,7 +16,7 @@
     "contacts": "Contactos",
     "captions": "Subtítulos",
     "badge": "ecosistema Kortex",
-    "heroTitle": "Aplicaciones móviles premium",
+    "heroTitle": "Apps útiles. Un pequeño universo curioso.",
     "heroTagline": "Herramientas móviles inteligentes y privadas, diseñadas de forma nativa para iOS y Android.",
     "contactsDescription": "Un optimizador de contactos centrado en la privacidad que analiza, combina y estandariza tus contactos de forma segura y completamente en el dispositivo.",
     "captionsDescription": "Un generador de redes sociales con IA que analiza tus fotos para crear subtítulos y hashtags naturales adaptados a tu estilo.",
@@ -49,6 +49,71 @@
       "contactStandardized": "¡Contacto estandarizado correctamente!",
       "contactMerged": "¡Contactos duplicados combinados!",
       "contactFormatted": "¡Contacto convertido al formato E.164!"
-    }
+    },
+    "navExplore": "Explorar",
+    "navApps": "Todas las apps",
+    "navFuture": "Lo próximo",
+    "heroEyebrow": "4 apps. Un universo en crecimiento.",
+    "exploreCta": "Empezar a explorar",
+    "futureCta": "Ver hacia dónde vamos",
+    "heroPromise": "Hechas para resolver problemas reales sin perder la diversión.",
+    "appUniverse": "Universo de apps Kortex",
+    "appsCount": "{{count}} apps activas",
+    "play": "Jugar",
+    "explorerEyebrow": "Elige tu próxima chispa",
+    "explorerTitle": "Elige una app. Sigue tu curiosidad.",
+    "explorerSubtitle": "Cada app de Kortex tiene su propia personalidad, pero todas comparten una meta: hacer que lo útil de tu día se sienta sorprendentemente bien.",
+    "filterApps": "Filtrar apps",
+    "categories": {
+      "all": "Todas las apps",
+      "organize": "Organizar",
+      "create": "Crear",
+      "explore": "Explorar"
+    },
+    "selected": "Estás aquí",
+    "peekInside": "Echar un vistazo",
+    "followApp": "Seguir esta app",
+    "discoverMore": "Explorar la familia",
+    "toastFollow": "Te mantendremos al día sobre {{app}}.",
+    "futureEyebrow": "Diseñado para crecer",
+    "futureTitle": "Cuatro hoy. Cincuenta mañana.",
+    "futureBody": "La plataforma Kortex está diseñada como una colección viva. Las nuevas apps pueden integrarse al mismo sistema de descubrimiento sin convertir la experiencia en un directorio abarrotado.",
+    "futureBadge": "Espacio para la próxima gran idea de Kortex",
+    "status": {
+      "testing": "En pruebas",
+      "closedTest": "Prueba cerrada",
+      "inDevelopment": "En desarrollo"
+    },
+    "apps": {
+      "contacts": {
+        "tagline": "Una agenda más tranquila",
+        "description": "Encuentra duplicados, repara números desordenados y vuelve a organizar tus contactos sin enviar tu agenda fuera del dispositivo.",
+        "feature1": "Limpieza privada en el dispositivo",
+        "feature2": "Fusión inteligente de duplicados",
+        "feature3": "Copias locales instantáneas"
+      },
+      "captions": {
+        "tagline": "Tu foto encontró su voz",
+        "description": "Convierte el ambiente, los detalles y la historia de una foto en textos naturales, personales y listos para compartir.",
+        "feature1": "Escritura basada en la foto",
+        "feature2": "Adaptación de estilo y tono",
+        "feature3": "Compartir con un toque"
+      },
+      "filters": {
+        "tagline": "Elige tu magia",
+        "description": "Elige una foto y transfórmala con ediciones de IA, desde arreglos sutiles y restauración hasta perspectivas atrevidas.",
+        "feature1": "Ediciones de foto con IA",
+        "feature2": "Preajustes creativos seleccionados",
+        "feature3": "Una edición gratis por sesión"
+      },
+      "trails": {
+        "tagline": "Encuentra tu próxima ruta",
+        "description": "Explora redes de senderos cercanos en vivo, filtra rutas por pendiente y acceso en bicicleta, y guarda tus recorridos favoritos.",
+        "feature1": "Senderos cercanos en vivo",
+        "feature2": "Filtros de pendiente y acceso",
+        "feature3": "Rutas y recorridos guardados"
+      }
+    },
+    "rights": "Todos los derechos reservados."
   }
 }

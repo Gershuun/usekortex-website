@@ -16,7 +16,7 @@
     "contacts": "Contacts",
     "captions": "Captions",
     "badge": "Kortex ecosystem",
-    "heroTitle": "Premium Mobile Utility Apps",
+    "heroTitle": "Useful apps. One curious little universe.",
     "heroTagline": "Intelligent, privacy-first mobile tools tailored natively for iOS and Android.",
     "contactsDescription": "A privacy-first address book optimizer that scans, merges, and standardizes your mobile contacts safely and 100% on-device.",
     "captionsDescription": "An AI-powered social media generator that analyzes photo details to produce tailored, human-like captions and hashtags matching your unique writing voice.",
@@ -49,6 +49,71 @@
       "contactStandardized": "Contact standardized successfully!",
       "contactMerged": "Duplicate contacts merged!",
       "contactFormatted": "Contact formatted to E.164!"
-    }
+    },
+    "navExplore": "Explore",
+    "navApps": "All apps",
+    "navFuture": "What's next",
+    "heroEyebrow": "4 apps. One growing universe.",
+    "exploreCta": "Start exploring",
+    "futureCta": "See where we're going",
+    "heroPromise": "Made to solve real problems without losing the fun.",
+    "appUniverse": "Kortex app universe",
+    "appsCount": "{{count}} apps live",
+    "play": "Play",
+    "explorerEyebrow": "Choose your next spark",
+    "explorerTitle": "Pick an app. Follow your curiosity.",
+    "explorerSubtitle": "Every Kortex app has its own personality, but they all share one goal: make the useful parts of your day feel surprisingly good.",
+    "filterApps": "Filter apps",
+    "categories": {
+      "all": "All apps",
+      "organize": "Organize",
+      "create": "Create",
+      "explore": "Explore"
+    },
+    "selected": "You're here",
+    "peekInside": "Peek inside",
+    "followApp": "Follow this app",
+    "discoverMore": "Explore the family",
+    "toastFollow": "We'll keep you posted about {{app}}.",
+    "futureEyebrow": "Built to keep growing",
+    "futureTitle": "Four today. Fifty tomorrow.",
+    "futureBody": "The Kortex platform is designed as a living collection. New apps can plug into the same playful discovery system without turning the experience into a crowded app directory.",
+    "futureBadge": "Room for the next great Kortex idea",
+    "status": {
+      "testing": "In testing",
+      "closedTest": "Closed testing",
+      "inDevelopment": "In development"
+    },
+    "apps": {
+      "contacts": {
+        "tagline": "A calmer address book",
+        "description": "Find duplicates, repair messy numbers, and bring order back to your contacts without sending your address book away.",
+        "feature1": "Private on-device cleanup",
+        "feature2": "Smart duplicate merging",
+        "feature3": "Instant local backups"
+      },
+      "captions": {
+        "tagline": "Your photo found its voice",
+        "description": "Turn the mood, details, and story inside a photo into captions that feel natural, personal, and ready to share.",
+        "feature1": "Photo-aware writing",
+        "feature2": "Style and tone matching",
+        "feature3": "One-tap sharing"
+      },
+      "filters": {
+        "tagline": "Pick your magic",
+        "description": "Choose a photo and transform it with playful AI edits, from subtle fixes and restoration to bold new points of view.",
+        "feature1": "AI-powered photo edits",
+        "feature2": "Curated creative presets",
+        "feature3": "One free edit each session"
+      },
+      "trails": {
+        "tagline": "Find your next line",
+        "description": "Explore live nearby trail networks, filter routes by slope and bike access, and keep your favorite rides close.",
+        "feature1": "Live nearby trails",
+        "feature2": "Slope and access filters",
+        "feature3": "Saved routes and rides"
+      }
+    },
+    "rights": "All rights reserved."
   }
 }

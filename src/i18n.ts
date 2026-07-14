@@ -13,6 +13,10 @@ import ja from './locales/ja.json';
 import ko from './locales/ko.json';
 
 const language = localStorage.getItem('kortex-language') || navigator.language.split('-')[0] || 'en';
+const supportedLanguage = ['en', 'tl', 'es', 'fr', 'pt', 'de', 'ar', 'hi', 'zh', 'ja', 'ko'].includes(language) ? language : 'en';
+
+document.documentElement.lang = supportedLanguage;
+document.documentElement.dir = supportedLanguage === 'ar' ? 'rtl' : 'ltr';
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -20,7 +24,7 @@ i18n.use(initReactI18next).init({
     pt: { translation: pt }, de: { translation: de }, ar: { translation: ar }, hi: { translation: hi },
     zh: { translation: zh }, ja: { translation: ja }, ko: { translation: ko },
   },
-  lng: ['en', 'tl', 'es', 'fr', 'pt', 'de', 'ar', 'hi', 'zh', 'ja', 'ko'].includes(language) ? language : 'en',
+  lng: supportedLanguage,
   fallbackLng: 'en',
   interpolation: { escapeValue: false },
 });

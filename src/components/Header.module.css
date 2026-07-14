@@ -37,3 +37,8 @@
 .navLink:hover {
     color: var(--text-primary);
 }
+
+@media (max-width: 760px) {
+  .header { padding: 1.5rem 1rem; }
+  .navLinks { display: none; }
+}

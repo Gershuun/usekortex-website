@@ -16,7 +16,7 @@
     "contacts": "連絡先",
     "captions": "キャプション",
     "badge": "Kortex エコシステム",
-    "heroTitle": "プレミアムモバイルユーティリティアプリ",
+    "heroTitle": "役立つアプリ。好奇心あふれる小さな世界。",
     "heroTagline": "iOSとAndroid向けにネイティブ設計された、インテリジェントでプライバシー重視のモバイルツール。",
     "contactsDescription": "端末上で安全に連絡先をスキャン、統合、標準化するプライバシー重視のアドレス帳最適化ツールです。",
     "captionsDescription": "写真を分析し、あなたの文体に合った自然なキャプションとハッシュタグを作るAIソーシャルメディア生成ツールです。",
@@ -49,6 +49,71 @@
       "contactStandardized": "連絡先を標準化しました！",
       "contactMerged": "重複した連絡先を統合しました！",
       "contactFormatted": "連絡先をE.164形式にしました！"
-    }
+    },
+    "navExplore": "探索する",
+    "navApps": "すべてのアプリ",
+    "navFuture": "これから",
+    "heroEyebrow": "4つのアプリ。成長するひとつの世界。",
+    "exploreCta": "探索を始める",
+    "futureCta": "これからを見る",
+    "heroPromise": "楽しさを失わず、本当の困りごとを解決します。",
+    "appUniverse": "Kortex アプリの世界",
+    "appsCount": "{{count}}個のアプリが公開中",
+    "play": "遊ぶ",
+    "explorerEyebrow": "次のひらめきを選ぼう",
+    "explorerTitle": "アプリを選んで、好奇心のままに。",
+    "explorerSubtitle": "Kortexの各アプリには独自の個性があります。でも目標は同じ。毎日の便利な瞬間を、驚くほど心地よくします。",
+    "filterApps": "アプリを絞り込む",
+    "categories": {
+      "all": "すべてのアプリ",
+      "organize": "整理",
+      "create": "つくる",
+      "explore": "探索"
+    },
+    "selected": "ここを表示中",
+    "peekInside": "中をのぞく",
+    "followApp": "このアプリをフォロー",
+    "discoverMore": "仲間を探索",
+    "toastFollow": "{{app}}の最新情報をお届けします。",
+    "futureEyebrow": "成長し続ける設計",
+    "futureTitle": "今日は4つ。明日は50。",
+    "futureBody": "Kortexプラットフォームは成長するコレクションです。新しいアプリも、混雑した一覧にせず、同じ楽しい発見体験へ加えられます。",
+    "futureBadge": "次の素晴らしいKortexアイデアのための場所",
+    "status": {
+      "testing": "テスト中",
+      "closedTest": "クローズドテスト",
+      "inDevelopment": "開発中"
+    },
+    "apps": {
+      "contacts": {
+        "tagline": "落ち着いたアドレス帳",
+        "description": "重複を見つけ、乱れた番号を直し、アドレス帳を外部へ送らずに連絡先を整理します。",
+        "feature1": "端末内でのプライベート整理",
+        "feature2": "スマートな重複統合",
+        "feature3": "即時ローカルバックアップ"
+      },
+      "captions": {
+        "tagline": "写真に言葉が見つかる",
+        "description": "写真の雰囲気、細部、物語を、自然で自分らしく共有しやすいキャプションに変えます。",
+        "feature1": "写真を理解する文章生成",
+        "feature2": "スタイルとトーンの一致",
+        "feature3": "ワンタップ共有"
+      },
+      "filters": {
+        "tagline": "魔法を選ぼう",
+        "description": "写真を選び、AIで変身。繊細な修正や復元から、大胆な新しい視点まで楽しめます。",
+        "feature1": "AI写真編集",
+        "feature2": "厳選クリエイティブプリセット",
+        "feature3": "セッションごとに1回無料"
+      },
+      "trails": {
+        "tagline": "次のラインを見つけよう",
+        "description": "近くのライブトレイル網を探索し、傾斜や自転車アクセスで絞り込み、お気に入りのライドを保存します。",
+        "feature1": "近くのライブトレイル",
+        "feature2": "傾斜とアクセスのフィルター",
+        "feature3": "保存したルートとライド"
+      }
+    },
+    "rights": "無断転載を禁じます。"
   }
 }

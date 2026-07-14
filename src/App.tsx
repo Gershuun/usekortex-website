@@ -1,12 +1,10 @@
 import { Layout } from './components/Layout';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
-import { ContactsCard } from './components/ContactsCard';
-import { CaptionsCard } from './components/CaptionsCard';
+import { AppExplorer } from './components/AppExplorer';
 import { Footer } from './components/Footer';
 import { ToastProvider } from './components/ToastProvider';
 import styles from './App.module.css';
-import appCardStyles from './components/AppCard.module.css';
 
 function App() {
   return (
@@ -15,10 +13,7 @@ function App() {
         <Header />
         <main className={styles.main}>
           <Hero />
-          <div className={appCardStyles.grid}>
-            <ContactsCard />
-            <CaptionsCard />
-          </div>
+          <AppExplorer />
         </main>
         <Footer />
       </Layout>

@@ -16,7 +16,7 @@
     "contacts": "Mga Contact",
     "captions": "Mga Caption",
     "badge": "Kortex ecosystem",
-    "heroTitle": "Mga premium na mobile utility app",
+    "heroTitle": "Kapaki-pakinabang na apps. Isang masayang munting uniberso.",
     "heroTagline": "Matalino at privacy-first na mobile tools na likas na ginawa para sa iOS at Android.",
     "contactsDescription": "Privacy-first na optimizer ng address book na ligtas na nag-scan, nagme-merge, at nagse-standardize ng iyong contacts sa device.",
     "captionsDescription": "AI social media generator na nagsusuri ng mga larawan para gumawa ng natural na captions at hashtags ayon sa iyong estilo.",
@@ -49,6 +49,71 @@
       "contactStandardized": "Matagumpay na na-standardize ang contact!",
       "contactMerged": "Pinagsama ang dobleng contact!",
       "contactFormatted": "Na-format ang contact sa E.164!"
-    }
+    },
+    "navExplore": "Tuklasin",
+    "navApps": "Lahat ng app",
+    "navFuture": "Susunod",
+    "heroEyebrow": "4 na app. Isang lumalaking uniberso.",
+    "exploreCta": "Simulang mag-explore",
+    "futureCta": "Tingnan ang susunod",
+    "heroPromise": "Ginawa para lutasin ang totoong problema nang hindi nawawala ang saya.",
+    "appUniverse": "Uniberso ng Kortex apps",
+    "appsCount": "{{count}} app na aktibo",
+    "play": "Maglaro",
+    "explorerEyebrow": "Piliin ang susunod mong spark",
+    "explorerTitle": "Pumili ng app. Sundan ang iyong curiosity.",
+    "explorerSubtitle": "May sariling personalidad ang bawat Kortex app, pero iisa ang layunin: gawing mas masaya ang kapaki-pakinabang na bahagi ng araw mo.",
+    "filterApps": "I-filter ang apps",
+    "categories": {
+      "all": "Lahat ng app",
+      "organize": "Ayusin",
+      "create": "Lumikha",
+      "explore": "Tuklasin"
+    },
+    "selected": "Narito ka",
+    "peekInside": "Silipin",
+    "followApp": "Subaybayan ang app",
+    "discoverMore": "Tuklasin ang pamilya",
+    "toastFollow": "Ibabalita namin ang tungkol sa {{app}}.",
+    "futureEyebrow": "Ginawang patuloy na lumago",
+    "futureTitle": "Apat ngayon. Limampu bukas.",
+    "futureBody": "Dinisenyo ang Kortex platform bilang buhay na koleksyon. Maaaring idagdag ang mga bagong app sa parehong masayang sistema ng pagtuklas nang hindi nagiging magulong direktoryo.",
+    "futureBadge": "May puwang para sa susunod na mahusay na ideya ng Kortex",
+    "status": {
+      "testing": "Sinusubukan",
+      "closedTest": "Saradong pagsubok",
+      "inDevelopment": "Ginagawa pa"
+    },
+    "apps": {
+      "contacts": {
+        "tagline": "Mas maayos na address book",
+        "description": "Hanapin ang duplicate, ayusin ang magulong numero, at ibalik ang ayos ng contacts nang hindi ipinapadala ang address book mo.",
+        "feature1": "Pribadong paglilinis sa device",
+        "feature2": "Matalinong pag-merge ng duplicate",
+        "feature3": "Agarang lokal na backup"
+      },
+      "captions": {
+        "tagline": "Nahanap ng larawan mo ang boses nito",
+        "description": "Gawing natural, personal, at handang ibahagi na caption ang mood, detalye, at kuwento ng larawan.",
+        "feature1": "Pagsulat na nakabatay sa larawan",
+        "feature2": "Pagtutugma ng estilo at tono",
+        "feature3": "Isang-tap na pagbabahagi"
+      },
+      "filters": {
+        "tagline": "Piliin ang iyong mahika",
+        "description": "Pumili ng larawan at baguhin ito gamit ang AI edits, mula sa simpleng pag-aayos at restoration hanggang sa bagong pananaw.",
+        "feature1": "AI-powered na photo edits",
+        "feature2": "Piniling creative presets",
+        "feature3": "Isang libreng edit bawat session"
+      },
+      "trails": {
+        "tagline": "Hanapin ang susunod mong linya",
+        "description": "Tuklasin ang live na trail network sa malapit, mag-filter ayon sa slope at bike access, at itabi ang paboritong rides.",
+        "feature1": "Live na trails sa malapit",
+        "feature2": "Slope at access filters",
+        "feature3": "Naka-save na ruta at rides"
+      }
+    },
+    "rights": "Lahat ng karapatan ay nakalaan."
   }
 }

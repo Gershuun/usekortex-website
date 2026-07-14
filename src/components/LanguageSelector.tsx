@@ -59,6 +59,7 @@ export function LanguageSelector() {
       await i18n.changeLanguage(code);
       localStorage.setItem('kortex-language', code);
       document.documentElement.lang = code;
+      document.documentElement.dir = code === 'ar' ? 'rtl' : 'ltr';
       triggerRef.current?.focus();
     } catch (error) {
       console.error(`Unable to switch Kortex language to ${code}`, error);

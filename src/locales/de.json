@@ -16,7 +16,7 @@
     "contacts": "Kontakte",
     "captions": "Untertitel",
     "badge": "Kortex-Ökosystem",
-    "heroTitle": "Premium-Apps für Mobilgeräte",
+    "heroTitle": "Nützliche Apps. Ein kleines neugieriges Universum.",
     "heroTagline": "Intelligente, datenschutzfreundliche mobile Tools, nativ für iOS und Android entwickelt.",
     "contactsDescription": "Ein datenschutzorientierter Adressbuch-Optimierer, der deine mobilen Kontakte sicher direkt auf dem Gerät analysiert, zusammenführt und standardisiert.",
     "captionsDescription": "Ein KI-Generator für soziale Medien, der Fotos analysiert und natürliche Untertitel und Hashtags passend zu deinem Schreibstil erstellt.",
@@ -49,6 +49,71 @@
       "contactStandardized": "Kontakt erfolgreich standardisiert!",
       "contactMerged": "Doppelte Kontakte zusammengeführt!",
       "contactFormatted": "Kontakt in E.164 formatiert!"
-    }
+    },
+    "navExplore": "Entdecken",
+    "navApps": "Alle Apps",
+    "navFuture": "Was kommt",
+    "heroEyebrow": "4 Apps. Ein wachsendes Universum.",
+    "exploreCta": "Jetzt entdecken",
+    "futureCta": "Sehen, wohin es geht",
+    "heroPromise": "Für echte Probleme gemacht, ohne den Spaß zu verlieren.",
+    "appUniverse": "Kortex App-Universum",
+    "appsCount": "{{count}} Apps aktiv",
+    "play": "Spielen",
+    "explorerEyebrow": "Wähle deinen nächsten Funken",
+    "explorerTitle": "Wähle eine App. Folge deiner Neugier.",
+    "explorerSubtitle": "Jede Kortex-App hat ihre eigene Persönlichkeit, aber alle haben ein Ziel: Die nützlichen Momente deines Tages überraschend angenehm zu machen.",
+    "filterApps": "Apps filtern",
+    "categories": {
+      "all": "Alle Apps",
+      "organize": "Organisieren",
+      "create": "Gestalten",
+      "explore": "Entdecken"
+    },
+    "selected": "Du bist hier",
+    "peekInside": "Hineinschauen",
+    "followApp": "Dieser App folgen",
+    "discoverMore": "Die Familie entdecken",
+    "toastFollow": "Wir halten dich über {{app}} auf dem Laufenden.",
+    "futureEyebrow": "Zum Wachsen gebaut",
+    "futureTitle": "Heute vier. Morgen fünfzig.",
+    "futureBody": "Die Kortex-Plattform ist als lebendige Sammlung gedacht. Neue Apps fügen sich in dasselbe spielerische Entdeckungssystem ein, ohne alles in ein überfülltes Verzeichnis zu verwandeln.",
+    "futureBadge": "Platz für die nächste große Kortex-Idee",
+    "status": {
+      "testing": "Im Test",
+      "closedTest": "Geschlossener Test",
+      "inDevelopment": "In Entwicklung"
+    },
+    "apps": {
+      "contacts": {
+        "tagline": "Ein ruhigeres Adressbuch",
+        "description": "Finde Duplikate, korrigiere unordentliche Nummern und bringe Ordnung in deine Kontakte, ohne dein Adressbuch zu versenden.",
+        "feature1": "Private Bereinigung auf dem Gerät",
+        "feature2": "Intelligente Duplikat-Zusammenführung",
+        "feature3": "Sofortige lokale Backups"
+      },
+      "captions": {
+        "tagline": "Dein Foto hat seine Stimme gefunden",
+        "description": "Verwandle Stimmung, Details und Geschichte eines Fotos in natürliche, persönliche und teilbare Texte.",
+        "feature1": "Fotobasiertes Schreiben",
+        "feature2": "Stil- und Tonanpassung",
+        "feature3": "Teilen mit einem Tipp"
+      },
+      "filters": {
+        "tagline": "Wähle deine Magie",
+        "description": "Wähle ein Foto und verwandle es mit KI-Bearbeitungen – von kleinen Korrekturen bis zu Restaurierung und neuen Perspektiven.",
+        "feature1": "KI-gestützte Fotobearbeitung",
+        "feature2": "Kuratierte Kreativ-Vorlagen",
+        "feature3": "Eine kostenlose Bearbeitung pro Sitzung"
+      },
+      "trails": {
+        "tagline": "Finde deine nächste Linie",
+        "description": "Entdecke Live-Trailnetze in deiner Nähe, filtere nach Steigung und Fahrradzugang und speichere deine Lieblingsfahrten.",
+        "feature1": "Live-Trails in der Nähe",
+        "feature2": "Steigungs- und Zugangsfilter",
+        "feature3": "Gespeicherte Routen und Fahrten"
+      }
+    },
+    "rights": "Alle Rechte vorbehalten."
   }
 }
