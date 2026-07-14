@@ -1,9 +1,14 @@
 import type { CSSProperties } from 'react';
 import { useTranslation } from 'react-i18next';
 import { kortexApps } from '../data/apps';
+import type { KortexApp } from '../data/apps';
 import styles from './Hero.module.css';
 
-export function Hero() {
+interface HeroProps {
+  onSelectApp: (id: KortexApp['id']) => void;
+}
+
+export function Hero({ onSelectApp }: HeroProps) {
   const { t } = useTranslation();
 
   return (
@@ -30,6 +35,11 @@ export function Hero() {
             className={styles.orbitApp}
             style={{ '--index': index, '--accent': app.accent, '--accent-rgb': app.accentRgb } as CSSProperties}
             aria-label={app.name}
+            onClick={(event) => {
+              event.preventDefault();
+              onSelectApp(app.id);
+              document.getElementById('apps')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }}
           >
             <img src={app.icon} alt="" />
             <span>{app.name.replace('Kortex ', '')}</span>

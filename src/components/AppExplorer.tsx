@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { kortexApps, type AppCategory, type KortexApp } from '../data/apps';
 import { useToast } from './useToast';
@@ -60,21 +60,29 @@ function AppPreview({ app }: { app: KortexApp }) {
   );
 }
 
-export function AppExplorer() {
+interface AppExplorerProps {
+  activeId: KortexApp['id'];
+  onSelectApp: (id: KortexApp['id']) => void;
+}
+
+export function AppExplorer({ activeId, onSelectApp }: AppExplorerProps) {
   const { t } = useTranslation();
   const { showToast } = useToast();
   const [category, setCategory] = useState<CategoryFilter>('all');
-  const [activeId, setActiveId] = useState<KortexApp['id']>('filters');
   const activeApp = kortexApps.find((app) => app.id === activeId) ?? kortexApps[0];
   const visibleApps = useMemo(
     () => category === 'all' ? kortexApps : kortexApps.filter((app) => app.category === category),
     [category],
   );
 
+  useEffect(() => {
+    if (category !== 'all' && activeApp.category !== category) setCategory('all');
+  }, [activeApp.category, category]);
+
   const selectCategory = (nextCategory: CategoryFilter) => {
     setCategory(nextCategory);
     const firstMatch = nextCategory === 'all' ? kortexApps[0] : kortexApps.find((app) => app.category === nextCategory);
-    if (firstMatch) setActiveId(firstMatch.id);
+    if (firstMatch) onSelectApp(firstMatch.id);
   };
 
   return (
@@ -103,7 +111,7 @@ export function AppExplorer() {
               type="button"
               className={`${styles.appCard} ${activeId === app.id ? styles.appCardActive : ''}`}
               style={{ '--accent': app.accent, '--accent-rgb': app.accentRgb, '--delay': `${index * 70}ms` } as React.CSSProperties}
-              onClick={() => setActiveId(app.id)}
+              onClick={() => onSelectApp(app.id)}
               aria-pressed={activeId === app.id}
             >
               <span className={styles.cardGlow} />
