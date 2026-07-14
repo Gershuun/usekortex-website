@@ -53,7 +53,7 @@ export const kortexApps: readonly KortexApp[] = [
   {
     id: 'trails',
     name: 'Kortex Trails',
-    icon: '/apps/trails.png?v=20260714',
+    icon: '/apps/trails.png?v=20260714b',
     category: 'explore',
     accent: '#63e6b1',
     accentRgb: '99, 230, 177',
