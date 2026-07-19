@@ -4,8 +4,17 @@ import { useTranslation } from 'react-i18next';
 import styles from './LanguageSelector.module.css';
 
 const languages = [
-  ['en', 'English'], ['es', 'Espa\u00f1ol'], ['fr', 'Fran\u00e7ais'], ['pt', 'Portugu\u00eas'], ['de', 'Deutsch'],
-  ['tl', 'Tagalog'], ['ar', '\u0627\u0644\u0639\u0631\u0628\u064a\u0629'], ['hi', '\u0939\u093f\u0928\u094d\u0926\u0940'], ['zh', '\u4e2d\u6587'], ['ja', '\u65e5\u672c\u8a9e'], ['ko', '\ud55c\uad6d\uc5b4'],
+  ['en', 'English'],
+  ['es', 'Espa\u00f1ol'],
+  ['pt', 'Portugu\u00eas'],
+  ['fr', 'Fran\u00e7ais'],
+  ['de', 'Deutsch'],
+  ['ar', '\u0627\u0644\u0639\u0631\u0628\u064a\u0629'],
+  ['hi', '\u0939\u093f\u0928\u094d\u0926\u0940'],
+  ['tl', 'Tagalog'],
+  ['ja', '\u65e5\u672c\u8a9e'],
+  ['ko', '\ud55c\uad6d\uc5b4'],
+  ['zh', '\u4e2d\u6587'],
 ] as const;
 
 export function LanguageSelector() {
