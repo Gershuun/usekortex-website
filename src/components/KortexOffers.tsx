@@ -96,11 +96,8 @@ export function KortexOffers() {
         setCheckoutError(t('site.offers.checkoutUnavailable'));
         return;
       }
-      const response = await fetch(`/checkout?products=${encodeURIComponent(productId)}`, { redirect: 'follow' });
-      if (response.redirected) {
-        window.location.assign(response.url);
-        return;
-      }
+      window.location.assign(`/checkout?products=${encodeURIComponent(productId)}`);
+      return;
       const result = await response.json() as { error?: string };
       setCheckoutError(result.error || t('site.offers.checkoutUnavailable'));
     } catch {
