@@ -9,6 +9,10 @@ export interface PolarEnv {
 
 let cachedPolar: Polar | null = null;
 
+function normalizeAccessToken(value: string | undefined): string {
+  return (value || '').replace(/^\uFEFF/, '').trim();
+}
+
 function normalizeServer(value: string | undefined): 'production' | 'sandbox' {
   const normalized = (value || '')
     .trim()
@@ -35,12 +39,13 @@ function normalizeServer(value: string | undefined): 'production' | 'sandbox' {
 
 export function getPolar(env: PolarEnv): Polar {
   if (!cachedPolar) {
-    if (!env.POLAR_ACCESS_TOKEN?.trim()) {
+    const accessToken = normalizeAccessToken(env.POLAR_ACCESS_TOKEN);
+    if (!accessToken) {
       throw new Error('POLAR_ACCESS_TOKEN is missing.');
     }
 
     cachedPolar = new Polar({
-      accessToken: env.POLAR_ACCESS_TOKEN,
+      accessToken,
       server: normalizeServer(env.POLAR_SERVER),
     });
   }
