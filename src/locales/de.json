@@ -68,7 +68,9 @@
       "all": "Alle Apps",
       "organize": "Organisieren",
       "create": "Gestalten",
-      "explore": "Entdecken"
+      "explore": "Entdecken",
+      "work": "Work",
+      "games": "Games"
     },
     "selected": "Du bist hier",
     "peekInside": "Hineinschauen",
@@ -112,8 +114,215 @@
         "feature1": "Live-Trails in der Nähe",
         "feature2": "Steigungs- und Zugangsfilter",
         "feature3": "Gespeicherte Routen und Fahrten"
+      },
+      "routes": {
+        "tagline": "Rehearse every stop",
+        "description": "Import an ordered stop list, review it privately, rehearse the route offline, and open a safe external navigation handoff when parked.",
+        "feature1": "Private stop imports",
+        "feature2": "Offline route rehearsal",
+        "feature3": "Parked navigation handoff"
+      },
+      "haul": {
+        "tagline": "Know what the offer pays",
+        "description": "Compare trucking offers, model realistic weeks, and see effective pay across driving, duty, commute, and nights away.",
+        "feature1": "Scenario pay modeling",
+        "feature2": "Offer comparisons",
+        "feature3": "Recruiter question checklist"
+      },
+      "clock": {
+        "tagline": "Understand your clock window",
+        "description": "Model workplace attendance rules, calculate safe clock windows, and track points without handing your schedule to an employer.",
+        "feature1": "Policy-driven windows",
+        "feature2": "Attendance point ledger",
+        "feature3": "Offline evidence records"
+      },
+      "route-rush": {
+        "tagline": "Plan it. Run it. Beat it.",
+        "description": "Build safe miniature bus routes, launch deterministic simulations, and master thirty handcrafted puzzle levels.",
+        "feature1": "30 solvable puzzles",
+        "feature2": "Safety-first scoring",
+        "feature3": "Daily seeded challenge"
+      },
+      "shiftpocalypse": {
+        "tagline": "Survive the shift",
+        "description": "Assign a chaotic crew, resolve workplace disasters, and keep staffing, morale, patience, and revenue alive.",
+        "feature1": "40 workplace events",
+        "feature2": "24 distinct employees",
+        "feature3": "Fast deterministic runs"
+      },
+      "backstage-ops": {
+        "tagline": "Keep the park moving",
+        "description": "Dispatch fictional park transit, balance crowds and capacity, and recover from weather, maintenance, and call-outs.",
+        "feature1": "Aggregate crowd simulation",
+        "feature2": "Routes, vehicles, and staff",
+        "feature3": "Opening-to-closing operations"
+      },
+      "bowl": {
+        "tagline": "Zehn Frames. Eine leuchtende Bahn.",
+        "description": "Spiele ein lokales Neon-Bowling-Spiel mit offizieller Wertung, haptischen Würfen, fortsetzbaren Spielen und einer Bestleistung, die auf deinem Gerät bleibt.",
+        "feature1": "Regelkonforme Zehn-Frame-Wertung",
+        "feature2": "Steuerung für Linie, Stärke und Spin",
+        "feature3": "Lokale Punkte und Spielfortsetzung"
+      },
+      "numbers": {
+        "tagline": "Passende Zahlen finden. Reihe leeren.",
+        "description": "Kombiniere gleiche Zahlen oder bilde Summen von zehn in freier Sichtlinie, löse Reihen auf und baue schlaue Serien in einem lokalen Zahlenrätsel auf.",
+        "feature1": "Gleiche Zahlen und Summe-zehn-Paare",
+        "feature2": "Sichtlinien-Rätselregeln",
+        "feature3": "Lokaler Fortschritt und Hinweise"
+      },
+      "pulse-stack": {
+        "tagline": "Staple den Beat",
+        "description": "Time jeden Zug, behalte deine drei Leben und halte Schritt, während der Puls in schnellen lokalen Arcade-Runden beschleunigt.",
+        "feature1": "Zunehmende Timing-Herausforderung",
+        "feature2": "Arcade-Runden mit drei Leben",
+        "feature3": "Lokale Bestleistungen"
+      },
+      "orbit-snap": {
+        "tagline": "Erreiche den perfekten Orbit",
+        "description": "Lies den Rhythmus, klicke im richtigen Moment und strebe nach noch höherer Präzision, während jeder Orbit schneller wird.",
+        "feature1": "Präzises Timing-Spiel",
+        "feature2": "Adaptive Geschwindigkeit",
+        "feature3": "Lokale Bestleistungen"
+      },
+      "ten-dash": {
+        "tagline": "Finde zehn, bevor die Zeit abläuft",
+        "description": "Finde Zahlenpaare, die zehn ergeben, meistere immer schwerere Runden und nutze einen schlauen Hinweis, wenn es unübersichtlich wird.",
+        "feature1": "Schnelle Summen-Runden",
+        "feature2": "Zunehmende Schwierigkeit",
+        "feature3": "Ein optionaler Paar-Hinweis"
+      },
+      "echo-grid": {
+        "tagline": "Merke dir das Leuchten",
+        "description": "Beobachte ein Muster über das Raster, wiederhole es aus dem Gedächtnis und sieh, wie weit dich deine Konzentration bringt.",
+        "feature1": "Anspruchsvollere Gedächtnismuster",
+        "feature2": "Optionale Wiederholung",
+        "feature3": "Lokale Bestleistungen"
+      },
+      "signal-switch": {
+        "tagline": "Spur wechseln. Aufmerksam bleiben.",
+        "description": "Reagiere auf sich ändernde Signale, wechsle auf die sichere Spur und überlebe eine sich beschleunigende lokale Arcade-Runde.",
+        "feature1": "Spurwechsel-Reaktionsspiel",
+        "feature2": "Steigende Geschwindigkeit",
+        "feature3": "Optionale Wiederbelebung pro Runde"
+      },
+      "words": {
+        "tagline": "Bilde das Wort. Besiege das Spielfeld.",
+        "description": "Verbinde Buchstaben, entdecke befriedigende Wortketten und schärfe deinen Wortschatz in schnellen, lokal ausgerichteten Rätselrunden.",
+        "feature1": "Schnelle Wortbildungsrunden",
+        "feature2": "Anspruchsvoller werdende Buchstabenrätsel",
+        "feature3": "Lokaler Fortschritt und Punktestände"
+      },
+      "critter-sort": {
+        "tagline": "Sortiere das Rätsel an seinen Platz",
+        "description": "Enthülle verborgene Kreaturen, plane kluge Rettungszüge und löse hochformatige Sortierrätsel in acht spielerischen Welten.",
+        "feature1": "200 deterministische Level",
+        "feature2": "Enthüllungsfokussierte Sortierregeln",
+        "feature3": "Tägliche Rätsel und gemütliche Freischaltungen"
+      },
+      "perfect-produce": {
+        "tagline": "Wisse, was zum Gericht passt",
+        "description": "Vergleiche sichtbare Merkmale von Frischeprodukten mit deiner geplanten Verwendung und triff eine klarere Kaufentscheidung – mit getrennter Erfassung von Hinweisen, Sicherheit und Abdeckung.",
+        "feature1": "Vier Scanmodi",
+        "feature2": "Neun Produktprofile",
+        "feature3": "Lokaler Scan-Verlauf"
+      },
+      "capybara-cafe": {
+        "tagline": "Ein gemütliches Café mit einer Capybara-Crew",
+        "description": "Halte ein fröhliches Café am Laufen, bediene Gäste und lasse eine kleine, herzerwärmende Welt für entspannte, spielerische Momente wachsen.",
+        "feature1": "Gemütliche Café-Verwaltung",
+        "feature2": "Charmante Capybara-Besetzung",
+        "feature3": "Lokaler Spielfortschritt"
       }
     },
-    "rights": "Alle Rechte vorbehalten."
+    "rights": "Alle Rechte vorbehalten.",
+    "followClose": "Schließen",
+    "followSuccess": "Du folgst jetzt dieser App",
+    "followSuccessBody": "Wir senden dir eine E-Mail, wenn {{app}} wichtige Neuigkeiten hat.",
+    "followDone": "Fertig",
+    "followTitle": "Dieser App folgen",
+    "followBody": "Erhalte gelegentliche Produktneuigkeiten, ohne Spam.",
+    "followEmailLabel": "E-Mail-Adresse",
+    "followEmailPlaceholder": "du@beispiel.de",
+    "followError": "Etwas ist schiefgegangen. Bitte erneut versuchen.",
+    "followSending": "Wird abonniert...",
+    "followSubmit": "Folgen",
+    "followPrivacy": "Wir verwenden deine E-Mail nur für Neuigkeiten zu dieser App.",
+    "terms": "Nutzungsbedingungen",
+    "primaryNavigation": "Hauptnavigation",
+    "navLibrary": "Apps & Spiele",
+    "navTools": "Browser-Tools",
+    "libraryEyebrow": "{{apps}} Apps und Spiele. {{tools}} Browser-Tools.",
+    "libraryHeroTagline": "Mobile Nützlinge, unterhaltsame Spiele und private Browser-Tools – entwickelt, um alltägliche Aufgaben einfacher zu machen.",
+    "browseToolsCta": "Browser-Tool nutzen",
+    "libraryCountShort": "{{count}} Produkte",
+    "libraryInstantTools": "Sofort-Tools",
+    "newRelease": "Neu",
+    "products": "Produkte",
+    "libraryFutureTitle": "{{apps}} Apps. {{tools}} Browser-Tools. Und es werden immer mehr.",
+    "libraryFutureBody": "Kortex ist jetzt eine echte Bibliothek: Mobile Nützlinge, lokale Spiele, Arbeitshilfen und installierbare Browser-Tools, die alle ein gemeinsames, spielerisches und datenschutzfreundliches Zuhause teilen.",
+    "tools": {
+      "eyebrow": "Neun Tools, die du heute nutzen kannst",
+      "title": "Sofort nützlich. Von Grund auf privat.",
+      "subtitle": "Installiere ein spezialisiertes Kortex-Tool direkt aus deinem Browser, nutze es offline und behalte deine Daten auf dem Gerät, dem du bereits vertraust.",
+      "promiseInstall": "Direkt aus dem Browser installierbar",
+      "promiseOffline": "Funktioniert nach dem ersten Aufruf offline",
+      "promisePrivate": "Lokale Datenspeicherung",
+      "promiseAccount": "Kein Konto erforderlich",
+      "open": "Kostenloses Tool öffnen",
+      "evidenceReady": "Evidence Pack bereit"
+    },
+    "offers": {
+      "eyebrow": "Zahle für das Ergebnis, nicht für die Grundlagen",
+      "title": "Kostenlose Tools. Leistungsstarke Upgrades, wenn du sie brauchst.",
+      "subtitle": "Die Grundfunktionen bleiben auch ohne Konto nutzbar. Kaufe einmalig ein professionelles Nachweisergebnis oder schalte das komplette Kortex-Web-Toolkit frei.",
+      "evidenceLabel": "Kortex Evidence Pack",
+      "evidenceTitle": "Mache aus einem lokalen Eintrag ein professionelles Paket",
+      "evidenceBody": "Für Nutzer von Deposit, Proof und Return, die eine saubere Dokumentation zum Drucken, Speichern oder Teilen benötigen.",
+      "evidenceFeature1": "Strukturierter Verlauf von Vorfällen oder Zuständen",
+      "evidenceFeature2": "Foto- und Dokumenteninventar",
+      "evidenceFeature3": "Druckfertiger, professioneller Bericht",
+      "oneTime": "einmalig",
+      "getEvidence": "Evidence Pack holen",
+      "bestValue": "Bester Wert",
+      "plusLabel": "Kortex Plus",
+      "plusTitle": "Ein Upgrade für alle Web-Tools",
+      "plusBody": "Entwickelt für zukünftige verschlüsselte Backups, Überwachung, Premium-Exporte und Zugriff auf die gesamte Kortex-Web-Familie.",
+      "plusFeature1": "Evidence Pack enthalten",
+      "plusFeature2": "Alle neun Web-Tools abgedeckt",
+      "plusFeature3": "Zukünftige Plus-Upgrades enthalten, solange aktiv",
+      "perYear": "pro Jahr",
+      "chooseYearly": "Jährlich wählen",
+      "chooseMonthly": "4,99 $ monatlich",
+      "checkoutUnavailable": "Sicherer Bezahlvorgang ist noch nicht verfügbar.",
+      "alreadyPurchased": "Bereits gekauft?",
+      "activateTitle": "Diesen Browser aktivieren",
+      "activateBody": "Gib den Lizenzschlüssel von deiner Quittung ein. Dein Schlüssel wird nur in diesem Browser gespeichert und sicher beim Lizenzanbieter überprüft.",
+      "activatedTitle": "Kortex-Upgrade aktiv",
+      "activatedBody": "Dieser Browser kann die in deinem Kauf enthaltenen Premium-Funktionen der Kortex-Web-Tools nutzen.",
+      "licenseLabel": "Lizenzschlüssel",
+      "activate": "Aktivieren",
+      "activating": "Wird überprüft...",
+      "licenseActive": "Dein Kortex-Upgrade ist auf diesem Browser aktiv.",
+      "licenseInvalid": "Diese Lizenz konnte nicht verifiziert werden."
+    },
+    "preview": {
+      "local": "Lokal",
+      "merge": "Zusammenführen",
+      "fix": "Reparieren",
+      "generate": "Generieren",
+      "before": "Vorher",
+      "after": "Nachher",
+      "filter4k": "4K",
+      "glow": "Leuchten",
+      "film": "Film",
+      "frame": "Einzelbild {{number}}",
+      "pairToTen": "Paare zu 10",
+      "best": "Bestleistung {{score}}",
+      "arcade": "Kortex Arcade",
+      "utility": "Kortex Dienstprogramme",
+      "trailAtlas": "Wanderatlas",
+      "nearby": "{{count}} in der Nähe"
+    }
   }
 }

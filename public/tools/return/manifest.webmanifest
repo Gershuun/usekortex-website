@@ -1,0 +1,20 @@
+{
+  "name": "Kortex Return",
+  "short_name": "Return",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071014",
+  "theme_color": "#ff7f6a",
+  "description": "Private local-first software from Kortex.",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

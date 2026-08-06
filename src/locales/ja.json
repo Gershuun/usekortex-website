@@ -68,7 +68,9 @@
       "all": "すべてのアプリ",
       "organize": "整理",
       "create": "つくる",
-      "explore": "探索"
+      "explore": "探索",
+      "work": "Work",
+      "games": "Games"
     },
     "selected": "ここを表示中",
     "peekInside": "中をのぞく",
@@ -112,8 +114,215 @@
         "feature1": "近くのライブトレイル",
         "feature2": "傾斜とアクセスのフィルター",
         "feature3": "保存したルートとライド"
+      },
+      "routes": {
+        "tagline": "Rehearse every stop",
+        "description": "Import an ordered stop list, review it privately, rehearse the route offline, and open a safe external navigation handoff when parked.",
+        "feature1": "Private stop imports",
+        "feature2": "Offline route rehearsal",
+        "feature3": "Parked navigation handoff"
+      },
+      "haul": {
+        "tagline": "Know what the offer pays",
+        "description": "Compare trucking offers, model realistic weeks, and see effective pay across driving, duty, commute, and nights away.",
+        "feature1": "Scenario pay modeling",
+        "feature2": "Offer comparisons",
+        "feature3": "Recruiter question checklist"
+      },
+      "clock": {
+        "tagline": "Understand your clock window",
+        "description": "Model workplace attendance rules, calculate safe clock windows, and track points without handing your schedule to an employer.",
+        "feature1": "Policy-driven windows",
+        "feature2": "Attendance point ledger",
+        "feature3": "Offline evidence records"
+      },
+      "route-rush": {
+        "tagline": "Plan it. Run it. Beat it.",
+        "description": "Build safe miniature bus routes, launch deterministic simulations, and master thirty handcrafted puzzle levels.",
+        "feature1": "30 solvable puzzles",
+        "feature2": "Safety-first scoring",
+        "feature3": "Daily seeded challenge"
+      },
+      "shiftpocalypse": {
+        "tagline": "Survive the shift",
+        "description": "Assign a chaotic crew, resolve workplace disasters, and keep staffing, morale, patience, and revenue alive.",
+        "feature1": "40 workplace events",
+        "feature2": "24 distinct employees",
+        "feature3": "Fast deterministic runs"
+      },
+      "backstage-ops": {
+        "tagline": "Keep the park moving",
+        "description": "Dispatch fictional park transit, balance crowds and capacity, and recover from weather, maintenance, and call-outs.",
+        "feature1": "Aggregate crowd simulation",
+        "feature2": "Routes, vehicles, and staff",
+        "feature3": "Opening-to-closing operations"
+      },
+      "bowl": {
+        "tagline": "10フレーム。光る1本のレーン。",
+        "description": "正式ルールに基づくスコア計算、手応えのある投球、再開可能なゲーム、デバイス内に保存されるベストスコアを備えた、ローカルファーストのネオンテンピンボウリングゲームをプレイしよう。",
+        "feature1": "正式ルールの10フレームスコア計算",
+        "feature2": "ライン、パワー、スピンのコントロール",
+        "feature3": "ローカル保存のスコアと再開機能"
+      },
+      "numbers": {
+        "tagline": "レーンを合わせて、列をクリア。",
+        "description": "直線上の同じ数字か足して10になるペアを合わせ、列を消し、連続マッチを繋げて楽しむローカルファーストの数字パズル。",
+        "feature1": "同じ数字と合計10のマッチ",
+        "feature2": "直線状のパズルルール",
+        "feature3": "ローカル保存の進行状況とヒント"
+      },
+      "pulse-stack": {
+        "tagline": "ビートを積み重ねよう",
+        "description": "すべての動きでタイミングを合わせ、3つのライフを守りながら、パルスが加速するスピーディーなローカルアーケード挑戦でペースを維持しよう。",
+        "feature1": "徐々に難しくなるタイミングチャレンジ",
+        "feature2": "ライフ3つのアーケードラン",
+        "feature3": "ローカル保存のベストスコア"
+      },
+      "orbit-snap": {
+        "tagline": "パーフェクトな軌道をとらえよう",
+        "description": "リズムを読み、正しい瞬間にスナップ。軌道が速くなるにつれて、より完璧な精度を目指そう。",
+        "feature1": "高精度なタイミングプレイ",
+        "feature2": "適応型スピード",
+        "feature3": "ローカル保存のベストスコア"
+      },
+      "ten-dash": {
+        "tagline": "時間が尽きる前に10を見つけよう",
+        "description": "合計10になる数字のペアを見つけ、難易度の上がるラウンドをクリア。盤面が複雑になったら1回使えるスマートヒントを活用しよう。",
+        "feature1": "スピーディーな合計マッチングラウンド",
+        "feature2": "徐々に上がる難易度",
+        "feature3": "1回使えるペアヒント"
+      },
+      "echo-grid": {
+        "tagline": "光の残像を記憶しよう",
+        "description": "グリッドを広がるパターンを観察し、記憶を頼りに再現。あなたの集中力がどこまで通用するか試そう。",
+        "feature1": "段階的に難しくなる記憶パターン",
+        "feature2": "リプレイ機能（オプション）",
+        "feature3": "ローカル保存のベストスコア"
+      },
+      "signal-switch": {
+        "tagline": "レーンを切り替え、集中を保て。",
+        "description": "変化するシグナルに反応して安全なレーンへ移動し、スピードアップするローカルファーストのアーケードランを生き残ろう。",
+        "feature1": "レーン反応ゲームプレイ",
+        "feature2": "加速するスピード",
+        "feature3": "1ゲーム1回使える復活機能（オプション）"
+      },
+      "words": {
+        "tagline": "単語を作り、盤面を攻略しよう。",
+        "description": "文字をつなげ、爽快な単語の連鎖を発見し、手軽なローカル優先のパズルラウンドで語彙力を磨きましょう。",
+        "feature1": "スピーディーな単語作成ラウンド",
+        "feature2": "徐々に難易度が上がる文字パズル",
+        "feature3": "ローカルの進捗とスコア"
+      },
+      "critter-sort": {
+        "tagline": "謎の生き物を正しい場所に仕分けよう",
+        "description": "隠れた生き物を発見し、巧みな救出手順をキープしながら、8つの楽しい世界で縦画面優先の仕分けパズルをクリアしましょう。",
+        "feature1": "運要素のない200のレベル",
+        "feature2": "発見優先の仕分けルール",
+        "feature3": "デイリーパズルとほのぼのとした解放要素"
+      },
+      "perfect-produce": {
+        "tagline": "料理に合う食材を見極めよう",
+        "description": "見た目でわかる青果の特徴を目的の用途と比較し、根拠・確信度・確認範囲を区別しながら、より明確なお買い物の選択をしましょう。",
+        "feature1": "4つのスキャンモード",
+        "feature2": "9つの青果プロファイル",
+        "feature3": "ローカルのスキャン履歴"
+      },
+      "capybara-cafe": {
+        "tagline": "カピバラの仲間と過ごす居心地の良いカフェ",
+        "description": "明るく楽しいカフェを運営し、お客様に料理を提供し、ゆったりと遊べる温かな世界を広げましょう。",
+        "feature1": "ほのぼのカフェ経営",
+        "feature2": "魅力あふれるカピバラの仲間たち",
+        "feature3": "ローカル優先の進行状況"
       }
     },
-    "rights": "無断転載を禁じます。"
+    "rights": "無断転載を禁じます。",
+    "followClose": "閉じる",
+    "followSuccess": "このアプリをフォロー中です",
+    "followSuccessBody": "{{app}} に重要な更新があるとメールでお知らせします。",
+    "followDone": "完了",
+    "followTitle": "このアプリをフォロー",
+    "followBody": "重要な製品情報をときどきお届けします。",
+    "followEmailLabel": "メールアドレス",
+    "followEmailPlaceholder": "you@example.com",
+    "followError": "問題が発生しました。もう一度お試しください。",
+    "followSending": "フォロー中...",
+    "followSubmit": "フォロー",
+    "followPrivacy": "メールはこのアプリの更新情報にのみ使用します。",
+    "terms": "利用規約",
+    "primaryNavigation": "メインナビゲーション",
+    "navLibrary": "アプリ＆ゲーム",
+    "navTools": "ブラウザツール",
+    "libraryEyebrow": "{{apps}}個のアプリ＆ゲーム。{{tools}}個のブラウザツール。",
+    "libraryHeroTagline": "モバイルユーティリティ、楽しいゲーム、プライベートなブラウザツール。毎日の課題をより軽やかに解決するために作られました。",
+    "browseToolsCta": "ブラウザツールを使う",
+    "libraryCountShort": "{{count}}個のプロダクト",
+    "libraryInstantTools": "インスタントツール",
+    "newRelease": "新着",
+    "products": "プロダクト",
+    "libraryFutureTitle": "{{apps}}個のアプリ。{{tools}}個のブラウザツール。さらに拡大中。",
+    "libraryFutureBody": "Kortexは総合ライブラリへと進化しました。モバイルユーティリティ、ローカルファーストのゲーム、作業ヘルパー、インストール可能なブラウザツールが、遊び心とプライバシー重視の共通のプラットフォームに集結しています。",
+    "tools": {
+      "eyebrow": "今すぐ使える9つのツール",
+      "title": "今すぐ役立つ。デフォルトでプライベート。",
+      "subtitle": "お使いのブラウザから特化型のKortexツールをインストールし、オフラインで使用可能。データは信頼するデバイス内にのみ保存されます。",
+      "promiseInstall": "ブラウザからインストール可能",
+      "promiseOffline": "初回来訪後はオフラインで動作",
+      "promisePrivate": "ローカルファーストの記録管理",
+      "promiseAccount": "アカウント登録不要",
+      "open": "無料ツールを開く",
+      "evidenceReady": "Evidence Pack準備完了"
+    },
+    "offers": {
+      "eyebrow": "基本機能ではなく、成果に支払う",
+      "title": "無料ツール。必要な時に本格アップグレード。",
+      "subtitle": "基本ツールはアカウント不要で便利に使えます。プロ仕様の証明成果物を単発で購入するか、Kortexウェブツールキット全体を解除できます。",
+      "evidenceLabel": "Kortex Evidence Pack",
+      "evidenceTitle": "ローカル記録をプロ仕様の成果物に変換",
+      "evidenceBody": "印刷、保存、共有が可能な整った記録を必要とするDeposit、Proof、Returnのユーザー向け。",
+      "evidenceFeature1": "構造化された事象・状態のタイムライン",
+      "evidenceFeature2": "写真とドキュメントの一覧管理",
+      "evidenceFeature3": "印刷に対応したプロ仕様のレポート",
+      "oneTime": "買い切り",
+      "getEvidence": "Evidence Packを入手",
+      "bestValue": "一番お得",
+      "plusLabel": "Kortex Plus",
+      "plusTitle": "1つのアップグレードですべてのウェブツールに対応",
+      "plusBody": "将来の暗号化バックアップ、モニタリング、プレミアムエクスポート、Kortexウェブファミリー全般へのアクセスに対応する設計。",
+      "plusFeature1": "Evidence Packを同梱",
+      "plusFeature2": "全9種類のウェブツールに対応",
+      "plusFeature3": "有効期間中は将来のPlusアップグレードも対象",
+      "perYear": "年額",
+      "chooseYearly": "年額プランを選択",
+      "chooseMonthly": "月額$4.99",
+      "checkoutUnavailable": "安全な決済はまだ利用できません。",
+      "alreadyPurchased": "すでに購入済みですか？",
+      "activateTitle": "このブラウザを有効化",
+      "activateBody": "領収書に記載されたライセンスキーを入力してください。キーはこのブラウザにのみ保存され、ライセンスプロバイダーと安全に照合されます。",
+      "activatedTitle": "Kortexアップグレード有効",
+      "activatedBody": "このブラウザで、ご購入に含まれるプレミアムKortexウェブツール機能を利用できます。",
+      "licenseLabel": "ライセンスキー",
+      "activate": "有効化",
+      "activating": "確認中...",
+      "licenseActive": "このブラウザでKortexアップグレードが有効になっています。",
+      "licenseInvalid": "そのライセンスを確認できませんでした。"
+    },
+    "preview": {
+      "local": "ローカル",
+      "merge": "統合",
+      "fix": "修正",
+      "generate": "生成",
+      "before": "変更前",
+      "after": "変更後",
+      "filter4k": "4K",
+      "glow": "発光",
+      "film": "フィルム",
+      "frame": "フレーム {{number}}",
+      "pairToTen": "足して10にするペア",
+      "best": "ベスト {{score}}",
+      "arcade": "Kortexアーケード",
+      "utility": "Kortexユーティリティ",
+      "trailAtlas": "トレイルアトラス",
+      "nearby": "近くの{{count}}件"
+    }
   }
 }

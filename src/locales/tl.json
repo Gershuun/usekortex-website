@@ -68,7 +68,9 @@
       "all": "Lahat ng app",
       "organize": "Ayusin",
       "create": "Lumikha",
-      "explore": "Tuklasin"
+      "explore": "Tuklasin",
+      "work": "Work",
+      "games": "Games"
     },
     "selected": "Narito ka",
     "peekInside": "Silipin",
@@ -112,8 +114,215 @@
         "feature1": "Live na trails sa malapit",
         "feature2": "Slope at access filters",
         "feature3": "Naka-save na ruta at rides"
+      },
+      "routes": {
+        "tagline": "Rehearse every stop",
+        "description": "Import an ordered stop list, review it privately, rehearse the route offline, and open a safe external navigation handoff when parked.",
+        "feature1": "Private stop imports",
+        "feature2": "Offline route rehearsal",
+        "feature3": "Parked navigation handoff"
+      },
+      "haul": {
+        "tagline": "Know what the offer pays",
+        "description": "Compare trucking offers, model realistic weeks, and see effective pay across driving, duty, commute, and nights away.",
+        "feature1": "Scenario pay modeling",
+        "feature2": "Offer comparisons",
+        "feature3": "Recruiter question checklist"
+      },
+      "clock": {
+        "tagline": "Understand your clock window",
+        "description": "Model workplace attendance rules, calculate safe clock windows, and track points without handing your schedule to an employer.",
+        "feature1": "Policy-driven windows",
+        "feature2": "Attendance point ledger",
+        "feature3": "Offline evidence records"
+      },
+      "route-rush": {
+        "tagline": "Plan it. Run it. Beat it.",
+        "description": "Build safe miniature bus routes, launch deterministic simulations, and master thirty handcrafted puzzle levels.",
+        "feature1": "30 solvable puzzles",
+        "feature2": "Safety-first scoring",
+        "feature3": "Daily seeded challenge"
+      },
+      "shiftpocalypse": {
+        "tagline": "Survive the shift",
+        "description": "Assign a chaotic crew, resolve workplace disasters, and keep staffing, morale, patience, and revenue alive.",
+        "feature1": "40 workplace events",
+        "feature2": "24 distinct employees",
+        "feature3": "Fast deterministic runs"
+      },
+      "backstage-ops": {
+        "tagline": "Keep the park moving",
+        "description": "Dispatch fictional park transit, balance crowds and capacity, and recover from weather, maintenance, and call-outs.",
+        "feature1": "Aggregate crowd simulation",
+        "feature2": "Routes, vehicles, and staff",
+        "feature3": "Opening-to-closing operations"
+      },
+      "bowl": {
+        "tagline": "Sampung frame. Isang kumikinang na lane.",
+        "description": "Maglaro ng local-first neon tenpin game na may regulasyong iskoring, tactile throws, maipagpapatuloy na mga laro, at pinakamataas na puntos na nananatili sa iyong aparato.",
+        "feature1": "Regulasyong ten-frame na iskoring",
+        "feature2": "Mga kontrol sa linya, lakas, at spin",
+        "feature3": "Lokal na mga puntos at pagpapatuloy"
+      },
+      "numbers": {
+        "tagline": "I-match ang lane. Linisin ang hanay.",
+        "description": "Magpares ng magkakaparehong numero o gumawa ng sampu sa malilinaw na linya ng paningin, i-collapse ang mga hanay, at bumuo ng matatalinong streak sa isang local-first na puzzle ng numero.",
+        "feature1": "Mga pagtatapat ng magkapareho at sum-to-ten",
+        "feature2": "Mga tuntunin ng puzzle na batay sa line-of-sight",
+        "feature3": "Lokal na pag-unlad at mga pahiwatig"
+      },
+      "pulse-stack": {
+        "tagline": "I-stack ang beat",
+        "description": "I-tiyempo ang bawat galaw, ingatan ang iyong tatlong buhay, at sumabay sa bilis habang bumibilis ang pulse sa mabilis na local arcade runs.",
+        "feature1": "Tumatinding hamon sa pagtiyempo",
+        "feature2": "Arcade runs na may tatlong buhay",
+        "feature3": "Lokal na pinakamahuhusay na puntos"
+      },
+      "orbit-snap": {
+        "tagline": "Hulihin ang perpektong orbit",
+        "description": "Basahin ang ritmo, i-snap sa tamang sandali, at habulin ang mas malinis na katumpakan habang bumibilis ang bawat orbit.",
+        "feature1": "Laro ng tumpak na pagtiyempo",
+        "feature2": "Adaptive na bilis",
+        "feature3": "Lokal na pinakamahuhusay na puntos"
+      },
+      "ten-dash": {
+        "tagline": "Mahanap ang sampu bago ka maunahan ng oras",
+        "description": "Mahanap ang mga pares ng numero na nagiging sampu, linisin ang tumatinding mga round, at gumamit ng isang matalinong pahiwatig kapag nagiging masalimuot ang board.",
+        "feature1": "Mabilis na mga round ng pagtatapat ng kabuuan",
+        "feature2": "Tumatinding antas ng hirap",
+        "feature3": "Isang opsyonal na pahiwatig ng pares"
+      },
+      "echo-grid": {
+        "tagline": "Tandaan ang liwanag",
+        "description": "Panoorin ang pattern na dumaloy sa grid, ulitin ito mula sa memorya, at tignan kung hanggang saan ka madadala ng iyong pokus.",
+        "feature1": "Tumatinding mga pattern ng memorya",
+        "feature2": "Opsyonal na pag-replay",
+        "feature3": "Lokal na pinakamahuhusay na puntos"
+      },
+      "signal-switch": {
+        "tagline": "Lumipat ng lane. Manatiling matalas.",
+        "description": "Mag-react sa nagbabagong mga senyales, lumipat sa ligtas na lane, at makaligtas sa isang bumibilis na local-first arcade run.",
+        "feature1": "Gameplay ng pagre-react sa lane",
+        "feature2": "Tumatinding bilis",
+        "feature3": "Opsyonal na isang-run na revive"
+      },
+      "words": {
+        "tagline": "Bumuo ng salita. Talunin ang board.",
+        "description": "Ipagdugtong ang mga titik, tuklasin ang nakakasiyang mga kadena ng salita, at linangin ang iyong bokabularyo sa pamamagitan ng mabilis na mga round ng palaisipan na nakatutok sa lokal.",
+        "feature1": "Mabilis na mga round ng pagbuo ng salita",
+        "feature2": "Tumitinding mga palaisipan sa titik",
+        "feature3": "Lokal na pag-unlad at mga puntos"
+      },
+      "critter-sort": {
+        "tagline": "Iayos ang misteryo sa tamang lugar",
+        "description": "Tuklasin ang mga nakatagong nilalang, magsagawa ng matatalinong hakbang sa pagsagip, at linisin ang mga palaisipan sa pag-uuri na nakatuon sa portrait sa walo na nakakatuwang mundo.",
+        "feature1": "200 deterministikong antas",
+        "feature2": "Mga tuntunin sa pag-uuri na naglalantad muna",
+        "feature3": "Araw-araw na mga palaisipan at komportableng mga pag-unlock"
+      },
+      "perfect-produce": {
+        "tagline": "Alamin kung ano ang angkop sa pagkain",
+        "description": "Ipaghambing ang mga nakikitang pahiwatig ng ani sa iyong nakaplanong paggamit, pagkatapos ay gumawa ng mas malinaw na desisyon sa pagbili na may hiwalay na ebidensya, kumpiyansa, at saklaw.",
+        "feature1": "Apat na mode ng pag-scan",
+        "feature2": "Siyam na profile ng ani",
+        "feature3": "Lokal na kasaysayan ng pag-scan"
+      },
+      "capybara-cafe": {
+        "tagline": "Isang komportableng café na may pangkat ng mga capybara",
+        "description": "Panatilihing masigla ang café, magsilbi sa mga panauhin, at palaguin ang isang mainit na maliit na mundong itinayo para sa nakakarelaks at nakakatuwang mga sesyon.",
+        "feature1": "Komportableng pamamahala ng café",
+        "feature2": "Kagiliw-giliw na hanay ng mga capybara",
+        "feature3": "Pag-unlad na nakatutok sa lokal"
       }
     },
-    "rights": "Lahat ng karapatan ay nakalaan."
+    "rights": "Lahat ng karapatan ay nakalaan.",
+    "followClose": "Isara",
+    "followSuccess": "Sinusundan mo na ang app na ito",
+    "followSuccessBody": "Mag-email kami kapag may mahalagang update ang {{app}}.",
+    "followDone": "Tapos na",
+    "followTitle": "Sundan ang app na ito",
+    "followBody": "Tumanggap ng paminsan-minsang update. Walang istorbo.",
+    "followEmailLabel": "Email address",
+    "followEmailPlaceholder": "you@example.com",
+    "followError": "May nangyaring mali. Subukan muli.",
+    "followSending": "Sinusundan...",
+    "followSubmit": "Sundan",
+    "followPrivacy": "Gagamitin lang namin ang email mo para sa mga update ng app na ito.",
+    "terms": "Mga Tuntunin sa Serbisyo",
+    "primaryNavigation": "Pangunahing nabigasyon",
+    "navLibrary": "Mga app at laro",
+    "navTools": "Mga tool sa browser",
+    "libraryEyebrow": "{{apps}} na app at laro. {{tools}} na tool sa browser.",
+    "libraryHeroTagline": "Mga utility sa mobile, nakakaaliw na laro, at pribadong mga tool sa browser—ginawa upang gawing mas magaan ang mga pang-araw-araw na problema.",
+    "browseToolsCta": "Gumamit ng tool sa browser",
+    "libraryCountShort": "{{count}} na produkto",
+    "libraryInstantTools": "Mabilisang mga tool",
+    "newRelease": "Bago",
+    "products": "mga produkto",
+    "libraryFutureTitle": "{{apps}} na app. {{tools}} na tool sa browser. Patuloy na lumalago.",
+    "libraryFutureBody": "Ang Kortex ay isa nang totoong koleksyon: mga utility sa mobile, mga local-first na laro, mga katulong sa trabaho, at mai-install na mga tool sa browser na lahat ay nagbabahagi ng isang nakakaaliw at nakatuon sa privacy na tahanan.",
+    "tools": {
+      "eyebrow": "Siyam na tool na maaari mong gamitin ngayon",
+      "title": "Gagamitin agad. Pribado bilang default.",
+      "subtitle": "Mag-install ng nakatutok na Kortex tool mula sa iyong browser, gamitin ito nang offline, at panatilihin ang iyong mga tala sa aparato na pinagkakatiwalaan mo na.",
+      "promiseInstall": "Maii-install mula sa iyong browser",
+      "promiseOffline": "Gumagana offline pagkatapos ng unang pagbisita",
+      "promisePrivate": "Local-first na mga tala",
+      "promiseAccount": "Hindi kailangan ng account",
+      "open": "Buksan ang libreng tool",
+      "evidenceReady": "Handa na ang Evidence Pack"
+    },
+    "offers": {
+      "eyebrow": "Magbayad para sa resulta, hindi sa mga pangunahing tampok",
+      "title": "Libreng mga tool. Seryosong mga upgrade kapag kailangan mo.",
+      "subtitle": "Mananatiling kapaki-pakinabang ang mga pangunahing tool nang walang account. Bumili ng propesyonal na resulta ng ebidensya nang minsan, o i-unlock ang kumpletong Kortex web toolkit.",
+      "evidenceLabel": "Kortex Evidence Pack",
+      "evidenceTitle": "Gawing propesyonal na pakete ang isang lokal na tala",
+      "evidenceBody": "Para sa mga user ng Deposit, Proof, at Return na nangangailangan ng malinis na tala na maaari nilang i-print, i-save, o ibahagi.",
+      "evidenceFeature1": "Nakabalangkas na timeline ng insidente o kondisyon",
+      "evidenceFeature2": "Inbentaryo ng larawan at dokumento",
+      "evidenceFeature3": "Propesyonal na ulat na handang i-print",
+      "oneTime": "isang beses",
+      "getEvidence": "Kumuha ng Evidence Pack",
+      "bestValue": "Pinakasulit",
+      "plusLabel": "Kortex Plus",
+      "plusTitle": "Isang upgrade sa bawat tool sa web",
+      "plusBody": "Dinisenyo para sa hinaharap na naka-encrypt na backup, pagsubaybay, mga premium na export, at access sa buong pamilya ng Kortex web.",
+      "plusFeature1": "Kasama ang Evidence Pack",
+      "plusFeature2": "Kabilang ang lahat ng siyam na tool sa web",
+      "plusFeature3": "Kasama ang mga hinaharap na Plus upgrade habang aktibo",
+      "perYear": "bawat taon",
+      "chooseYearly": "Pumili ng taunan",
+      "chooseMonthly": "$4.99 buwan-buwan",
+      "checkoutUnavailable": "Ligtas na checkout ay hindi pa available.",
+      "alreadyPurchased": "Nabili na?",
+      "activateTitle": "I-activate ang browser na ito",
+      "activateBody": "Ipasok ang license key mula sa iyong resibo. Ang iyong key ay nakaimbak lamang sa browser na ito at ligtas na sinusuri kasama ang provider ng lisensya.",
+      "activatedTitle": "Aktibo ang upgrade ng Kortex",
+      "activatedBody": "Magagamit ng browser na ito ang mga premium na tampok ng Kortex web-tool na kasama sa iyong pagbili.",
+      "licenseLabel": "License key",
+      "activate": "I-activate",
+      "activating": "Sinisuri...",
+      "licenseActive": "Aktibo ang iyong upgrade ng Kortex sa browser na ito.",
+      "licenseInvalid": "Hindi ma-verify ang lisensyang iyon."
+    },
+    "preview": {
+      "local": "Lokal",
+      "merge": "Pagsamahin",
+      "fix": "Ayusin",
+      "generate": "Bumuo",
+      "before": "Bago",
+      "after": "Pagkatapos",
+      "filter4k": "4K",
+      "glow": "Liwanag",
+      "film": "Pelikula",
+      "frame": "Frame {{number}}",
+      "pairToTen": "Ipares sa 10",
+      "best": "Pinakamahusay {{score}}",
+      "arcade": "Kortex Arcade",
+      "utility": "Kortex Utility",
+      "trailAtlas": "Trail Atlas",
+      "nearby": "{{count}} sa malapit"
+    }
   }
 }

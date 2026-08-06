@@ -1,0 +1,20 @@
+{
+  "name": "Kortex Memo",
+  "short_name": "Memo",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071014",
+  "theme_color": "#ffbf69",
+  "description": "Private local-first software from Kortex.",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

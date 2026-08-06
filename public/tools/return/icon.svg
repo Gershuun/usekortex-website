@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#071014"/>
+  <path d="M96 112h320v288H96z" fill="#ff7f6a" opacity=".16"/>
+  <path d="M136 152h240v208H136z" fill="none" stroke="#ff7f6a" stroke-width="24"/>
+  <text x="256" y="302" text-anchor="middle" font-family="Georgia,serif" font-size="196" font-weight="700" fill="#ff7f6a">R</text>
+</svg>
+

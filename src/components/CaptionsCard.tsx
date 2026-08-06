@@ -42,7 +42,7 @@ export function CaptionsCard() {
                 <div className={styles.cardHeader}>
                     <div className={styles.cardIcon}>✨</div>
                     <div>
-                        <h2 className={styles.title}>Kortex Captions</h2>
+                        <h2 className={styles.title}>{t('site.captions')}</h2>
                     </div>
                 </div>
                 <p className={styles.appDescription}>
@@ -107,7 +107,7 @@ export function CaptionsCard() {
                 <button className={`${styles.btn} ${styles.btnPrimary}`} onClick={() => showToast(t('site.demo.captionsIosToast'))}>
                     {t('site.demo.downloadIos')}
                 </button>
-                <button className={`${styles.btn} ${styles.btnSecondary}`} onClick={() => showToast('App is currently being packaged for Play Store review ($2.99).')}>
+                <button className={`${styles.btn} ${styles.btnSecondary}`} onClick={() => showToast(t('site.demo.captionsAndroidToast'))}>
                     {t('site.demo.downloadAndroid')}
                 </button>
             </div>

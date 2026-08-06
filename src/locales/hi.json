@@ -68,7 +68,9 @@
       "all": "सभी ऐप्स",
       "organize": "व्यवस्थित करें",
       "create": "बनाएँ",
-      "explore": "खोजें"
+      "explore": "खोजें",
+      "work": "Work",
+      "games": "Games"
     },
     "selected": "आप यहाँ हैं",
     "peekInside": "अंदर देखें",
@@ -112,8 +114,215 @@
         "feature1": "आस-पास के लाइव ट्रेल",
         "feature2": "ढलान और पहुँच फ़िल्टर",
         "feature3": "सहेजे मार्ग और राइड"
+      },
+      "routes": {
+        "tagline": "Rehearse every stop",
+        "description": "Import an ordered stop list, review it privately, rehearse the route offline, and open a safe external navigation handoff when parked.",
+        "feature1": "Private stop imports",
+        "feature2": "Offline route rehearsal",
+        "feature3": "Parked navigation handoff"
+      },
+      "haul": {
+        "tagline": "Know what the offer pays",
+        "description": "Compare trucking offers, model realistic weeks, and see effective pay across driving, duty, commute, and nights away.",
+        "feature1": "Scenario pay modeling",
+        "feature2": "Offer comparisons",
+        "feature3": "Recruiter question checklist"
+      },
+      "clock": {
+        "tagline": "Understand your clock window",
+        "description": "Model workplace attendance rules, calculate safe clock windows, and track points without handing your schedule to an employer.",
+        "feature1": "Policy-driven windows",
+        "feature2": "Attendance point ledger",
+        "feature3": "Offline evidence records"
+      },
+      "route-rush": {
+        "tagline": "Plan it. Run it. Beat it.",
+        "description": "Build safe miniature bus routes, launch deterministic simulations, and master thirty handcrafted puzzle levels.",
+        "feature1": "30 solvable puzzles",
+        "feature2": "Safety-first scoring",
+        "feature3": "Daily seeded challenge"
+      },
+      "shiftpocalypse": {
+        "tagline": "Survive the shift",
+        "description": "Assign a chaotic crew, resolve workplace disasters, and keep staffing, morale, patience, and revenue alive.",
+        "feature1": "40 workplace events",
+        "feature2": "24 distinct employees",
+        "feature3": "Fast deterministic runs"
+      },
+      "backstage-ops": {
+        "tagline": "Keep the park moving",
+        "description": "Dispatch fictional park transit, balance crowds and capacity, and recover from weather, maintenance, and call-outs.",
+        "feature1": "Aggregate crowd simulation",
+        "feature2": "Routes, vehicles, and staff",
+        "feature3": "Opening-to-closing operations"
+      },
+      "bowl": {
+        "tagline": "दस फ्रेम्स। एक चमकती लेन।",
+        "description": "मानक स्कोरिंग, स्पर्शीय थ्रो, रीज़्यूम करने योग्य गेम और आपके डिवाइस पर सुरक्षित रहने वाले सर्वश्रेष्ठ स्कोर के साथ एक लोकल-फर्स्ट नियोन टेनपिन गेम खेलें।",
+        "feature1": "मानक दस-फ्रेम स्कोरिंग",
+        "feature2": "लाइन, पावर और स्पिन नियंत्रण",
+        "feature3": "लोकल स्कोर और रीज़्यूम"
+      },
+      "numbers": {
+        "tagline": "लेन मिलाएं। पंक्ति साफ़ करें।",
+        "description": "समान संख्याओं की जोड़ी बनाएं या साफ़ दृष्टि-रेखाओं में दस बनाएं, पंक्तियों को समेटें और लोकल-फर्स्ट नंबर पहेली में शानदार स्ट्रिक्स बनाएं।",
+        "feature1": "बराबर और योग-दस के जोड़",
+        "feature2": "दृष्टि-रेखा पहेली के नियम",
+        "feature3": "लोकल प्रगति और संकेत"
+      },
+      "pulse-stack": {
+        "tagline": "बीट को स्टैक करें",
+        "description": "हर कदम का समय सही रखें, अपनी तीन जिंदगियों को बचाएं, और त्वरित लोकल आर्केड रन के दौरान पल्स की गति के साथ तालमेल बनाए रखें।",
+        "feature1": "बढ़ती टाइमिंग चुनौती",
+        "feature2": "तीन-जिंदगी वाले आर्केड रन",
+        "feature3": "लोकल सर्वश्रेष्ठ स्कोर"
+      },
+      "orbit-snap": {
+        "tagline": "परफेक्ट ऑर्बिट पकड़ें",
+        "description": "लय को समझें, सही क्षण पर स्नैप करें, और प्रत्येक ऑर्बिट के तेज़ होने पर अधिक सटीकता हासिल करें।",
+        "feature1": "सटीक टाइमिंग गेमप्ले",
+        "feature2": "अनुकूली गति",
+        "feature3": "लोकल सर्वश्रेष्ठ स्कोर"
+      },
+      "ten-dash": {
+        "tagline": "समय समाप्त होने से पहले दस ढूंढें",
+        "description": "दस बनाने वाली संख्या जोड़ियों को पहचानें, बढ़ते राउंड साफ़ करें, और बोर्ड के जटिल होने पर एक स्मार्ट संकेत का उपयोग करें।",
+        "feature1": "तेज़ योग-मिलाने वाले राउंड",
+        "feature2": "बढ़ती कठिनाई",
+        "feature3": "एक वैकल्पिक जोड़ी संकेत"
+      },
+      "echo-grid": {
+        "tagline": "चमक को याद रखें",
+        "description": "ग्रिड पर पैटर्न की लहरों को देखें, इसे याददाश्त से दोहराएं, और देखें कि आपका ध्यान आपको कितनी दूर ले जा सकता है।",
+        "feature1": "बढ़ते मेमोरी पैटर्न",
+        "feature2": "वैकल्पिक रीप्ले",
+        "feature3": "लोकल सर्वश्रेष्ठ स्कोर"
+      },
+      "signal-switch": {
+        "tagline": "लेन बदलें। सतर्क रहें।",
+        "description": "बदलते संकेतों पर प्रतिक्रिया दें, सुरक्षित लेन में जाएं, और तेज़ होते लोकल-फर्स्ट आर्केड रन में बचे रहें।",
+        "feature1": "लेन-प्रतिक्रिया गेमप्ले",
+        "feature2": "बढ़ती गति",
+        "feature3": "वैकल्पिक वन-रन रिवाइव"
+      },
+      "words": {
+        "tagline": "शब्द बनाएं। बोर्ड को हराएं।",
+        "description": "अक्षरों को जोड़ें, संतोषजनक शब्द शृंखलाएं खोजें, और त्वरित स्थानीय-प्राथमिकता वाले पहेली दौरों के माध्यम से अपनी शब्दावली को निखारें।",
+        "feature1": "तेज़ शब्द-निर्माण दौर",
+        "feature2": "बढ़ती जटिलता वाली अक्षर पहेलियां",
+        "feature3": "स्थानीय प्रगति और अंक"
+      },
+      "critter-sort": {
+        "tagline": "रहस्य को सही स्थान पर छांटें",
+        "description": "छिपे हुए जीवों को उजागर करें, चतुर बचाव चालें चलें, और आठ आनंददायक दुनियाओं में पोर्ट्रेट-प्राथमिकता वाली छंटाई पहेलियों को हल करें।",
+        "feature1": "200 पूर्व-निर्धारित स्तर",
+        "feature2": "प्रकटीकरण-प्राथमिकता वाले छंटाई के नियम",
+        "feature3": "दैनिक पहेलियां और आरामदायक अनलॉक"
+      },
+      "perfect-produce": {
+        "tagline": "जानें कि भोजन के लिए क्या उपयुक्त है",
+        "description": "दृश्यमान उत्पाद संकेतों की अपनी इच्छित उपयोग के साथ तुलना करें, फिर साक्ष्य, आत्मविश्वास और कवरेज को अलग रखते हुए एक स्पष्ट खरीदारी निर्णय लें।",
+        "feature1": "चार स्कैन मोड",
+        "feature2": "नौ उत्पाद प्रोफाइल",
+        "feature3": "स्थानीय स्कैन इतिहास"
+      },
+      "capybara-cafe": {
+        "tagline": "कैपीबारा दल के साथ एक आरामदायक कैफे",
+        "description": "एक हंसमुख कैफे को सुचारू रखें, मेहमानों की सेवा करें, और आरामदायक, आनंददायक सत्रों के लिए बनाई गई एक सुखद छोटी दुनिया का विकास करें।",
+        "feature1": "आरामदायक कैफे प्रबंधन",
+        "feature2": "आकर्षक कैपीबारा पात्र",
+        "feature3": "स्थानीय-प्राथमिकता वाली प्रगति"
       }
     },
-    "rights": "सर्वाधिकार सुरक्षित।"
+    "rights": "सर्वाधिकार सुरक्षित।",
+    "followClose": "बंद करें",
+    "followSuccess": "अब आप इस ऐप को फ़ॉलो कर रहे हैं",
+    "followSuccessBody": "{{app}} के महत्वपूर्ण अपडेट होने पर हम आपको ईमेल करेंगे।",
+    "followDone": "हो गया",
+    "followTitle": "इस ऐप को फ़ॉलो करें",
+    "followBody": "कभी-कभार उत्पाद अपडेट पाएँ। कोई अनावश्यक संदेश नहीं।",
+    "followEmailLabel": "ईमेल पता",
+    "followEmailPlaceholder": "you@example.com",
+    "followError": "कुछ गलत हुआ। फिर प्रयास करें।",
+    "followSending": "फ़ॉलो किया जा रहा है...",
+    "followSubmit": "फ़ॉलो करें",
+    "followPrivacy": "हम आपके ईमेल का उपयोग केवल इस ऐप के अपडेट के लिए करेंगे।",
+    "terms": "सेवा की शर्तें",
+    "primaryNavigation": "मुख्य नेविगेशन",
+    "navLibrary": "ऐप्स और गेम्स",
+    "navTools": "ब्राउज़र टूल्स",
+    "libraryEyebrow": "{{apps}} ऐप्स और गेम्स। {{tools}} ब्राउज़र टूल्स।",
+    "libraryHeroTagline": "मोबाइल उपयोगिताएँ, मनोरंजक खेल, और निजी ब्राउज़र टूल्स—रोजमर्रा की समस्याओं को आसान बनाने के लिए बनाए गए हैं।",
+    "browseToolsCta": "ब्राउज़र टूल का उपयोग करें",
+    "libraryCountShort": "{{count}} उत्पाद",
+    "libraryInstantTools": "इंस्टेंट टूल्स",
+    "newRelease": "नया",
+    "products": "उत्पाद",
+    "libraryFutureTitle": "{{apps}} ऐप्स। {{tools}} ब्राउज़र टूल्स। लगातार बढ़ रहे हैं।",
+    "libraryFutureBody": "Kortex अब एक वास्तविक लाइब्रेरी है: मोबाइल यूटिलिटीज़, लोकल-फर्स्ट गेम्स, वर्क हेल्पर्स, और इंस्टॉल करने योग्य ब्राउज़र टूल्स जो एक ही मनोरंजक, गोपनीयता-सचेत होम साझा करते हैं।",
+    "tools": {
+      "eyebrow": "नौ टूल्स जिनका उपयोग आप आज कर सकते हैं",
+      "title": "तुरंत उपयोगी। डिफ़ॉल्ट रूप से निजी।",
+      "subtitle": "अपने ब्राउज़र से एक केंद्रित Kortex टूल इंस्टॉल करें, इसे ऑफ़लाइन उपयोग करें, और अपने रिकॉर्ड को उस डिवाइस पर रखें जिस पर आप पहले से भरोसा करते हैं।",
+      "promiseInstall": "आपके ब्राउज़र से इंस्टॉल करने योग्य",
+      "promiseOffline": "पहली विज़िट के बाद ऑफ़लाइन काम करता है",
+      "promisePrivate": "लोकल-फर्स्ट रिकॉर्ड",
+      "promiseAccount": "किसी खाते की आवश्यकता नहीं",
+      "open": "मुफ़्त टूल खोलें",
+      "evidenceReady": "Evidence Pack तैयार है"
+    },
+    "offers": {
+      "eyebrow": "परिणाम के लिए भुगतान करें, बुनियादी चीज़ों के लिए नहीं",
+      "title": "मुफ़्त टूल्स। आवश्यकता पड़ने पर गंभीर अपग्रेड।",
+      "subtitle": "मुख्य टूल्स बिना खाते के भी उपयोगी रहते हैं। एक बार पेशेवर एविडेंस परिणाम खरीदें, या पूरा Kortex वेब टूलकिट अनलॉक करें।",
+      "evidenceLabel": "Kortex Evidence Pack",
+      "evidenceTitle": "लोकल रिकॉर्ड को एक पेशेवर पैकेट में बदलें",
+      "evidenceBody": "Deposit, Proof, और Return उपयोगकर्ताओं के लिए जिन्हें एक साफ़ रिकॉर्ड की आवश्यकता है जिसे वे प्रिंट, सहेज या साझा कर सकें।",
+      "evidenceFeature1": "संरचित घटना या स्थिति टाइमलाइन",
+      "evidenceFeature2": "फ़ोटो और दस्तावेज़ इन्वेंट्री",
+      "evidenceFeature3": "प्रिंट-योग्य पेशेवर रिपोर्ट",
+      "oneTime": "एक बार",
+      "getEvidence": "Evidence Pack प्राप्त करें",
+      "bestValue": "सर्वश्रेष्ठ मूल्य",
+      "plusLabel": "Kortex Plus",
+      "plusTitle": "हर वेब टूल में एक अपग्रेड",
+      "plusBody": "भविष्य के एन्क्रिप्टेड बैकअप, मॉनिटरिंग, प्रीमियम एक्सपोर्ट और पूरे Kortex वेब परिवार में पहुँच के लिए डिज़ाइन किया गया।",
+      "plusFeature1": "Evidence Pack शामिल है",
+      "plusFeature2": "सभी नौ वेब टूल्स शामिल हैं",
+      "plusFeature3": "सक्रिय रहने के दौरान भविष्य के Plus अपग्रेड शामिल हैं",
+      "perYear": "प्रति वर्ष",
+      "chooseYearly": "वार्षिक चुनें",
+      "chooseMonthly": "$4.99 प्रति माह",
+      "checkoutUnavailable": "सुरक्षित चेकआउट अभी उपलब्ध नहीं है।",
+      "alreadyPurchased": "पहले से खरीदा हुआ है?",
+      "activateTitle": "इस ब्राउज़र को सक्रिय करें",
+      "activateBody": "अपनी रसीद से लाइसेंस कुंजी दर्ज करें। आपकी कुंजी केवल इस ब्राउज़र में संग्रहीत की जाती है और लाइसेंस प्रदाता के साथ सुरक्षित रूप से जांची जाती है।",
+      "activatedTitle": "Kortex अपग्रेड सक्रिय है",
+      "activatedBody": "यह ब्राउज़र आपकी खरीदारी में शामिल प्रीमियम Kortex वेब-टूल सुविधाओं का उपयोग कर सकता है।",
+      "licenseLabel": "लाइसेंस कुंजी",
+      "activate": "सक्रिय करें",
+      "activating": "जाँच की जा रही है...",
+      "licenseActive": "आपका Kortex अपग्रेड इस ब्राउज़र पर सक्रिय है।",
+      "licenseInvalid": "वह लाइसेंस सत्यापित नहीं किया जा सका।"
+    },
+    "preview": {
+      "local": "स्थानीय",
+      "merge": "मिलाएं",
+      "fix": "ठीक करें",
+      "generate": "उत्पन्न करें",
+      "before": "पहले",
+      "after": "बाद में",
+      "filter4k": "4K",
+      "glow": "चमक",
+      "film": "फिल्म",
+      "frame": "फ्रेम {{number}}",
+      "pairToTen": "10 की जोड़ी बनाएं",
+      "best": "सर्वश्रेष्ठ {{score}}",
+      "arcade": "Kortex आर्केड",
+      "utility": "Kortex उपयोगिता",
+      "trailAtlas": "ट्रेल एटलस",
+      "nearby": "पास में {{count}}"
+    }
   }
 }

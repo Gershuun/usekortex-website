@@ -68,7 +68,9 @@
       "all": "全部应用",
       "organize": "整理",
       "create": "创作",
-      "explore": "探索"
+      "explore": "探索",
+      "work": "Work",
+      "games": "Games"
     },
     "selected": "你在这里",
     "peekInside": "进去看看",
@@ -112,8 +114,215 @@
         "feature1": "附近实时步道",
         "feature2": "坡度与权限筛选",
         "feature3": "保存路线与骑行"
+      },
+      "routes": {
+        "tagline": "Rehearse every stop",
+        "description": "Import an ordered stop list, review it privately, rehearse the route offline, and open a safe external navigation handoff when parked.",
+        "feature1": "Private stop imports",
+        "feature2": "Offline route rehearsal",
+        "feature3": "Parked navigation handoff"
+      },
+      "haul": {
+        "tagline": "Know what the offer pays",
+        "description": "Compare trucking offers, model realistic weeks, and see effective pay across driving, duty, commute, and nights away.",
+        "feature1": "Scenario pay modeling",
+        "feature2": "Offer comparisons",
+        "feature3": "Recruiter question checklist"
+      },
+      "clock": {
+        "tagline": "Understand your clock window",
+        "description": "Model workplace attendance rules, calculate safe clock windows, and track points without handing your schedule to an employer.",
+        "feature1": "Policy-driven windows",
+        "feature2": "Attendance point ledger",
+        "feature3": "Offline evidence records"
+      },
+      "route-rush": {
+        "tagline": "Plan it. Run it. Beat it.",
+        "description": "Build safe miniature bus routes, launch deterministic simulations, and master thirty handcrafted puzzle levels.",
+        "feature1": "30 solvable puzzles",
+        "feature2": "Safety-first scoring",
+        "feature3": "Daily seeded challenge"
+      },
+      "shiftpocalypse": {
+        "tagline": "Survive the shift",
+        "description": "Assign a chaotic crew, resolve workplace disasters, and keep staffing, morale, patience, and revenue alive.",
+        "feature1": "40 workplace events",
+        "feature2": "24 distinct employees",
+        "feature3": "Fast deterministic runs"
+      },
+      "backstage-ops": {
+        "tagline": "Keep the park moving",
+        "description": "Dispatch fictional park transit, balance crowds and capacity, and recover from weather, maintenance, and call-outs.",
+        "feature1": "Aggregate crowd simulation",
+        "feature2": "Routes, vehicles, and staff",
+        "feature3": "Opening-to-closing operations"
+      },
+      "bowl": {
+        "tagline": "十局轮次。一条发光的球道。",
+        "description": "一款本地优先的霓虹十瓶保龄球游戏，具有标准计分、触控投球、恢复游戏功能以及保存在设备上的最佳成绩。",
+        "feature1": "标准十局计分法",
+        "feature2": "线路、力量与旋转控制",
+        "feature3": "本地分数与恢复进度"
+      },
+      "numbers": {
+        "tagline": "匹配数字，清除整行。",
+        "description": "在这款本地优先的数字解谜游戏中，将相同数字或视线相通相加为十的数字配对，消除整行，打造精彩连击。",
+        "feature1": "相同数字及凑十配对",
+        "feature2": "无障碍视线解谜规则",
+        "feature3": "本地进度与提示"
+      },
+      "pulse-stack": {
+        "tagline": "踩准节奏，精准堆叠",
+        "description": "把握每次移动的时机，守住三条生命，在脉冲加速的快节奏本地街机挑战中保持节奏。",
+        "feature1": "逐渐升级的时机挑战",
+        "feature2": "三命模式街机挑战",
+        "feature3": "本地最佳成绩"
+      },
+      "orbit-snap": {
+        "tagline": "锁定完美轨道",
+        "description": "把握节奏，在最佳时机精准咬合，在轨道不断加速中挑战极致精准度。",
+        "feature1": "精准时机玩法",
+        "feature2": "自适应速度",
+        "feature3": "本地最佳成绩"
+      },
+      "ten-dash": {
+        "tagline": "在倒计时结束前凑十",
+        "description": "寻找凑成十的数字对，突破难度不断升级的关卡，并在盘面复杂时使用一次智能提示。",
+        "feature1": "快速凑十配对关卡",
+        "feature2": "难度递增",
+        "feature3": "可选单次配对提示"
+      },
+      "echo-grid": {
+        "tagline": "记住光芒轨迹",
+        "description": "观察网格上泛起的图案，凭记忆重现图案，看看你的专注力能走多远。",
+        "feature1": "递增难度记忆图案",
+        "feature2": "可选重放功能",
+        "feature3": "本地最佳成绩"
+      },
+      "signal-switch": {
+        "tagline": "切换车道，保持敏锐。",
+        "description": "对变化信号作出反应，切入安全车道，在不断加速的本地街机挑战中生存下来。",
+        "feature1": "车道反应玩法",
+        "feature2": "速度递增",
+        "feature3": "可选单局复活"
+      },
+      "words": {
+        "tagline": "拼出单词，征服棋盘。",
+        "description": "连接字母，探索令人满意的单词链，通过快捷的本地优先谜题回合提升你的词汇量。",
+        "feature1": "快速组词回合",
+        "feature2": "难度递增的字母谜题",
+        "feature3": "本地进度与得分"
+      },
+      "critter-sort": {
+        "tagline": "分类归位，揭开谜团",
+        "description": "在八个充满乐趣的世界中，揭开隐藏的小生物，安排巧妙的救援步数，并通关以竖屏为主的分类谜题。",
+        "feature1": "200 个确定性关卡",
+        "feature2": "先揭晓后分类的规则",
+        "feature3": "每日谜题与轻松解锁"
+      },
+      "perfect-produce": {
+        "tagline": "了解什么最适合这顿饭",
+        "description": "将可见的生鲜特征与你的预期用途进行比较，并在证据、置信度和覆盖度相互独立的情况下做出更清晰的购物选择。",
+        "feature1": "四种扫描模式",
+        "feature2": "九种生鲜档案",
+        "feature3": "本地扫描历史"
+      },
+      "capybara-cafe": {
+        "tagline": "水豚员工集结的温馨咖啡馆",
+        "description": "经营一家欢快的咖啡馆，招待顾客，打造一个专为轻松游玩设计的温情小世界。",
+        "feature1": "温馨咖啡馆经营",
+        "feature2": "迷人的水豚阵容",
+        "feature3": "本地优先进度保存"
       }
     },
-    "rights": "保留所有权利。"
+    "rights": "保留所有权利。",
+    "followClose": "关闭",
+    "followSuccess": "你已关注此应用",
+    "followSuccessBody": "{{app}} 有重要更新时，我们会发送电子邮件通知你。",
+    "followDone": "完成",
+    "followTitle": "关注此应用",
+    "followBody": "偶尔接收产品更新，不会频繁打扰。",
+    "followEmailLabel": "电子邮件地址",
+    "followEmailPlaceholder": "you@example.com",
+    "followError": "出现错误，请重试。",
+    "followSending": "正在关注...",
+    "followSubmit": "关注",
+    "followPrivacy": "我们只会使用你的电子邮件发送此应用的更新。",
+    "terms": "服务条款",
+    "primaryNavigation": "主导航",
+    "navLibrary": "应用与游戏",
+    "navTools": "浏览器工具",
+    "libraryEyebrow": "{{apps}} 款应用与游戏。{{tools}} 款浏览器工具。",
+    "libraryHeroTagline": "移动实用工具、趣味游戏以及私密浏览器工具——旨在轻松化解日常生活中的小难题。",
+    "browseToolsCta": "使用浏览器工具",
+    "libraryCountShort": "{{count}} 个产品",
+    "libraryInstantTools": "即用工具",
+    "newRelease": "新品",
+    "products": "个产品",
+    "libraryFutureTitle": "{{apps}} 款应用。{{tools}} 款浏览器工具。持续丰富中。",
+    "libraryFutureBody": "Kortex 现已成为一个丰富多样的资源库：移动实用工具、本地优先游戏、工作助手以及可安装的浏览器工具，全都在这个充满趣味且注重隐私的平台中融为一体。",
+    "tools": {
+      "eyebrow": "九款即刻可用的工具",
+      "title": "即开即用，默认私密。",
+      "subtitle": "直接从浏览器安装专属 Kortex 工具，支持离线使用，数据完备地保存在您信赖的设备上。",
+      "promiseInstall": "可直接从浏览器安装",
+      "promiseOffline": "首次访问后支持离线工作",
+      "promisePrivate": "本地优先记录",
+      "promiseAccount": "无需注册账号",
+      "open": "打开免费工具",
+      "evidenceReady": "Evidence Pack 就绪"
+    },
+    "offers": {
+      "eyebrow": "按需购买高级成果，基础功能完全免费",
+      "title": "工具免费使用，如有需要可随时升级。",
+      "subtitle": "核心工具无需账号即可免费使用。您可一次性购买专业的证据生成包，或解锁完整的 Kortex 网页工具包。",
+      "evidenceLabel": "Kortex Evidence Pack",
+      "evidenceTitle": "将本地记录转化为专业打包文件",
+      "evidenceBody": "适用于需要整洁记录以便打印、保存或分享的 Deposit、Proof 和 Return 用户。",
+      "evidenceFeature1": "结构化的事件或状况时间线",
+      "evidenceFeature2": "照片与文档清单",
+      "evidenceFeature3": "适合直接打印的专业报告",
+      "oneTime": "一次性支付",
+      "getEvidence": "获取 Evidence Pack",
+      "bestValue": "超值首选",
+      "plusLabel": "Kortex Plus",
+      "plusTitle": "一次升级，通用所有网页工具",
+      "plusBody": "专为未来的加密备份、监控、高级导出以及贯通整个 Kortex 网页套件的访问权限而设计。",
+      "plusFeature1": "包含 Evidence Pack",
+      "plusFeature2": "覆盖全部九款网页工具",
+      "plusFeature3": "订阅期内包含未来所有的 Plus 升级功能",
+      "perYear": "每年",
+      "chooseYearly": "选择按年订阅",
+      "chooseMonthly": "每月 $4.99",
+      "checkoutUnavailable": "安全结账功能暂未开放。",
+      "alreadyPurchased": "已经购买？",
+      "activateTitle": "激活此浏览器",
+      "activateBody": "请输入收据上的许可证密钥。您的密钥将仅保存在此浏览器中，并与许可证提供商进行安全验证。",
+      "activatedTitle": "Kortex 升级已激活",
+      "activatedBody": "此浏览器现已可以使用您购买的包含在内的高级 Kortex 网页工具功能。",
+      "licenseLabel": "许可证密钥",
+      "activate": "激活",
+      "activating": "正在验证...",
+      "licenseActive": "您的 Kortex 升级已在此浏览器上激活。",
+      "licenseInvalid": "无法验证该许可证。"
+    },
+    "preview": {
+      "local": "本地",
+      "merge": "合并",
+      "fix": "修复",
+      "generate": "生成",
+      "before": "处理前",
+      "after": "处理后",
+      "filter4k": "4K",
+      "glow": "发光",
+      "film": "胶片",
+      "frame": "帧 {{number}}",
+      "pairToTen": "凑十",
+      "best": "最佳 {{score}}",
+      "arcade": "Kortex 街机",
+      "utility": "Kortex 工具",
+      "trailAtlas": "步道地图",
+      "nearby": "附近有 {{count}} 个"
+    }
   }
 }

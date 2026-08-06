@@ -79,7 +79,7 @@ export function ContactsCard() {
                 <div className={styles.cardHeader}>
                     <div className={styles.cardIcon}>📇</div>
                     <div>
-                        <h2 className={styles.title}>Kortex Contacts</h2>
+                        <h2 className={styles.title}>{t('site.contacts')}</h2>
                     </div>
                 </div>
                 <p className={styles.appDescription}>

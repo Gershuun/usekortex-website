@@ -68,7 +68,9 @@
       "all": "All apps",
       "organize": "Organize",
       "create": "Create",
-      "explore": "Explore"
+      "explore": "Explore",
+      "work": "Work",
+      "games": "Games"
     },
     "selected": "You're here",
     "peekInside": "Peek inside",
@@ -85,35 +87,308 @@
       "inDevelopment": "In development"
     },
     "apps": {
+      "capybara-grove": {
+        "tagline": "Run a cozy cafe in an animal town",
+        "description": "A cozy cafe-management and life-simulation game where you harvest, cook, serve guests, clean up, and grow your grove.",
+        "feature1": "Harvest and cook through a day",
+        "feature2": "Serve guests and collect rewards",
+        "feature3": "Clean, upgrade, save, and return"
+      },
+      "dreamquiet": {
+        "tagline": "A calmer night, kept private",
+        "description": "An adult, non-medical sleep-aid and room-sound observation app with local playback, protected recordings, and rough sleep ranges.",
+        "feature1": "Sleep-aid mixes and timers",
+        "feature2": "On-device room-sound analysis",
+        "feature3": "Local clips with keep, delete, and share controls"
+      },
+      "lesson-nook": {
+        "tagline": "Plan a preschool week with confidence",
+        "description": "A private, on-device notebook for one preschool classroom, with age-layered activities, routines, attendance, and family-ready PDFs.",
+        "feature1": "53 offline week slots and five weekdays",
+        "feature2": "Activities for three Florida age bands",
+        "feature3": "Classroom notes, attendance, and family sheets"
+      },
+      "untwist": {
+        "tagline": "Untangle every cord, one peg at a time",
+        "description": "A portrait tactile logic game where you move pegs into empty sockets until the cords no longer cross.",
+        "feature1": "200-level no-fail campaign",
+        "feature2": "Daily, Free Play, Sprint, and Twist Lab modes",
+        "feature3": "Undo, layered hints, mastery stars, and local sessions"
+      },
       "contacts": {
-        "tagline": "A calmer address book",
-        "description": "Find duplicates, repair messy numbers, and bring order back to your contacts without sending your address book away.",
-        "feature1": "Private on-device cleanup",
-        "feature2": "Smart duplicate merging",
-        "feature3": "Instant local backups"
+        "tagline": "Clean up your address book safely",
+        "description": "A privacy-first contacts organizer that standardizes phone numbers, finds duplicates, and keeps backups on your device.",
+        "feature1": "Standardize phone numbers",
+        "feature2": "Find and merge duplicates",
+        "feature3": "Local backups and undo"
       },
       "captions": {
-        "tagline": "Your photo found its voice",
-        "description": "Turn the mood, details, and story inside a photo into captions that feel natural, personal, and ready to share.",
-        "feature1": "Photo-aware writing",
-        "feature2": "Style and tone matching",
-        "feature3": "One-tap sharing"
+        "tagline": "Turn your photos into captions that sound like you",
+        "description": "An AI photo assistant that analyzes images and helps shape social captions around your writing voice.",
+        "feature1": "AI caption generation",
+        "feature2": "Writing voice and style cues",
+        "feature3": "Instagram login and social previews"
       },
       "filters": {
-        "tagline": "Pick your magic",
-        "description": "Choose a photo and transform it with playful AI edits, from subtle fixes and restoration to bold new points of view.",
-        "feature1": "AI-powered photo edits",
-        "feature2": "Curated creative presets",
-        "feature3": "One free edit each session"
+        "tagline": "Give every photo a new direction",
+        "description": "An AI photo editor that applies custom and preset transformations through a cloud-backed editing flow.",
+        "feature1": "Prompt-based photo edits",
+        "feature2": "Preset style choices",
+        "feature3": "Results and recent edits"
       },
       "trails": {
-        "tagline": "Find your next line",
-        "description": "Explore live nearby trail networks, filter routes by slope and bike access, and keep your favorite rides close.",
-        "feature1": "Live nearby trails",
-        "feature2": "Slope and access filters",
-        "feature3": "Saved routes and rides"
+        "tagline": "Find trails and follow the ride",
+        "description": "A map-focused outdoor app for discovering trails, saving routes, tracking rides, and reporting hazards.",
+        "feature1": "Trail map and filters",
+        "feature2": "Ride tracking",
+        "feature3": "Saved trails and hazard reports"
+      },
+      "routes": {
+        "tagline": "Rehearse the route before the first stop",
+        "description": "A local-first driver route rehearsal app with offline stop cards, audio reveals, spaced-priority quizzes, and printable route cards.",
+        "feature1": "Offline schematic and stop cards",
+        "feature2": "Audio reveal and priority quiz",
+        "feature3": "Local route data and printable cards"
+      },
+      "haul": {
+        "tagline": "Compare the pay before you haul",
+        "description": "A local-first CDL pay and offer calculator for entering, comparing, and saving estimates from your own assumptions.",
+        "feature1": "Manual offer entry",
+        "feature2": "Pay-model comparisons",
+        "feature3": "Saved offers and local persistence"
+      },
+      "clock": {
+        "tagline": "Keep shifts, rules, and attendance in one place",
+        "description": "A local-first shift and attendance policy tracker for schedules, workplace rules, attendance notes, and wake-up alarms.",
+        "feature1": "Schedule import and next-shift board",
+        "feature2": "Editable policy what-ifs",
+        "feature3": "Attendance notes and wake-up alarms"
+      },
+      "route-rush": {
+        "tagline": "Trace the route. Beat the clock.",
+        "description": "A deterministic route puzzle where you plan and validate paths through score-focused levels.",
+        "feature1": "Hand-built route levels",
+        "feature2": "Express scoring and local progress",
+        "feature3": "One free hint per level"
+      },
+      "shiftpocalypse": {
+        "tagline": "Make the call. Survive the shift.",
+        "description": "A deterministic workday strategy game where your decisions shape each shift and your career progress.",
+        "feature1": "Event-driven workday decisions",
+        "feature2": "Local career progression",
+        "feature3": "One optional continue after a failed shift"
+      },
+      "backstage-ops": {
+        "tagline": "Keep the park moving",
+        "description": "An offline park-transit management simulation balancing crowd demand, routes, vehicles, staff, accessibility, weather, and reliability.",
+        "feature1": "Five fictional routes and 12 vehicles",
+        "feature2": "Staff, breaks, call-outs, and batteries",
+        "feature3": "Deterministic opening, midday, and closing phases"
+      },
+      "bowl": {
+        "tagline": "Bowl a full game, one frame at a time",
+        "description": "A portrait bowling game with ten-frame scoring, touch throws, progression goals, and challenge mastery.",
+        "feature1": "Line, power, and spin throws",
+        "feature2": "Ten-frame scoring and resume",
+        "feature3": "Ball skins and progression challenges"
+      },
+      "numbers": {
+        "tagline": "Match numbers and clear the lane",
+        "description": "A portrait number-matching puzzle where you tap or drag tiles to targets, clear rows, and build combos.",
+        "feature1": "Tap, swipe, and drag play",
+        "feature2": "Row clears and combo boosts",
+        "feature3": "Artifact objectives and endless progression"
+      },
+      "pulse-stack": {
+        "tagline": "Time the pulse. Build the stack.",
+        "description": "A portrait timing arcade game about aligning a pulsing beam with a growing neon tower.",
+        "feature1": "One-touch timing rounds",
+        "feature2": "Infinite levels and ranks",
+        "feature3": "Synthesized audio and a vector arena"
+      },
+      "orbit-snap": {
+        "tagline": "Snap into the orbit",
+        "description": "A portrait timing game where you align a moving node on a 360-degree orbital track.",
+        "feature1": "Circular orbital track",
+        "feature2": "Pulsing center energy star",
+        "feature3": "Infinite levels and ranks"
+      },
+      "ten-dash": {
+        "tagline": "Find the sum before the dash",
+        "description": "A quick portrait puzzle about pairing number tiles to hit the target and keep the run moving.",
+        "feature1": "Target-sum matching",
+        "feature2": "Pair hints and tactile cards",
+        "feature3": "Infinite progression and ranks"
+      },
+      "echo-grid": {
+        "tagline": "Remember the colors. Echo the pattern.",
+        "description": "A memory arcade game where you repeat color and melody sequences on a four-pad neon grid.",
+        "feature1": "2x2 color-pad patterns",
+        "feature2": "Melodic echo notes",
+        "feature3": "Streak and fever play"
+      },
+      "signal-switch": {
+        "tagline": "React fast. Switch the signal.",
+        "description": "A portrait reaction game set at a neon four-way intersection where the right directional signal keeps the run alive.",
+        "feature1": "Directional signal choices",
+        "feature2": "Fast reaction rounds",
+        "feature3": "Infinite progression and ranks"
+      },
+      "words": {
+        "tagline": "A word puzzle book that keeps you coming back",
+        "description": "An offline word-puzzle book with themed collections, 555 puzzles, and progress you can earn across days.",
+        "feature1": "Ten themed puzzle collections",
+        "feature2": "Offline play and saved progress",
+        "feature3": "Achievements for puzzles, words, themes, and active days"
+      },
+      "critter-sort": {
+        "tagline": "Uncover the critters. Sort the rescue.",
+        "description": "A rescue-cell sorting puzzle where you uncover hidden pieces and move critters into two empty bins across deterministic worlds.",
+        "feature1": "200 levels across eight worlds",
+        "feature2": "Question-mark blocks reveal as you uncover them",
+        "feature3": "Daily puzzles, hints, undo, and local progress"
+      },
+      "perfect-produce": {
+        "tagline": "Know what fits the meal",
+        "description": "A local-first produce comparison app that scores visible cues against a shopper's intended use without claiming food-safety detection.",
+        "feature1": "Single Scan and Quick Compare",
+        "feature2": "Package Scan and research-labeled Watermelon mode",
+        "feature3": "Confidence, coverage, inventory, and outcome feedback"
+      },
+      "capybara-cafe": {
+        "tagline": "A cozy café with a capybara crew",
+        "description": "Keep a cheerful café moving, serve guests, and grow a warm little world built for relaxed, playful sessions.",
+        "feature1": "Cozy café management",
+        "feature2": "Charming capybara cast",
+        "feature3": "Local-first progression"
       }
     },
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "followClose": "Close",
+    "followSuccess": "You're following this app",
+    "followSuccessBody": "We'll email you when {{app}} has meaningful updates.",
+    "followDone": "Done",
+    "followTitle": "Follow this app",
+    "followBody": "Get occasional product updates. No noise.",
+    "followEmailLabel": "Email address",
+    "followEmailPlaceholder": "you@example.com",
+    "followError": "Something went wrong. Please try again.",
+    "followSending": "Following...",
+    "followSubmit": "Follow",
+    "followPrivacy": "We'll only use your email for this app's updates.",
+    "terms": "Terms of Service",
+    "primaryNavigation": "Primary navigation",
+    "navLibrary": "Apps & games",
+    "navTools": "Browser tools",
+    "libraryEyebrow": "{{apps}} apps and games. {{tools}} browser tools.",
+    "libraryHeroTagline": "Mobile utilities, playful games, and private browser tools—built to make everyday problems feel lighter.",
+    "browseToolsCta": "Use a browser tool",
+    "libraryCountShort": "{{count}} products",
+    "libraryInstantTools": "Instant tools",
+    "newRelease": "New",
+    "products": "products",
+    "libraryFutureTitle": "{{apps}} apps. {{tools}} browser tools. Still growing.",
+    "libraryFutureBody": "Kortex is now a real library: mobile utilities, local-first games, work helpers, and installable browser tools that all share one playful, privacy-minded home.",
+    "tools": {
+      "items": {
+        "brew": {
+          "tagline": "Make the next cup repeatable",
+          "description": "Log recipes, calculate brew ratios, and keep tasting adjustments private on your device."
+        },
+        "deposit": {
+          "tagline": "Document the condition before move-in",
+          "description": "Keep room notes, condition photos, and inspection details together before deadlines blur."
+        },
+        "focus": {
+          "tagline": "Name the work before the distraction",
+          "description": "Create one intentional focus block with a timer and a practical interruption plan."
+        },
+        "guide": {
+          "tagline": "Carry Tampa routes offline",
+          "description": "Prepare dependable Riverwalk, Ybor, and Busch Gardens outings before reception disappears."
+        },
+        "memo": {
+          "tagline": "Turn a wandering thought into clarity",
+          "description": "Capture voice or text and structure it locally into notes, key points, and action items."
+        },
+        "pantry": {
+          "tagline": "Check food recalls at the source",
+          "description": "Search the official FDA enforcement feed for pantry and pet-food products."
+        },
+        "proof": {
+          "tagline": "Capture the record while details are fresh",
+          "description": "Build a timestamped incident timeline with notes, references, photos, and documents."
+        },
+        "recall": {
+          "tagline": "Keep a private household safety watch",
+          "description": "Check consumer products against the official U.S. CPSC recall feed."
+        },
+        "return": {
+          "tagline": "Never lose the return window",
+          "description": "Track deadlines and keep receipts with the purchase without granting inbox access."
+        }
+      },
+      "eyebrow": "Nine tools you can use today",
+      "title": "Useful immediately. Private by default.",
+      "subtitle": "Install a focused Kortex tool from your browser, use it offline, and keep your records on the device you already trust.",
+      "promiseInstall": "Installable from your browser",
+      "promiseOffline": "Works offline after first visit",
+      "promisePrivate": "Local-first records",
+      "promiseAccount": "No account required",
+      "open": "Open free tool",
+      "evidenceReady": "Evidence Pack ready"
+    },
+    "offers": {
+      "eyebrow": "Pay for the outcome, not the basics",
+      "title": "Free tools. Serious upgrades when you need them.",
+      "subtitle": "The core tools stay useful without an account. Purchase a professional evidence outcome once, or unlock the complete Kortex web toolkit.",
+      "evidenceLabel": "Kortex Evidence Pack",
+      "evidenceTitle": "Turn a local record into a professional packet",
+      "evidenceBody": "For Deposit, Proof, and Return users who need a clean record they can print, save, or share.",
+      "evidenceFeature1": "Structured incident or condition timeline",
+      "evidenceFeature2": "Photo and document inventory",
+      "evidenceFeature3": "Print-ready professional report",
+      "oneTime": "one-time",
+      "getEvidence": "Get Evidence Pack",
+      "bestValue": "Best value",
+      "plusLabel": "Kortex Plus",
+      "plusTitle": "One upgrade across every web tool",
+      "plusBody": "Designed for future encrypted backup, monitoring, premium exports, and access across the complete Kortex web family.",
+      "plusFeature1": "Evidence Pack included",
+      "plusFeature2": "All nine web tools covered",
+      "plusFeature3": "Future Plus upgrades included while active",
+      "perYear": "per year",
+      "chooseYearly": "Choose yearly",
+      "chooseMonthly": "$4.99 monthly",
+      "checkoutUnavailable": "Secure checkout is not available yet.",
+      "alreadyPurchased": "Already purchased?",
+      "activateTitle": "Activate this browser",
+      "activateBody": "Enter the license key from your receipt. Your key is stored only in this browser and checked securely with the license provider.",
+      "activatedTitle": "Kortex upgrade active",
+      "activatedBody": "This browser can use the premium Kortex web-tool features included with your purchase.",
+      "licenseLabel": "License key",
+      "activate": "Activate",
+      "activating": "Checking...",
+      "licenseActive": "Your Kortex upgrade is active on this browser.",
+      "licenseInvalid": "That license could not be verified."
+    },
+    "preview": {
+      "local": "Local",
+      "merge": "Merge",
+      "fix": "Fix",
+      "generate": "Generate",
+      "before": "Before",
+      "after": "After",
+      "filter4k": "4K",
+      "glow": "Glow",
+      "film": "Film",
+      "frame": "Frame {{number}}",
+      "pairToTen": "Pair to 10",
+      "best": "Best {{score}}",
+      "arcade": "Kortex Arcade",
+      "utility": "Kortex Utility",
+      "trailAtlas": "Trail Atlas",
+      "nearby": "{{count}} nearby"
+    }
   }
 }

@@ -7,9 +7,9 @@ export function Header() {
   return (
     <header className={styles.header}>
       <a href="/" className={styles.logo}>Kortex</a>
-      <nav className={styles.navLinks}>
-        <a href="#explore" className={styles.navLink}>{t('site.navExplore')}</a>
-        <a href="#apps" className={styles.navLink}>{t('site.navApps')}</a>
+      <nav className={styles.navLinks} aria-label={t('site.primaryNavigation')}>
+        <a href="#explore" className={styles.navLink}>{t('site.navLibrary')}</a>
+        <a href="#web-tools" className={styles.navLink}>{t('site.navTools')}</a>
         <a href="#future" className={styles.navLink}>{t('site.navFuture')}</a>
       </nav>
       <LanguageSelector />

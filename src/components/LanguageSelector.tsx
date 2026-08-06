@@ -1,31 +1,20 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useTranslation } from 'react-i18next';
+import { languages, resolveLanguage, type LanguageCode } from '../data/languages';
+import { languageDirection } from '../kortex-i18n';
 import styles from './LanguageSelector.module.css';
-
-const languages = [
-  ['en', 'English'],
-  ['es', 'Espa\u00f1ol'],
-  ['pt', 'Portugu\u00eas'],
-  ['fr', 'Fran\u00e7ais'],
-  ['de', 'Deutsch'],
-  ['ar', '\u0627\u0644\u0639\u0631\u0628\u064a\u0629'],
-  ['hi', '\u0939\u093f\u0928\u094d\u0926\u0940'],
-  ['tl', 'Tagalog'],
-  ['ja', '\u65e5\u672c\u8a9e'],
-  ['ko', '\ud55c\uad6d\uc5b4'],
-  ['zh', '\u4e2d\u6587'],
-] as const;
 
 export function LanguageSelector() {
   const { i18n, t } = useTranslation();
   const [open, setOpen] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
   const [menuPosition, setMenuPosition] = useState({ top: 0, right: 0 });
   const wrapperRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
-  const active = languages.find(([code]) => code === selectedLanguage) ?? languages[0];
+  const optionRefs = useRef<Array<HTMLButtonElement | null>>([]);
+  const selectedLanguage = resolveLanguage(i18n.resolvedLanguage ?? i18n.language);
+  const active = languages.find(({ code }) => code === selectedLanguage) ?? languages[0];
 
   useLayoutEffect(() => {
     if (!open) return;
@@ -50,6 +39,12 @@ export function LanguageSelector() {
 
   useEffect(() => {
     if (!open) return;
+    const activeIndex = languages.findIndex(({ code }) => code === selectedLanguage);
+    optionRefs.current[activeIndex]?.focus();
+  }, [open, selectedLanguage]);
+
+  useEffect(() => {
+    if (!open) return;
 
     const closeOnOutsideClick = (event: PointerEvent) => {
       const target = event.target as Node;
@@ -61,14 +56,17 @@ export function LanguageSelector() {
     return () => document.removeEventListener('pointerdown', closeOnOutsideClick);
   }, [open]);
 
-  const selectLanguage = async (code: string) => {
-    setSelectedLanguage(code);
+  const selectLanguage = async (code: LanguageCode) => {
     setOpen(false);
     try {
       await i18n.changeLanguage(code);
-      localStorage.setItem('kortex-language', code);
+      try {
+        localStorage.setItem('kortex-language', code);
+      } catch {
+        // The current session can still change language without persistence.
+      }
       document.documentElement.lang = code;
-      document.documentElement.dir = code === 'ar' ? 'rtl' : 'ltr';
+      document.documentElement.dir = languageDirection(code);
       triggerRef.current?.focus();
     } catch (error) {
       console.error(`Unable to switch Kortex language to ${code}`, error);
@@ -94,7 +92,7 @@ export function LanguageSelector() {
         }}
       >
         <span className={styles.icon} aria-hidden="true">{'\u{1F310}'}</span>
-        <span className={styles.label}>{active[1]}</span>
+        <span className={styles.label}>{active.label}</span>
         <span className={`${styles.chevron} ${open ? styles.chevronOpen : ''}`} aria-hidden="true" />
       </button>
       {open && createPortal(
@@ -108,12 +106,26 @@ export function LanguageSelector() {
             if (event.key === 'Escape') {
               setOpen(false);
               triggerRef.current?.focus();
+              return;
             }
+            if (!['ArrowDown', 'ArrowUp', 'Home', 'End'].includes(event.key)) return;
+            event.preventDefault();
+            const currentIndex = optionRefs.current.indexOf(document.activeElement as HTMLButtonElement);
+            const lastIndex = languages.length - 1;
+            const nextIndex = event.key === 'Home'
+              ? 0
+              : event.key === 'End'
+                ? lastIndex
+                : event.key === 'ArrowDown'
+                  ? (currentIndex + 1) % languages.length
+                  : (currentIndex - 1 + languages.length) % languages.length;
+            optionRefs.current[nextIndex]?.focus();
           }}
         >
-          {languages.map(([code, label]) => (
+          {languages.map(({ code, label }, index) => (
             <button
               key={code}
+              ref={(element) => { optionRefs.current[index] = element; }}
               className={`${styles.option} ${selectedLanguage === code ? styles.active : ''}`}
               type="button"
               role="option"

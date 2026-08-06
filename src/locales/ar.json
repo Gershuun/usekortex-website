@@ -68,7 +68,9 @@
       "all": "كل التطبيقات",
       "organize": "تنظيم",
       "create": "إنشاء",
-      "explore": "استكشاف"
+      "explore": "استكشاف",
+      "work": "Work",
+      "games": "Games"
     },
     "selected": "أنت هنا",
     "peekInside": "ألقِ نظرة",
@@ -108,12 +110,219 @@
       },
       "trails": {
         "tagline": "اعثر على مسارك التالي",
-        "description": "استكشف شبكات المسارات القريبة مباشرة، وصفِّ الطرق حسب الانحدار وإتاحة الدراجات، واحتفظ بجولاتك المفضلة.",
+        "description": "استكشف شبكات المسارات القريبة مباشرة، وصفِّ الطرق حسب الانحدار وإتاحة الدراجات، واحتفظ بجولاتك المفضلة.",
         "feature1": "مسارات قريبة مباشرة",
         "feature2": "فلاتر الانحدار والإتاحة",
         "feature3": "طرق وجولات محفوظة"
+      },
+      "routes": {
+        "tagline": "Rehearse every stop",
+        "description": "Import an ordered stop list, review it privately, rehearse the route offline, and open a safe external navigation handoff when parked.",
+        "feature1": "Private stop imports",
+        "feature2": "Offline route rehearsal",
+        "feature3": "Parked navigation handoff"
+      },
+      "haul": {
+        "tagline": "Know what the offer pays",
+        "description": "Compare trucking offers, model realistic weeks, and see effective pay across driving, duty, commute, and nights away.",
+        "feature1": "Scenario pay modeling",
+        "feature2": "Offer comparisons",
+        "feature3": "Recruiter question checklist"
+      },
+      "clock": {
+        "tagline": "Understand your clock window",
+        "description": "Model workplace attendance rules, calculate safe clock windows, and track points without handing your schedule to an employer.",
+        "feature1": "Policy-driven windows",
+        "feature2": "Attendance point ledger",
+        "feature3": "Offline evidence records"
+      },
+      "route-rush": {
+        "tagline": "Plan it. Run it. Beat it.",
+        "description": "Build safe miniature bus routes, launch deterministic simulations, and master thirty handcrafted puzzle levels.",
+        "feature1": "30 solvable puzzles",
+        "feature2": "Safety-first scoring",
+        "feature3": "Daily seeded challenge"
+      },
+      "shiftpocalypse": {
+        "tagline": "Survive the shift",
+        "description": "Assign a chaotic crew, resolve workplace disasters, and keep staffing, morale, patience, and revenue alive.",
+        "feature1": "40 workplace events",
+        "feature2": "24 distinct employees",
+        "feature3": "Fast deterministic runs"
+      },
+      "backstage-ops": {
+        "tagline": "Keep the park moving",
+        "description": "Dispatch fictional park transit, balance crowds and capacity, and recover from weather, maintenance, and call-outs.",
+        "feature1": "Aggregate crowd simulation",
+        "feature2": "Routes, vehicles, and staff",
+        "feature3": "Opening-to-closing operations"
+      },
+      "bowl": {
+        "tagline": "عشرة أشواط. حارة واحدة متوهجة.",
+        "description": "العب لعبة بولينج نيون تعمل أولاً على جهازك مع تسجيل نقاط قياسي، ورميات لمسية، وألعاب قابلة للاستئناف، وأفضل نتيجة تظل مخزنة على جهازك.",
+        "feature1": "تسجيل نقاط قياسي لعشرة أشواط",
+        "feature2": "عناصر تحكم في المسار والقوة والدوران",
+        "feature3": "نتائج محلية واستئناف للعب"
+      },
+      "numbers": {
+        "tagline": "طابق المسار. أزل الصف.",
+        "description": "طابق الأعداد المتساوية أو شكّل المجموع عشرة عبر خطوط رؤية واضحة، وقم بطي الصفوف، وابنِ تتابعات ذكية في لغز أرقام يعمل أولاً على جهازك.",
+        "feature1": "مطابقات الأعداد المتساوية وتلك التي مجموعها عشرة",
+        "feature2": "قواعد ألغاز تعتمد على خط الرؤية",
+        "feature3": "تقدم محلي وتلميحات"
+      },
+      "pulse-stack": {
+        "tagline": "كدّس على الإيقاع",
+        "description": "اضبط توقيت كل حركة، وحافظ على أرواحك الثلاث، وواكب الإيقاع المتسارع خلال جولات آركيد محلية سريعة.",
+        "feature1": "تحدي توقيت متصاعد",
+        "feature2": "جولات آركيد بثلاث أرواح",
+        "feature3": "أفضل النتائج المحلية"
+      },
+      "orbit-snap": {
+        "tagline": "التقط المدار المثالي",
+        "description": "اقرأ الإيقاع، والتقط في اللحظة المناسبة، واسعَ لنيل دقة أعلى مع تسارع كل مدار.",
+        "feature1": "لعب قائم على دقة التوقيت",
+        "feature2": "سرعة متكيفة",
+        "feature3": "أفضل النتائج المحلية"
+      },
+      "ten-dash": {
+        "tagline": "اعثر على الرقم عشرة قبل أن ينتهي الوقت",
+        "description": "حدد أزواج الأرقام التي تنشئ المجموع عشرة، وتخطَّ الجولات المتصاعدة، واستخدم تلميحاً ذكياً واحداً عندما تصبح اللوحة معقدة.",
+        "feature1": "جولات مطابقة مجموع سريعة",
+        "feature2": "صعوبة متصاعدة",
+        "feature3": "تلميح اختياري واحد للزوج"
+      },
+      "echo-grid": {
+        "tagline": "تذكَّر التوهج",
+        "description": "شاهد النمط وهو ينتشر عبر الشبكة، وأعد تشغيله من الذاكرة، واكتشف إلى أي مدى يمكن لتركيزك أن يصل بك.",
+        "feature1": "أنماط ذاكرة متصاعدة",
+        "feature2": "إعادة تشغيل اختيارية",
+        "feature3": "أفضل النتائج المحلية"
+      },
+      "signal-switch": {
+        "tagline": "غيّر المسار. كن يقظاً.",
+        "description": "تفاعل مع الإشارات المتغيرة، وانتقل إلى المسار الآمن، وانجُ في جولة آركيد متسارعة تعمل أولاً على جهازك.",
+        "feature1": "أسلوب لعب يعتمد على رد الفعل وتغيير المسار",
+        "feature2": "سرعة متصاعدة",
+        "feature3": "إحياء اختياري لمرة واحدة في الجولة"
+      },
+      "words": {
+        "tagline": "ابنِ الكلمة. اهزم اللوحة.",
+        "description": "صل الحروف، واكتشف سلاسل كلمات ممتعة، وطوّر حصيلتك اللغوية من خلال جولات ألغاز سريعة ومحلية أولاً.",
+        "feature1": "جولات سريعة لبناء الكلمات",
+        "feature2": "ألغاز حروف متصاعدة التحدي",
+        "feature3": "تقدم ونتائج محلية"
+      },
+      "critter-sort": {
+        "tagline": "فرّز الغموض ورتبه في مكانه",
+        "description": "اكتشف الكائنات المخفية، ونفّذ حركات إنقاذ ذكية، وحل ألغاز الفرز بالوضع العمودي عبر ثمانية عوالم ممتعة.",
+        "feature1": "200 مستوى محدد",
+        "feature2": "قواعد فرز قائمة على الكشف أولاً",
+        "feature3": "ألغاز يومية ومكافآت مريحة قابلة للفتح"
+      },
+      "perfect-produce": {
+        "tagline": "اعرف ما يناسب الوجبة",
+        "description": "قارن مؤشرات المنتجات الطازجة المرئية مع استخدامك المقصود، ثم اتخذ قرار تسوق أكثر وضوحاً مع فصل الأدلة والثقة والتغطية.",
+        "feature1": "أربعة أوضاع للمسح",
+        "feature2": "تسعة ملفات تعريف للمنتجات الطازجة",
+        "feature3": "سجل مسح محلي"
+      },
+      "capybara-cafe": {
+        "tagline": "مقهى دافئ مع طاقم من الكابيبارا",
+        "description": "حافظ على حيوية مقهى مبهج، واخدم الضيوف، وطوّر عالماً صغيراً دافئاً صُمم لجلسات مريحة وممتعة.",
+        "feature1": "إدارة مقهى مريح",
+        "feature2": "طاقم كابيبارا ساحر",
+        "feature3": "تقدم محلي أولاً"
       }
     },
-    "rights": "جميع الحقوق محفوظة."
+    "rights": "جميع الحقوق محفوظة.",
+    "followClose": "إغلاق",
+    "followSuccess": "أنت تتابع هذا التطبيق",
+    "followSuccessBody": "سنرسل إليك بريدًا عندما تتوفر تحديثات مهمة لـ {{app}}.",
+    "followDone": "تم",
+    "followTitle": "تابع هذا التطبيق",
+    "followBody": "احصل على تحديثات متفرقة عن المنتج دون إزعاج.",
+    "followEmailLabel": "البريد الإلكتروني",
+    "followEmailPlaceholder": "you@example.com",
+    "followError": "حدث خطأ. حاول مرة أخرى.",
+    "followSending": "جارٍ المتابعة...",
+    "followSubmit": "متابعة",
+    "followPrivacy": "سنستخدم بريدك فقط لتحديثات هذا التطبيق.",
+    "terms": "شروط الخدمة",
+    "primaryNavigation": "التنقل الرئيسي",
+    "navLibrary": "التطبيق والألعاب",
+    "navTools": "أدوات المتصفح",
+    "libraryEyebrow": "{{apps}} من التطبيقات والألعاب. {{tools}} من أدوات المتصفح.",
+    "libraryHeroTagline": "أدوات مساعدة للهواتف المحمولة، وألعاب ممتعة، وأدوات متصفح خاصة—صُممت لتعالج المشكلات اليومية بكل سهولة.",
+    "browseToolsCta": "استخدم أداة متصفح",
+    "libraryCountShort": "{{count}} من المنتجات",
+    "libraryInstantTools": "أدوات فورية",
+    "newRelease": "جديد",
+    "products": "منتجات",
+    "libraryFutureTitle": "{{apps}} من التطبيقات. {{tools}} من أدوات المتصفح. وما زلنا ننشر المزيد.",
+    "libraryFutureBody": "أصبح Kortex الآن مكتبة حقيقية: أدوات مساعدة للهواتف المحمولة، وألعاب تعمل أولاً على جهازك، ومساعدات عمل، وأدوات متصفح قابلة للتثبيت، تجمعها جميعاً منصة واحدة مرحة ومهتمة بالخصوصية.",
+    "tools": {
+      "eyebrow": "تسع أدوات يمكنك استخدامها اليوم",
+      "title": "مفيدة على الفور. خاصة بافتراض.",
+      "subtitle": "ثبّت أداة Kortex مخصصة من متصفحك، واستخدمها دون اتصال بالإنترنت، وحافظ على سجلاتك على الجهاز الذي تثق به بالفعل.",
+      "promiseInstall": "قابلة للتثبيت من متصفحك",
+      "promiseOffline": "تعمل دون اتصال بالإنترنت بعد الزيارة الأولى",
+      "promisePrivate": "سجلات تُحفظ محلياً أولاً",
+      "promiseAccount": "لا يتطلب إنشاء حساب",
+      "open": "افتح أداة مجانية",
+      "evidenceReady": "حزمة Evidence Pack جاهزة"
+    },
+    "offers": {
+      "eyebrow": "ادفع مقابل النتيجة، وليس مقابل الأساسيات",
+      "title": "أدوات مجانية. وترقيات قوية عندما تحتاج إليها.",
+      "subtitle": "تظل الأدوات الأساسية مفيدة دون الحاجة إلى حساب. اشترِ مخرجات إثبات احترافية لمرة واحدة، أو افتح مجموعة أدوات Kortex الكاملة للويب.",
+      "evidenceLabel": "Kortex Evidence Pack",
+      "evidenceTitle": "حوّل السجل المحلي إلى حزمة احترافية",
+      "evidenceBody": "لمستخدمي Deposit وProof وReturn الذين يحتاجون إلى سجل نظيف يمكنهم طباعته أو حفظه أو مشاركته.",
+      "evidenceFeature1": "جدول زمني منظم للحوادث أو الحالات",
+      "evidenceFeature2": "جرد للصور والمستندات",
+      "evidenceFeature3": "تقرير احترافي جاهز للطباعة",
+      "oneTime": "لمرة واحدة",
+      "getEvidence": "احصل على Evidence Pack",
+      "bestValue": "الأفضل قيمة",
+      "plusLabel": "Kortex Plus",
+      "plusTitle": "ترقية واحدة لجميع أدوات الويب",
+      "plusBody": "صُممت من أجل النسخ الاحتياطي المشفر مستقبلاً، والمراقبة، والتصدير المتقدم، والوصول عبر عائلة أدوات Kortex للويب بالكامل.",
+      "plusFeature1": "تتضمن Evidence Pack",
+      "plusFeature2": "تغطي جميع أدوات الويب التسع",
+      "plusFeature3": "تتضمن ترقيات Plus المستقبلية طالما أنها نشطة",
+      "perYear": "في السنة",
+      "chooseYearly": "اختر الخطة السنوية",
+      "chooseMonthly": "4.99$ شهرياً",
+      "checkoutUnavailable": "الدفع الآمن غير متوفر حالياً.",
+      "alreadyPurchased": "هل قمت بالشراء بالفعل؟",
+      "activateTitle": "تنشيط هذا المتصفح",
+      "activateBody": "أدخل مفتاح الترخيص الموجود في إيصالك. يتم تخزين المفتاح الخاص بك في هذا المتصفح فقط ويتم التحقق منه بأمان لدى مزود الترخيص.",
+      "activatedTitle": "ترقية Kortex نشطة",
+      "activatedBody": "يمكن لهذا المتصفح استخدام ميزات أدوات Kortex للويب المدفوعة والمدرجة في عملية الشراء.",
+      "licenseLabel": "مفتاح الترخيص",
+      "activate": "تنشيط",
+      "activating": "جاري التحقق...",
+      "licenseActive": "ترقية Kortex نشطة على هذا المتصفح.",
+      "licenseInvalid": "تعذر التحقق من مفتاح الترخيص هذا."
+    },
+    "preview": {
+      "local": "محلي",
+      "merge": "دمج",
+      "fix": "إصلاح",
+      "generate": "توليد",
+      "before": "قبل",
+      "after": "بعد",
+      "filter4k": "4K",
+      "glow": "توهج",
+      "film": "فيلم",
+      "frame": "الإطار {{number}}",
+      "pairToTen": "مطابقة زوجية للعدد 10",
+      "best": "الأفضل {{score}}",
+      "arcade": "Kortex Arcade",
+      "utility": "Kortex Utility",
+      "trailAtlas": "أطلس المسارات",
+      "nearby": "{{count}} بالقرب منك"
+    }
   }
 }
