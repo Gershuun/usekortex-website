@@ -12,9 +12,8 @@ app.get('*', async (c) => {
     return c.text('No products supplied', 400);
   }
 
-  const polar = getPolar(c.env);
-  
   try {
+    const polar = getPolar(c.env);
     const checkout = await polar.checkouts.create({ products });
     return c.redirect(checkout.url);
   } catch (err) {

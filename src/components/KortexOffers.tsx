@@ -81,9 +81,9 @@ export function KortexOffers() {
 
   const getProductId = (offer: Offer) => {
     switch (offer) {
-      case 'evidence': return import.meta.env.VITE_POLAR_EVIDENCE_PRODUCT_ID;
-      case 'plus-monthly': return import.meta.env.VITE_POLAR_PLUS_MONTHLY_PRODUCT_ID;
-      case 'plus-yearly': return import.meta.env.VITE_POLAR_PLUS_YEARLY_PRODUCT_ID;
+      case 'evidence': return import.meta.env.VITE_POLAR_EVIDENCE_PRODUCT_ID || '40632e93-6582-4e02-8e17-cb8f9ed4edc5';
+      case 'plus-monthly': return import.meta.env.VITE_POLAR_PLUS_MONTHLY_PRODUCT_ID || '02a86f68-c1bc-44c0-b7a9-fbf97cc65bbe';
+      case 'plus-yearly': return import.meta.env.VITE_POLAR_PLUS_YEARLY_PRODUCT_ID || 'c1e02470-714b-4f11-bf53-e703158b89b8';
       default: return '';
     }
   };

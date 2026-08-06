@@ -15,7 +15,21 @@ function normalizeServer(value: string | undefined): 'production' | 'sandbox' {
     .replace(/^['"]|['"]$/g, '')
     .toLowerCase();
 
-  if (normalized === 'production' || normalized === 'sandbox') return normalized;
+  if (
+    normalized === 'sandbox' ||
+    normalized === 'https://sandbox-api.polar.sh' ||
+    normalized === 'https://sandbox-api.polar.sh/v1'
+  ) {
+    return 'sandbox';
+  }
+  if (
+    !normalized ||
+    normalized === 'production' ||
+    normalized === 'https://api.polar.sh' ||
+    normalized === 'https://api.polar.sh/v1'
+  ) {
+    return 'production';
+  }
   throw new Error('POLAR_SERVER must be exactly production or sandbox.');
 }
 
